@@ -1,0 +1,279 @@
+﻿
+@{
+    ViewData["Title"] = "Pases";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.AntiForgeryToken()
+
+<div class="page-header">
+    <h1>
+        Pases
+        <small>
+            <i class="ace-icon fa fa-angle-double-right"></i>
+            Esta sección es el movimiento de los jugadores entre los equipos.
+        </small>
+    </h1>
+</div><!-- /.page-header -->
+
+<div class="row">
+    <div class="col-xs-12">
+        <!-- PAGE CONTENT BEGINS -->
+        @*<div class="alert alert-warning">
+                <button class="close" data-dismiss="alert">
+                    <i class="ace-icon fa fa-times"></i>
+                </button>
+
+                <i class="ace-icon fa fa-hand-o-right"></i>
+                Todas las fotos seran modificadas en la aplicación para tener una resolución de 400 x 420 pixeles.
+            </div>*@
+        <div class="form-inline">
+            <h4>
+                <i class="ace-icon fas fa-hand-point-right icon-animated-hand-pointer blue"></i>
+                <a id="btnAgregaPase" class="blue"> Agregar Pase </a>
+            </h4>
+        </div>
+        <br />
+        <table id="grid-table"></table>
+        <div id="grid-pager"></div>
+
+        <!-- PAGE CONTENT ENDS -->
+    </div><!-- /.col -->
+</div><!-- /.row -->
+
+@section Scripts {
+    <!-- inline scripts related to this page -->
+    <script type="text/javascript">
+        // Variable Globales
+        var listaEquipos = JSON.parse('@ViewBag.EquiposLista'.replace(/&quot;/g, '"'));
+        var listaJugadores = JSON.parse('@ViewBag.JugadoresLista'.replace(/&quot;/g, '"'));
+
+        jQuery(function ($) {
+
+            // configuración de los datepicker en español
+            $.datepicker.setDefaults($.datepicker.regional["es"]);
+
+            // boton para agrega un nuevo dirigente.
+            $("#btnAgregaPase").on("click", function () {
+                addRow();
+            });
+
+            var grid_selector = "#grid-table";
+            var pager_selector = "#grid-pager";
+            var parent_column = $(grid_selector).closest('[class*="col-"]');
+
+            // Actualizar las parroquias cuando se hace cambio de provincia.
+            var cambioFoto = function (id, control) {
+                if (control.id == "jugadorID") {
+
+                    if (id == 0) {
+                        $('#fotoJugador').attr("src", "../images/avatars/noimagen.png");
+                    }
+                    else {
+                        $.get("../Jugadores/ObtenerFotoJugador", { jugadorID: id }, function (data) {
+                            if (data == null)
+                                $('#fotoJugador').attr("src", "../images/avatars/noimagen.png");
+                            else
+                                $('#fotoJugador').attr("src", "data:image/png;base64," + data);
+                        });
+                        setTimeout(function () {
+                            $.get("../Jugadores/ObtenerJugadoresEquipo", { jugadorID: id }, function (data) {
+                                $('#equipoOUT').val(data);
+                                $('#equipoOUT').change();
+                            });
+                        }, 0);
+                    }
+                }
+                if (control.id == "equipoIN") {
+                    if (id == 0) {
+                        $('#fotoEquipoIN').attr("src", "../images/avatars/noimagen.png");
+                    }
+                    else {
+                        $.get("../Equipos/ObtenerFotoEquipo", { equipoID: id }, function (data) {
+                            if (data == null)
+                                $('#fotoEquipoIN').attr("src", "../images/avatars/noimagen.png");
+                            else
+                                $('#fotoEquipoIN').attr("src", "data:image/png;base64," + data);
+                        });
+                    }
+                }
+                if (control.id == "equipoOUT") {
+                    if (id == 0) {
+                        $('#fotoEquipoOUT').attr("src", "../images/avatars/noimagen.png");
+                    }
+                    else {
+                        $.get("../Equipos/ObtenerFotoEquipo", { equipoID: id }, function (data) {
+                            if (data == null)
+                                $('#fotoEquipoOUT').attr("src", "../images/avatars/noimagen.png");
+                            else
+                                $('#fotoEquipoOUT').attr("src", "data:image/png;base64," + data);
+                        });
+                    }
+                }
+                return true;
+            };
+
+            // Configuramos para colocar la parroquia seleccionada
+            var dataInitSelect = function (elem) {
+                setTimeout(function () {
+                    $(elem).change();
+                }, 0);
+            };
+
+            // Configuramos los eventos para cuando cambie el jugador o el equipo
+            var dataEventsFoto = [
+                { type: "change", fn: function (e) { cambioFoto($(e.target).val(), e.target); } },
+                { type: "keyup", fn: function (e) { $(e.target).trigger("change"); } }
+            ];
+
+            //resize to fit page size
+            $(window).on('resize.jqGrid', function () {
+                $(grid_selector).jqGrid('setGridWidth', parent_column.width());
+            });
+
+            //resize on sidebar collapse/expand
+            $(document).on('settings.ace.jqGrid', function (ev, event_name, collapsed) {
+                if (event_name === 'sidebar_collapsed' || event_name === 'main_container_fixed') {
+                    //setTimeout is for webkit only to give time for DOM changes and then redraw!!!
+                    setTimeout(function () {
+                        $(grid_selector).jqGrid('setGridWidth', parent_column.width());
+                    }, 20);
+                }
+            })
+
+            jQuery(grid_selector).jqGrid({
+                url: "/Pases/ObtenerPases",
+                datatype: 'json',
+                mtype: 'GET',
+                height: 400,
+                colNames: ['ID', 'Fecha', 'Jugador', 'Foto', 'Equipo Sale', 'Foto', 'Equipo Entra', 'Foto', 'Valor', ''],
+                colModel: [
+                    { key: true, hidden: true, name: 'id', index: 'id', editable: true },
+                    { name: 'fecha', index: 'fecha', editable: true, sorttype: "date", unformat: pickDate, formatter: dateTable },
+                    { name: 'jugadorID', index: 'jugadorID', editable: true, edittype: 'select', formatter: 'select', editoptions: { value: getJugadores(), dataEvents: dataEventsFoto } },
+                    { name: 'fotoJugador', jsonmap: 'jugadorID', align: 'center', editable: true, edittype: "custom", editoptions: { enctype: 'multipart/form-data', custom_element: imageFormatEditJugador }, formatter: imageFormatJugador, unformat: imageUnFormat },
+                    { name: 'equipoOUT', index: 'equipoOUT', editable: true, edittype: 'select', formatter: 'select', editoptions: { value: getEquipos(), dataEvents: dataEventsFoto } },
+                    { name: 'fotoEquipoOUT', jsonmap: 'equipoOUT', align: 'center', editable: true, edittype: "custom", editoptions: { enctype: 'multipart/form-data', custom_element: imageFormatEditEquipo }, formatter: imageFormatEquipo, unformat: imageUnFormat },
+                    { name: 'equipoIN', index: 'equipoIN', editable: true, edittype: 'select', formatter: 'select', editoptions: { value: getEquipos(), dataEvents: dataEventsFoto, dataInit: dataInitSelect } },
+                    { name: 'fotoEquipoIN', jsonmap: 'equipoIN', align: 'center', editable: true, edittype: "custom", editoptions: { enctype: 'multipart/form-data', custom_element: imageFormatEditEquipo }, formatter: imageFormatEquipo, unformat: imageUnFormat },
+                    { name: 'valor', index: 'valor', editable: true, editoptions: { size: "20", maxlength: "100" } },
+                    {
+                        name: 'myac', width: 80, fixed: true, sortable: false, resize: false, formatter: 'actions',
+                        formatoptions: {
+                            key: true,
+                            editbutton: true,
+                            delbutton: true,
+                            editformbutton: true,
+                            editOptions: {
+                                url: "/Pases/Editar",
+                                mtype: 'PUT',
+                                closeAfterEdit: true,
+                                recreateForm: true,
+                                beforeShowForm: function (form) {
+                                    form.closest('.ui-jqdialog').find('.ui-jqdialog-titlebar').wrapInner('<div class="widget-header" />')
+                                    style_edit_form(form);
+
+                                    form.find("#equipoOUT").prop("disabled", true)
+                                    form.find("#jugadorID").prop("disabled", true);
+                                },
+                                errorTextFormat: FormatedorMensajesError
+                            },
+                            delOptions: {
+                                url: "/Pases/Eliminar",
+                                mtype: 'DELETE',
+                                recreateForm: true,
+                                width: 400,
+                                beforeShowForm: function (form) {
+                                    if (form.data('styled')) return false;
+
+                                    form.closest('.ui-jqdialog').find('.ui-jqdialog-titlebar').wrapInner('<div class="widget-header" />')
+                                    style_delete_form(form);
+
+                                    form.data('styled', true);
+
+                                    form.find(".delmsg").text("¿Desea eliminar el pase?");
+                                    form.closest('.ui-jqdialog').find("#dData").text('Eliminar');
+                                },
+                                errorTextFormat: FormatedorMensajesError
+                            }
+                        }
+                    }
+                ],
+
+                viewrecords: true,
+                rowNum: 10,
+                rowList: [10, 20, 30],
+                pager: pager_selector,
+                altRows: true,
+                //toppager: true,
+
+                multiselect: false,
+                //multikey: "ctrlKey",
+                //multiboxonly: true,
+
+                loadComplete: function () {
+                    var table = this;
+                    setTimeout(function () {
+                        updatePagerIcons(table);
+                        enableTooltips(table);
+                    }, 0);
+                },
+                caption: "Pase de Jugadores",
+
+            });
+
+            $(window).triggerHandler('resize.jqGrid');//trigger window resize to make the grid get the correct size
+
+            function addRow() {
+                // Get the currently selected row
+                $(grid_selector).jqGrid('editGridRow', 'new', {
+                    url: "/Pases/Crear",
+                    mtype: 'POST',
+                    modal: true,
+                    closeAfterAdd: true,
+                    recreateForm: true,
+                    viewPagerButtons: false,
+                    beforeShowForm: function (form) {
+                        form.closest('.ui-jqdialog').find('.ui-jqdialog-titlebar').wrapInner('<div class="widget-header" />')
+                        style_edit_form(form);
+
+                        form.find("#equipoOUT").prop("disabled", true);
+                        var options = form.find("#jugadorID > option");
+                        var arr = options.map(function (_, o) {
+                            return {
+                                t: $(o).text(),
+                                v: o.value
+                            };
+                        }).get();
+                        arr.sort(function (o1, o2) {
+                            return o1.t > o2.t ? 1 : o1.t < o2.t ? -1 : 0;
+                        });
+                        options.each(function (i, o) {
+                            o.value = arr[i].v;
+                            $(o).text(arr[i].t);
+                        });
+
+                        setTimeout(function () {
+                            $("#jugadorID").change();
+                        }, 0);
+                    },
+                    errorTextFormat: FormatedorMensajesError
+                });
+            }
+
+            $(document).one('ajaxloadstart.page', function (e) {
+                $.jgrid.gridDestroy(grid_selector);
+                $('.ui-jqdialog').remove();
+            });
+        });
+
+        function getJugadores() {
+            return listaJugadores;
+        }
+
+        function getEquipos() {
+            return listaEquipos;
+        }
+    </script>
+}
+

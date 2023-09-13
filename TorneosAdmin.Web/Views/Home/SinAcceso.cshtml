@@ -1,0 +1,67 @@
+﻿
+@{
+    ViewData["Title"] = "SinAcceso";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .principal {
+        position: relative;
+        z-index: 1;
+    }
+
+        .principal .imagenBG {
+            position: absolute;
+            z-index: -1;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: url('../images/portada/ligasur2.png') center center;
+            background-size: 500px 500px;
+            width: 100%;
+            height: 600px;
+            /*background-position: center;*/
+            background-repeat: no-repeat;
+            opacity: 0.2;
+        }
+</style>
+<div class="principal">
+    <div class="imagenBG">
+    </div>
+    <div>
+        <div>
+            <h1 style="color:red">
+                <span class="blue bigger-125">
+                    <i class="ace-icon fa fa-random"></i>
+                    Sin Acceso
+                </span>
+                Usted no cuenta con los permisos para ingresar a esta pagina
+            </h1>
+
+            <hr />
+
+            <div class="space"></div>
+            <div class="space"></div>
+
+            <h3>
+                Contacte al administrador
+                <i class="ace-icon fa fa-wrench icon-animated-wrench bigger-125"></i>
+                para la aclaración!
+            </h3>
+
+            <div class="space"></div>
+            <div class="space"></div>
+
+            <div>
+                <a href="javascript:history.back()" class="btn btn-grey">
+                    <i class="ace-icon fa fa-arrow-left"></i>
+                    Regresar
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

@@ -1,0 +1,231 @@
+﻿
+@{
+    ViewData["Title"] = "Calificacion";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.AntiForgeryToken()
+
+<div class="page-header">
+    <h1>
+        Calificar jugadores del Sistema
+        <small>
+            <i class="ace-icon fa fa-angle-double-right"></i>
+            Esta sección es con fin de calificar la información de un jugador.
+        </small>
+    </h1>
+</div><!-- /.page-header -->
+
+<div class="row">
+    <div class="col-xs-12">
+        <!-- PAGE CONTENT BEGINS -->
+        @*<div class="alert alert-info">
+            <button class="close" data-dismiss="alert">
+                <i class="ace-icon fa fa-times"></i>
+            </button>
+
+            <i class="ace-icon fa fa-hand-o-right"></i>
+            Nota: solo existe la baja logica.
+        </div>*@
+
+        <table id="grid-table"></table>
+        <div id="grid-pager"></div>
+
+        <!-- PAGE CONTENT ENDS -->
+    </div><!-- /.col -->
+</div><!-- /.row -->
+
+@section Scripts {
+    <!-- inline scripts related to this page -->
+    <script type="text/javascript">
+
+        // Variable Globales
+        var listaLigas = JSON.parse('@ViewBag.LigasLista'.replace(/&quot;/g, '"'));
+        var listaDirigentes = JSON.parse('@ViewBag.DirigentesLista'.replace(/&quot;/g, '"'));
+        var listaEquipos = JSON.parse('@ViewBag.EquiposLista'.replace(/&quot;/g, '"'));
+        var listaEstadosCiviles = JSON.parse('@ViewBag.EstadosCivilesLista'.replace(/&quot;/g, '"'));
+        var listaInstrucciones = JSON.parse('@ViewBag.InstruccionesLista'.replace(/&quot;/g, '"'));
+        var listaProfesiones = JSON.parse('@ViewBag.ProfesionesLista'.replace(/&quot;/g, '"'));
+        var listaProvincias = JSON.parse('@ViewBag.ProvinciasLista'.replace(/&quot;/g, '"'));
+        var listaParroquias = JSON.parse('@ViewBag.ParroquiasLista'.replace(/&quot;/g, '"'));
+
+        jQuery(function ($) {
+
+            var grid_selector = "#grid-table";
+            var pager_selector = "#grid-pager";
+            var parent_column = $(grid_selector).closest('[class*="col-"]');
+
+            //resize to fit page size
+            $(window).on('resize.jqGrid', function () {
+                $(grid_selector).jqGrid('setGridWidth', parent_column.width());
+            });
+
+            //resize on sidebar collapse/expand
+            $(document).on('settings.ace.jqGrid', function (ev, event_name, collapsed) {
+                if (event_name === 'sidebar_collapsed' || event_name === 'main_container_fixed') {
+                    //setTimeout is for webkit only to give time for DOM changes and then redraw!!!
+                    setTimeout(function () {
+                        $(grid_selector).jqGrid('setGridWidth', parent_column.width());
+                    }, 20);
+                }
+            })
+
+            jQuery(grid_selector).jqGrid({
+                url: "/Equipos/ObtenerEquipos",
+                datatype: 'json',
+                mtype: 'GET',
+                height: 320,
+                colNames: ['ID', 'Nombre', 'Color', 'Fecha Fundación', 'Dirigente', 'Liga', 'Foto'],
+                colModel: [
+                    { key: true, hidden: true, name: 'id', index: 'id', editable: false },
+                    { name: 'nombre', index: 'nombre', width: 150, editable: false },
+                    { name: 'color', index: 'color', width: 50, editable: false },
+                    { name: 'fechaFundacion', index: 'fechaFundacion', width: 90, editable: false, sorttype: "date", formatter: dateTable },
+                    { name: 'dirigenteID', index: 'dirigenteID', width: 150, editable: false, edittype: 'select', formatter: 'select', editoptions: { value: getDirigentes() } },
+                    { name: 'ligaID', index: 'ligaID', width: 150, editable: false, edittype: 'select', formatter: 'select', editoptions: { value: getLigas() } },
+                    { name: 'foto', index: 'foto', width: 150, align: 'center', editable: false, edittype: "file", editoptions: { enctype: 'multipart/form-data' }, formatter: imageFormat }
+                ],
+                iconSet: "fontAwesome",
+                viewrecords: true,
+                rowNum: 5,
+                rowList: [5, 10, 15, 20, 25],
+                pager: pager_selector,
+                altRows: true,
+                //toppager: true,
+
+                multiselect: false,
+                //multikey: "ctrlKey",
+                //multiboxonly: true,
+
+                loadComplete: function () {
+                    var table = this;
+                    setTimeout(function () {
+                        updatePagerIcons(table);
+                        enableTooltips(table);
+                    }, 0);
+                },
+                caption: "Equipos",
+                subGrid: true,
+                subGridOptions: {
+                    plusicon: "fas fa-chevron-right",
+                    minusicon: "fas fa-chevron-down",
+                    openicon: "fas fa-angle-double-right",
+                    expandOnLoad: false,
+                    selectOnExpand: false,
+                    reloadOnExpand: true
+                },
+                subGridRowExpanded: function (subgrid_id, row_id) {
+                    // we pass two parameters
+                    // subgrid_id is a id of the div tag created within a table
+                    // the row_id is the id of the row
+                    // If we want to pass additional parameters to the url we can use
+                    // the method getRowData(row_id) - which returns associative array in type name-value
+                    // here we can easy construct the following
+                    var subgrid_table_id;
+                    subgrid_table_id = subgrid_id + "_t";
+                    jQuery("#" + subgrid_id).html("<table id='" + subgrid_table_id + "' class='scroll'></table>");
+                    jQuery("#" + subgrid_table_id).jqGrid({
+                        url: "/Jugadores/ObtenerJugadores",
+                        datatype: 'json',
+                        mtype: 'GET',
+                        postData: { equipoID: function () { return row_id; } },
+                        height: '100%',
+                        colNames: ['ID', 'Equipo', 'Estado Civil', 'Instrucción', 'Profesión', 'Provincia', 'Parroquia', 'Cédula de identidad', 'Nombre', 'Apellido', 'Fecha de Nacimiento', 'Carnet', 'Fecha de Afiliacion', 'Activo', 'Aprobado' , 'Foto', ''],
+                        colModel: [
+                            { key: true, hidden: true, name: 'id', index: 'id', editable: true },
+                            { name: 'equipoID', index: 'equipoID', hidden: true, editable: false, editrules: { edithidden: false }, edittype: 'select', formatter: 'select', editoptions: { value: getEquipos() } },
+                            { name: 'estadoCivilID', index: 'estadoCivilID', hidden: true, editable: true, editrules: { edithidden: true }, edittype: 'select', formatter: 'select', editoptions: { value: getEstadosCiviles(), disabled: true } },
+                            { name: 'instruccionID', index: 'instruccionID', hidden: true, editable: true, editrules: { edithidden: true }, edittype: 'select', formatter: 'select', editoptions: { value: getInstrucciones(), disabled: true } },
+                            { name: 'profesionID', index: 'profesionID', hidden: true, editable: true, editrules: { edithidden: true }, edittype: 'select', formatter: 'select', editoptions: { value: getProfesiones(), disabled: true } },
+                            { name: 'provinciaID', index: 'provinciaID', hidden: true, editable: true, editrules: { edithidden: true }, edittype: 'select', formatter: 'select', editoptions: { value: getProvincias(), disabled: true } },
+                            { name: 'parroquiaID', index: 'parroquiaID', hidden: true, editable: true, editrules: { edithidden: true }, edittype: 'select', formatter: 'select', editoptions: { value: getParroquias(), disabled: true } },
+                            { name: 'cedula', index: 'cedula', editable: true, editoptions: { readonly: "readonly"} },
+                            { name: 'nombre', index: 'nombre', editable: true, editoptions: { readonly: "readonly"} },
+                            { name: 'apellido', index: 'apellido', editable: true, editoptions: { readonly: "readonly" } },
+                            { name: 'fechaNacimiento', index: 'fechaNacimiento', align: 'center', editable: true, sorttype: "date", unformat: pickDate, formatter: dateTable, editoptions: { readonly: "readonly" } },
+                            { name: 'carnet', index: 'carnet', align: 'center', editable: true, editoptions: { readonly: "readonly" } },
+                            { name: 'fechaAfiliacion', index: 'fechaAfiliacion', align: 'center', editable: true, sorttype: "date", unformat: pickDate, formatter: dateTable, editoptions: { readonly: "readonly" } },
+                            { name: 'estado', index: 'estado', hidden: true, editable: true, editrules: { edithidden: false }, hidedlg: true, edittype: "checkbox", align: 'center', formatter: checkTable, editoptions: { readonly: "readonly" } },
+                            { name: 'calificado', index: 'calificado', width: 70, editable: false, edittype: "checkbox", align: 'center', formatter: checkTable},
+                            { name: 'foto', index: 'foto', align: 'center', editable: true, edittype: "custom", editoptions: { enctype: 'multipart/form-data', custom_element: imageFormatEdit }, formatter: imageFormat, unformat: imageUnFormat},
+                            {
+                                name: 'myac', width: 80, fixed: true, sortable: false, resize: false, formatter: 'actions',
+                                formatoptions: {
+                                    key: true,
+                                    editbutton: true,
+                                    delbutton: false,
+                                    editformbutton: true,
+                                    editOptions: {
+                                        url: "/Jugadores/Calificar",
+                                        mtype: 'PUT',
+                                        modal: true,
+                                        recreateForm: true,
+                                        closeAfterEdit: true,
+                                        reloadAfterSubmit: true,
+                                        beforeShowForm: function (form) {
+                                            form.closest('.ui-jqdialog').find('.ui-jqdialog-titlebar').wrapInner('<div class="widget-header" />');
+                                            var dlgDiv = form.closest('.ui-jqdialog');
+                                            dlgDiv[0].style.top = "0px";
+                                            dlgDiv[0].style.left = Math.round((screen.width / 2) - (dlgDiv.width() / 2)) + "px";
+                                            dlgDiv.find(".ui-jqdialog-title").html("Calificación");
+                                            dlgDiv.find("#sData").text('Aprobar');
+                                        },
+                                        errorTextFormat: FormatedorMensajesError,
+                                    }
+                                }
+                            },
+                        ],
+                        rowNum: 30,
+                        viewrecords: true,
+                        shrinkToFit: true,
+                        autowidth: true,
+                        altRows: true,
+                        sortname: 'num',
+                        sortorder: "asc"
+                    }).setGridWidth($(grid_selector).width() * .98);
+                }
+
+            });
+
+            $(window).triggerHandler('resize.jqGrid');//trigger window resize to make the grid get the correct size
+
+            $(document).one('ajaxloadstart.page', function (e) {
+                $.jgrid.gridDestroy(grid_selector);
+                $('.ui-jqdialog').remove();
+            });
+        });
+
+        function getDirigentes() {
+            return listaDirigentes;
+        }
+
+        function getLigas() {
+            return listaLigas;
+        }
+
+        function getEquipos() {
+            return listaEquipos;
+        }
+
+        function getEstadosCiviles() {
+            return listaEstadosCiviles;
+        }
+
+        function getInstrucciones() {
+            return listaInstrucciones;
+        }
+
+        function getProfesiones() {
+            return listaProfesiones;
+        }
+
+        function getProvincias() {
+            return listaProvincias;
+        }
+
+        function getParroquias() {
+            return listaParroquias;
+        }
+    </script>
+}
+

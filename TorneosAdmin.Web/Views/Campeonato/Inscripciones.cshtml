@@ -1,0 +1,194 @@
+﻿
+@{
+    ViewData["Title"] = "Inscripciones";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.AntiForgeryToken()
+
+<div class="page-header">
+    <h1>
+        Inscripciones
+        <small>
+            <i class="ace-icon fa fa-angle-double-right"></i>
+            Esta sección es para alta, baja y actualización de inscripciones.
+        </small>
+    </h1>
+</div><!-- /.page-header -->
+
+<div class="row">
+    <div class="col-xs-12">
+        <!-- PAGE CONTENT BEGINS -->
+        @*<div class="alert alert-warning">
+            <button class="close" data-dismiss="alert">
+                <i class="ace-icon fa fa-times"></i>
+            </button>
+
+            <i class="ace-icon fa fa-hand-o-right"></i>
+            Todas las fotos seran modificadas en la aplicación para tener una resolución de 600 x 400 pixeles.
+        </div>*@
+        <h4>
+            <i class="ace-icon fas fa-hand-point-right icon-animated-hand-pointer blue"></i>
+            <a id="btnAgregaInscripcion" class="blue"> Agregar Inscripción </a>
+        </h4>
+        <br />
+        <table id="grid-table"></table>
+        <div id="grid-pager"></div>
+
+        <!-- PAGE CONTENT ENDS -->
+    </div><!-- /.col -->
+</div><!-- /.row -->
+
+@section Scripts {
+    <!-- inline scripts related to this page -->
+    <script type="text/javascript">
+        // Variable Globales
+        var listaCampeonatos = JSON.parse('@ViewBag.CampeonatosLista'.replace(/&quot;/g, '"'));
+        var listaEquipos = JSON.parse('@ViewBag.EquiposLista'.replace(/&quot;/g, '"'));
+        var listaUsuarios = JSON.parse('@ViewBag.UsuariosLista'.replace(/&quot;/g, '"'));
+        
+        jQuery(function ($) {
+
+            // boton para agrega un nuevo campeonato.
+            $("#btnAgregaInscripcion").on("click", function () {
+                addRow();
+            });
+
+            var grid_selector = "#grid-table";
+            var pager_selector = "#grid-pager";
+            var parent_column = $(grid_selector).closest('[class*="col-"]');
+
+            //resize to fit page size
+            $(window).on('resize.jqGrid', function () {
+                $(grid_selector).jqGrid('setGridWidth', parent_column.width());
+            });
+
+            //resize on sidebar collapse/expand
+            $(document).on('settings.ace.jqGrid', function (ev, event_name, collapsed) {
+                if (event_name === 'sidebar_collapsed' || event_name === 'main_container_fixed') {
+                    //setTimeout is for webkit only to give time for DOM changes and then redraw!!!
+                    setTimeout(function () {
+                        $(grid_selector).jqGrid('setGridWidth', parent_column.width());
+                    }, 20);
+                }
+            })
+
+            function getCampeonatos() {
+                return listaCampeonatos;
+            }
+
+            function getEquipos() {
+                return listaEquipos;
+            }
+
+            function getUsuarios() {
+                return listaUsuarios;
+            }
+
+            jQuery(grid_selector).jqGrid({
+                url: "/Inscripciones/ObtenerInscripciones",
+                datatype: 'json',
+                mtype: 'GET',
+                height: 400,
+                colNames: ['ID', 'Campeonato', 'Equipo', 'Foto', 'Usuario que registro', 'Fecha Inscripcion', ''],
+                colModel: [
+                    { key: true, hidden: true, name: 'id', index: 'id', editable: true },
+                    { name: 'campeonatoID', index: 'campeonatoID', editable: true, edittype: 'select', formatter: 'select', editoptions: { value: getCampeonatos() } },
+                    { name: 'equipoID', index: 'equipoID', editable: true, edittype: 'select', formatter: 'select', editoptions: { value: getEquipos() } },
+                    { name: 'foto', jsonmap: 'equipoID', align: 'center', editable: false, edittype: "custom", editoptions: { enctype: 'multipart/form-data', custom_element: imageFormatEdit }, formatter: imageFormatEquipo, unformat: imageUnFormat },
+                    { name: 'usuarioID', index: 'usuarioID', editable: false, edittype: 'select', formatter: 'select', editoptions: { value: getUsuarios() } },
+                    { name: 'fechaInscripcion', index: 'fechaInscripcion', editable: false, sorttype: "date", unformat: pickDate, formatter: dateTable },
+                    {
+                        name: 'myac', width:50, fixed: true, sortable: false, resize: false, formatter: 'actions',
+                        formatoptions: {
+                            key: true,
+                            editbutton: false,
+                            delbutton: true,
+                            editformbutton: false,
+                            //editOptions: {
+                            //    url: "/Inscripciones/Editar",
+                            //    mtype: 'PUT',
+                            //    viewPagerButtons: false,
+                            //    closeAfterEdit: true,
+                            //    recreateForm: true,
+                            //    beforeShowForm: function (form) {
+                            //        form.closest('.ui-jqdialog').find('.ui-jqdialog-titlebar').wrapInner('<div class="widget-header" />')
+                            //        form.find('#campeonatoID').attr("disabled", true)
+                            //        form.find('#equipoID').attr("disabled", true)
+                            //        style_edit_form(form);
+                            //    },
+                            //    errorTextFormat: FormatedorMensajesError
+                            //},
+                            delOptions: {
+                                url: "/Inscripciones/Eliminar",
+                                mtype: 'PUT',
+                                recreateForm: true,
+                                width: 400,
+                                beforeShowForm: function (form) {
+                                    if (form.data('styled')) return false;
+
+                                    form.closest('.ui-jqdialog').find('.ui-jqdialog-titlebar').wrapInner('<div class="widget-header" />')
+                                    style_delete_form(form);
+
+                                    form.data('styled', true);
+
+                                    form.find(".delmsg").text("¿Desea eliminar la inscripción?");
+                                    form.closest('.ui-jqdialog').find("#dData").text('Eliminar');
+                                },
+                                errorTextFormat: FormatedorMensajesError
+                            }
+                        }
+                    }
+                ],
+
+                viewrecords: true,
+                rowNum: 10,
+                rowList: [10, 20, 30],
+                pager: pager_selector,
+                altRows: true,
+                shrinkToFit: true,
+                autowidth: true,
+                //toppager: true,
+
+                multiselect: false,
+                //multikey: "ctrlKey",
+                //multiboxonly: true,
+
+                loadComplete: function () {
+                    var table = this;
+                    setTimeout(function () {
+                        updatePagerIcons(table);
+                        enableTooltips(table);
+                    }, 0);
+                },
+                caption: "Inscripciones",
+
+            });
+
+            $(window).triggerHandler('resize.jqGrid');//trigger window resize to make the grid get the correct size
+
+            function addRow() {
+                // Get the currently selected row
+                $(grid_selector).jqGrid('editGridRow', 'new', {
+                    url: "/Inscripciones/Crear",
+                    mtype: 'POST',
+                    closeAfterAdd: true,
+                    recreateForm: true,
+                    viewPagerButtons: false,
+                    beforeShowForm: function (form) {
+                        form.closest('.ui-jqdialog').find('.ui-jqdialog-titlebar').wrapInner('<div class="widget-header" />')
+                        style_edit_form(form);
+                        form.find("#tr_foto").hide();
+                    },
+                    errorTextFormat: FormatedorMensajesError,
+                });
+            }
+
+            $(document).one('ajaxloadstart.page', function (e) {
+                $.jgrid.gridDestroy(grid_selector);
+                $('.ui-jqdialog').remove();
+            });
+        });
+ 
+    </script>
+}

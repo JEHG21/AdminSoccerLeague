@@ -1,0 +1,221 @@
+﻿
+@{
+    ViewData["Title"] = "Permisos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.AntiForgeryToken()
+
+<div class="page-header">
+    <h1>
+        Permisosa un rol en el Sistema
+        <small>
+            <i class="ace-icon fa fa-angle-double-right"></i>
+            Esta sección es para configurar los accesos a pantallas que tiene un rol.
+        </small>
+    </h1>
+</div><!-- /.page-header -->
+
+<div class="row">
+    <div class="col-xs-12">
+        <!-- PAGE CONTENT BEGINS -->
+        <div class="alert alert-info">
+            <button class="close" data-dismiss="alert">
+                <i class="ace-icon fa fa-times"></i>
+            </button>
+
+            <i class="ace-icon fa fa-hand-o-right"></i>
+            Nota: Solo es necesario marcar la casilla.
+        </div>
+
+        <div>
+            <label for="form-field-select-3">Seleccione rol</label>
+
+            <br />
+            <select class="chosen-select form-control col-4" id="Roles">
+                <option value="">Selecciona una opción</option>
+                @foreach (var item in ViewBag.RolesLista)
+                {
+                    <option value="@item.ID">@item.Descripcion</option>
+                }
+            </select>
+        </div>
+        <br />
+        <hr />
+        <br />
+        <table id="grid-table"></table>
+        <div id="grid-pager"></div>
+        <div id="miDialog" title="Actualización"><div id="dialogText"></div></div>
+        <!-- PAGE CONTENT ENDS -->
+    </div><!-- /.col -->
+</div><!-- /.row -->
+
+@section Scripts {
+    <!-- inline scripts related to this page -->
+    <script type="text/javascript">
+
+        function updateIfChecked(elem) {
+            $.post("/Permisos/ActualizarPermiso", { id: $("#Roles").children("option:selected").val(), MenuID: $(elem).attr('id'), Aplicado: $(elem).is(':checked') }, function (result) {
+                jQuery("#dialogText").text(result);
+                $("#miDialog").dialog();
+            });
+        };
+
+        jQuery(function ($) {
+
+            var grid_selector = "#grid-table";
+            var pager_selector = "#grid-pager";
+            var parent_column = $(grid_selector).closest('[class*="col-"]');
+
+            function cboxFormatter(cellvalue, options, rowObject) {
+                return '<input id="' + rowObject.menuID + '" type="checkbox"' + (cellvalue ? ' checked="checked"' : '') +
+                    'onchange="updateIfChecked(this);"/>';
+            }
+
+            $("#Roles").change(function () {
+                var selectedRol = $(this).children("option:selected").val();
+                if (selectedRol > 1) {
+                    $.getJSON('/Permisos/ObtenerPermisos', { rolID: selectedRol }, function (data, status, xhr) {
+                        $.jgrid.gridUnload(grid_selector);
+                        loadGrid(data);
+                    });
+                }
+            });
+
+            function loadGrid(data) {
+                jQuery(grid_selector).jqGrid({
+                    datatype: "local",
+                    data: data,
+                    height: 250,
+                    colNames: ['ID', 'Aplicado', 'Pantalla', 'Operación que realiza'],
+                    colModel: [
+                        { key: true, hidden: true, name: 'menuID', index: 'menuID', editable: true },
+                        { name: 'aplicado', index: 'aplicado', align: 'center', width: 70, search: false, editable: true, edittype: 'checkbox', formatter: cboxFormatter, formatoptions: { disabled: false }, editrules: { required: false }, editoptions: { value: "true:false" } },
+                        { name: 'menuNombre', index: 'menuNombre', width: 130, editable: true, editoptions: { size: "20", maxlength: "30" } },
+                        { name: 'menuDescripcion', index: 'menuDescripcion', width: 500, editable: true, editoptions: { size: "20", maxlength: "30" } },
+                    ],
+
+                    viewrecords: true,
+                    rowNum: 10,
+                    rowList: [10, 20, 30],
+                    pager: pager_selector,
+                    altRows: true,
+                    //toppager: true,
+
+                    multiselect: false,
+                    //multikey: "ctrlKey",
+                    //multiboxonly: true,
+
+                    loadComplete: function () {
+                        var table = this;
+                        $("#grid-pager_left").css('width', '') // Unicamente aplicar cuando sean pocas colunas y no sea bien la barra de iconos
+
+                        setTimeout(function () {
+                            updatePagerIcons(table);
+                            enableTooltips(table);
+                        }, 0);
+                    },
+                    caption: "Permisos",
+
+                });
+
+                //navButtons
+                jQuery(grid_selector).jqGrid('navGrid', pager_selector,
+                    { 	//navbar options
+                        edit: false,
+                        editicon: 'ace-icon fas fa-pencil-alt blue',
+                        add: false,
+                        addicon: 'ace-icon fas fa-plus-circle purple',
+                        del: false,
+                        delicon: 'ace-icon fas fa-trash-alt red',
+                        search: true,
+                        searchicon: 'ace-icon fas fa-search orange',
+                        refresh: false,
+                        refreshicon: 'ace-icon fas fa-sync-alt green',
+                        view: false,
+                        viewicon: 'ace-icon fas fa-search-plus grey',
+                    },
+                    {
+                        //edit record form
+                        //closeAfterEdit: true,
+                        //width: 700,
+                        mtype: 'PUT',
+                        closeAfterEdit: true,
+                        recreateForm: true,
+                        beforeShowForm: function (e) {
+                            var form = $(e[0]);
+                            form.closest('.ui-jqdialog').find('.ui-jqdialog-titlebar').wrapInner('<div class="widget-header" />')
+                            style_edit_form(form);
+                        },
+                        errorTextFormat: FormatedorMensajesError,
+                    },
+                    {
+                        //new record form
+                        //width: 700,
+                        mtype: 'POST',
+                        closeAfterAdd: true,
+                        recreateForm: true,
+                        viewPagerButtons: false,
+                        beforeShowForm: function (e) {
+                            var form = $(e[0]);
+                            form.closest('.ui-jqdialog').find('.ui-jqdialog-titlebar')
+                                .wrapInner('<div class="widget-header" />')
+                            style_edit_form(form);
+                        },
+                        errorTextFormat: FormatedorMensajesError,
+                    },
+                    {
+                        //delete record form
+                        mtype: 'PUT',
+                        recreateForm: true,
+                        beforeShowForm: function (e) {
+                            var form = $(e[0]);
+                            if (form.data('styled')) return false;
+
+                            form.closest('.ui-jqdialog').find('.ui-jqdialog-titlebar').wrapInner('<div class="widget-header" />')
+                            style_delete_form(form);
+
+                            form.data('styled', true);
+                        },
+                        errorTextFormat: FormatedorMensajesError,
+                        onClick: function (e) {
+                            //alert(1);
+                        }
+                    },
+                    {
+                        //search form
+                        recreateForm: true,
+                        afterShowSearch: function (e) {
+                            var form = $(e[0]);
+                            form.closest('.ui-jqdialog').find('.ui-jqdialog-title').wrap('<div class="widget-header" />')
+                            style_search_form(form);
+                        },
+                        afterRedraw: function () {
+                            style_search_filters($(this));
+                        }
+                        ,
+                        multipleSearch: true,
+                        /**
+                        multipleGroup:true,
+                        showQuery: true
+                        */
+                    },
+                    {
+                        //view record form
+                        recreateForm: true,
+                        beforeShowForm: function (e) {
+                            var form = $(e[0]);
+                            form.closest('.ui-jqdialog').find('.ui-jqdialog-title').wrap('<div class="widget-header" />')
+                        }
+                    }
+                )
+                $(window).triggerHandler('resize.jqGrid');//trigger window resize to make the grid get the correct size
+            }
+            
+            $(document).one('ajaxloadstart.page', function (e) {
+                $.jgrid.gridDestroy(grid_selector);
+                $('.ui-jqdialog').remove();
+            });
+        });
+    </script>
+}

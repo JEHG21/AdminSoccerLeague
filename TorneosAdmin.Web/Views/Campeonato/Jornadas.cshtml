@@ -1,0 +1,955 @@
+﻿
+@{
+    ViewData["Title"] = "Jornadas";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.AntiForgeryToken()
+
+<div class="page-header">
+    <h1>
+        Jornadas del torneo
+        <small>
+            <i class="ace-icon fa fa-angle-double-right"></i>
+            Esta sección es para alta, baja y actualización de inscripciones.
+        </small>
+    </h1>
+</div><!-- /.page-header -->
+
+<div class="row">
+    <div class="col-xs-12">
+        <!-- PAGE CONTENT BEGINS -->
+        @*<div class="alert alert-warning">
+                <button class="close" data-dismiss="alert">
+                    <i class="ace-icon fa fa-times"></i>
+                </button>
+
+                <i class="ace-icon fa fa-hand-o-right"></i>
+                Todas las fotos seran modificadas en la aplicación para tener una resolución de 600 x 400 pixeles.
+            </div>*@
+        <div class="form-inline">
+            <h4>
+                <i class="ace-icon fas fa-hand-point-right icon-animated-hand-pointer blue"></i>
+                <select class="form-control" id="formCampeonatos">
+                    @foreach (var item in ViewBag.CampeonatosLista)
+                    {
+                        <option value="@item.Key">@item.Value</option>
+                    }
+                </select>
+                &nbsp;
+                <select class="form-control" id="formCategoria">
+                    @foreach (var item in ViewBag.CategoriasLista)
+                    {
+                        <option value="@item.Key">@item.Value</option>
+                    }
+                </select>
+                &nbsp;
+                <select class="form-control" id="formSerie">
+                    @foreach (var item in ViewBag.SeriesLista)
+                    {
+                        <option value="@item.Key">@item.Value</option>
+                    }
+                </select>
+            </h4>
+        </div>
+        <br />
+        <div class="tabbable">
+            <ul id="myTab" class="nav nav-tabs tab-color-blue background-blue">
+                <li class="active">
+                    <a href="#Ronda_1" data-toggle="tab">Ronda 1</a>
+                </li>
+                <li>
+                    <a href="#Ronda_2" data-toggle="tab">Ronda 2</a>
+                </li>
+                <li>
+                    <a href="#Ronda_3" data-toggle="tab">Ronda 3</a>
+                </li>
+            </ul>
+
+            <div class="tab-content" style="height:500px;">
+                <div class="tab-pane in active" id="Ronda_1">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <h4>Primera Ronda</h4>
+                        </div>
+                        <div class="col-xs-6">
+
+                            <button id="btnGeneraRonda1" class="pull-right btn btn-sm btn-primary">
+                                <i class="ace-icon fas fa-pen-fancy"></i>
+                                <span class="bigger-110">Generar</span>
+                            </button>
+                            <button id="btnAgregarPartidoRonda1" class="pull-right btn btn-sm btn-primary">
+                                <i class="ace-icon fas fa-pen-fancy"></i>
+                                <span class="bigger-110">Agregar Partido</span>
+                            </button>
+
+                        </div>
+                    </div>
+                    <br />
+                    <div id="ContenedorJornadasRonda1" class="scrollable" data-size="400" data-position="left">
+
+                    </div>
+                </div>
+                <div class="tab-pane" id="Ronda_2">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <h4>Segunda Ronda</h4>
+                        </div>
+                        <div class="col-xs-6">
+
+                            <button id="btnGeneraRonda2" class="pull-right btn btn-sm btn-primary">
+                                <i class="ace-icon fas fa-pen-fancy"></i>
+                                <span class="bigger-110">Generar</span>
+                            </button>
+                            <button id="btnAgregarPartidoRonda2" class="pull-right btn btn-sm btn-primary">
+                                <i class="ace-icon fas fa-pen-fancy"></i>
+                                <span class="bigger-110">Agregar Partido</span>
+                            </button>
+
+                        </div>
+                    </div>
+                    <br />
+                    <div id="ContenedorJornadasRonda2" class="scrollable" data-size="400" data-position="left">
+
+                    </div>
+                </div>
+                <div class="tab-pane" id="Ronda_3">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <h4>Finales</h4>
+                        </div>
+                        <div class="col-xs-6">
+                            <button id="btnGeneraFinales" class="pull-right btn btn-sm btn-primary">
+                                <i class="ace-icon fas fa-pen-fancy"></i>
+                                <span class="bigger-110">Generar</span>
+                            </button>
+                            <button id="btnAgregarPartidoRonda3" class="pull-right btn btn-sm btn-primary">
+                                <i class="ace-icon fas fa-pen-fancy"></i>
+                                <span class="bigger-110">Agregar Partido</span>
+                            </button>
+
+                        </div>
+                    </div>
+                    <br />
+                    <div id="ContenedorJornadasRonda3" class="scrollable" data-size="400" data-position="left">
+
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.Tab -->
+        <div id="dialogJornadas" class="hidden">
+            <div class="row">
+                <div id="errorDiv" class="col-lg-12">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <form class="form-horizontal" role="form">
+                        <div class="form-group">
+                            <label class="control-label col-xs-12 col-sm-4 no-padding-right" for="dias">Días que alternan los partidos:</label>
+
+                            <div class="col-xs-12 col-sm-8">
+                                <select id="dias" class="multiselect" multiple="">
+                                    <option value="0" selected="selected">Domingo</option>
+                                    <option value="1">Lunes</option>
+                                    <option value="2">Martes</option>
+                                    <option value="3">Miércoles</option>
+                                    <option value="4">Jueves</option>
+                                    <option value="5">Viernes</option>
+                                    <option value="6" selected="selected">Sábado</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-xs-12 col-sm-4 no-padding-right" for="fechaInicio">Fecha inicial:</label>
+
+                            <div class="col-xs-12 col-sm-8">
+                                <input type="text" id="FechaInicio">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-xs-12 col-sm-4 no-padding-right" for="hora">Hora inicial partidos:</label>
+
+                            <div class="col-xs-12 col-sm-8">
+                                <select id="horas">
+                                    <option value="0">00:00 HRS</option>
+                                    <option value="1">01:00 HRS</option>
+                                    <option value="2">02:00 HRS</option>
+                                    <option value="3">03:00 HRS</option>
+                                    <option value="4">04:00 HRS</option>
+                                    <option value="5">05:00 HRS</option>
+                                    <option value="6">06:00 HRS</option>
+                                    <option value="7">07:00 HRS</option>
+                                    <option value="8" selected="selected">08:00 HRS</option>
+                                    <option value="9">09:00 HRS</option>
+                                    <option value="10">10:00 HRS</option>
+                                    <option value="11">11:00 HRS</option>
+                                    <option value="12">12:00 HRS</option>
+                                    <option value="13">13:00 HRS</option>
+                                    <option value="14">14:00 HRS</option>
+                                    <option value="15">15:00 HRS</option>
+                                    <option value="16">16:00 HRS</option>
+                                    <option value="17">17:00 HRS</option>
+                                    <option value="18">18:00 HRS</option>
+                                    <option value="19">19:00 HRS</option>
+                                    <option value="20">20:00 HRS</option>
+                                    <option value="21">21:00 HRS</option>
+                                    <option value="22">22:00 HRS</option>
+                                    <option value="23">23:00 HRS</option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div><!-- /.row -->
+        </div><!-- /.dialog -->
+        <div id="dialogEliminarFechas" class="hidden">
+            <div class="row">
+                <div id="errorDiv" class="col-lg-12">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h4><strong>¿Deseas eliminar todas los partidos de esta fecha? </strong></h4>
+                    <h5> Se eliminará los siguientes datos: </h5>
+                    <ul>
+                        <li>Todos los partidos </li>
+                        <li>Estadísticas de los partidos</li>
+                        <li>Multas y pagos relacionados a los partidos</li>
+                    </ul>
+
+                </div>
+            </div><!-- /.row -->
+        </div><!-- /.dialog -->
+        <div id="dialogEliminarPartido" class="hidden">
+            <div class="row">
+                <div id="errorDiv" class="col-lg-12">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h4><strong>¿Deseas eiminar el partido? </strong></h4>
+                    <h5> Se eliminará los siguientes datos: </h5>
+                    <ul>
+                        <li>Estadísticas del partido</li>
+                        <li>Multas y pagos relacionados al partido</li>
+                    </ul>
+
+                </div>
+            </div><!-- /.row -->
+        </div><!-- /.dialog -->
+        <div id="dialogEditarPartido" class="hidden">
+            <div class="row">
+                <div id="errorDiv" class="col-lg-12">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <form class="form-horizontal" role="form">
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-xs-3 text-right"><span id="equipoLocal"></span></div>
+                                <div class="col-xs-2 text-center"><img id="equipolocalImg" src="" class="rounded-lg" width="60" height="60"></div>
+                                <div class="col-xs-2 text-center"><h4> VS </h4></div>
+                                <div class="col-xs-2 text-center"><img id="equipoVisitaImg" src="" class="rounded-lg" width="60" height="60"></div>
+                                <div class="col-xs-3 text-left"><span id="equipoVisita"></span></div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-xs-12 col-sm-4 no-padding-right" for="FechaID">Fecha:</label>
+
+                            <div class="col-xs-12 col-sm-8">
+                                <input type="text" id="FechaID">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-xs-12 col-sm-4 no-padding-right" for="fechaInicio">Dia:</label>
+
+                            <div class="col-xs-12 col-sm-8">
+                                <input type="text" id="FechaHorario">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-xs-12 col-sm-4 no-padding-right" for="hora">Hora:</label>
+
+                            <div class="col-xs-12 col-sm-8">
+                                <select id="HorasEdicion">
+                                    <option value="0">00:00 HRS</option>
+                                    <option value="1">01:00 HRS</option>
+                                    <option value="2">02:00 HRS</option>
+                                    <option value="3">03:00 HRS</option>
+                                    <option value="4">04:00 HRS</option>
+                                    <option value="5">05:00 HRS</option>
+                                    <option value="6">06:00 HRS</option>
+                                    <option value="7">07:00 HRS</option>
+                                    <option value="8">08:00 HRS</option>
+                                    <option value="9">09:00 HRS</option>
+                                    <option value="10">10:00 HRS</option>
+                                    <option value="11">11:00 HRS</option>
+                                    <option value="12">12:00 HRS</option>
+                                    <option value="13">13:00 HRS</option>
+                                    <option value="14">14:00 HRS</option>
+                                    <option value="15">15:00 HRS</option>
+                                    <option value="16">16:00 HRS</option>
+                                    <option value="17">17:00 HRS</option>
+                                    <option value="18">18:00 HRS</option>
+                                    <option value="19">19:00 HRS</option>
+                                    <option value="20">20:00 HRS</option>
+                                    <option value="21">21:00 HRS</option>
+                                    <option value="22">22:00 HRS</option>
+                                    <option value="23">23:00 HRS</option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div><!-- /.row -->
+        </div><!-- /.dialog -->
+        <div id="dialogCrearPartido" class="hidden">
+            <div class="row">
+                <div id="errorDiv" class="col-lg-12">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <form class="form-horizontal" role="form">
+                        <div class="form-group">
+                            <label class="control-label col-xs-12 col-sm-4 no-padding-right" for="equipoLocalLista">Equipo Local:</label>
+
+                            <div class="col-xs-12 col-sm-8">
+                                <select id="equipoLocalLista">
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-xs-12 col-sm-4 no-padding-right" for="equipoVisitaLista">Equipo Visita:</label>
+
+                            <div class="col-xs-12 col-sm-8">
+                                <select id="equipoVisitaLista">
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-xs-12 col-sm-4 no-padding-right" for="FechaIDCrear">Fecha:</label>
+
+                            <div class="col-xs-12 col-sm-8">
+                                <input type="text" id="FechaIDCrear">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-xs-12 col-sm-4 no-padding-right" for="fechaInicioCrear">Dia:</label>
+
+                            <div class="col-xs-12 col-sm-8">
+                                <input type="text" id="fechaInicioCrear">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-xs-12 col-sm-4 no-padding-right" for="hora">Hora:</label>
+
+                            <div class="col-xs-12 col-sm-8">
+                                <select id="HorasCrear">
+                                    <option value="0">00:00 HRS</option>
+                                    <option value="1">01:00 HRS</option>
+                                    <option value="2">02:00 HRS</option>
+                                    <option value="3">03:00 HRS</option>
+                                    <option value="4">04:00 HRS</option>
+                                    <option value="5">05:00 HRS</option>
+                                    <option value="6">06:00 HRS</option>
+                                    <option value="7">07:00 HRS</option>
+                                    <option value="8" selected="selected">08:00 HRS</option>
+                                    <option value="9">09:00 HRS</option>
+                                    <option value="10">10:00 HRS</option>
+                                    <option value="11">11:00 HRS</option>
+                                    <option value="12">12:00 HRS</option>
+                                    <option value="13">13:00 HRS</option>
+                                    <option value="14">14:00 HRS</option>
+                                    <option value="15">15:00 HRS</option>
+                                    <option value="16">16:00 HRS</option>
+                                    <option value="17">17:00 HRS</option>
+                                    <option value="18">18:00 HRS</option>
+                                    <option value="19">19:00 HRS</option>
+                                    <option value="20">20:00 HRS</option>
+                                    <option value="21">21:00 HRS</option>
+                                    <option value="22">22:00 HRS</option>
+                                    <option value="23">23:00 HRS</option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div><!-- /.row -->
+        </div><!-- /.dialog -->
+        <template id="JornadaTemplate">
+            <div class="col-sm-6 widget-container-col" id="Fecha_">
+                <div class="widget-box transparent collapsed">
+                    <div class="widget-header">
+                        <h4 id="titulo" class="widget-title lighter"></h4>
+
+                        <div class="widget-toolbar no-border">
+                            <div class="widget-menu">
+                                <a href="#" data-action="settings" data-toggle="dropdown">
+                                    <i class="ace-icon fa fa-bars"></i>
+                                </a>
+
+                                <ul class="dropdown-menu dropdown-menu-right dropdown-light-blue dropdown-caret dropdown-closer">
+                                    <li>
+                                        <a data-toggle="tab" href="#" id="AgregarPartido" class="agregarPartido">Agregar Partido</a>
+                                    </li>
+                                    <li>
+                                        <a data-toggle="tab" href="#" id="EliminarFecha" class="eliminarJornadas">Eliminar Fecha</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <a href="#" data-action="collapse">
+                                <i class="ace-icon fa fa-chevron-down"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="widget-body">
+                        <div class="widget-main" id="Fecha_Partidos_">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </template><!-- row template -->
+        <template id="PartidoTemplate">
+            <div id="Jornada_">
+                <div class="row">
+                    <div class="col-xs-2 text-right"><span>Equipo 1</span></div>
+                    <div class="col-xs-2 text-center"><img src="~/images/avatars/noimagen.png" class="rounded-circle" width="40" height="40"></div>
+                    <div class="col-xs-1 text-center"><h4> VS </h4></div>
+                    <div class="col-xs-2 text-center"><img src="~/images/avatars/noimagen.png" class="rounded-circle" width="40" height="40"></div>
+                    <div class="col-xs-2 text-left"><span>Equipo 2</span></div>
+                    <div class="col-xs-3 text-right" title="Editar">
+                        <a href="#" class="btn btn-success btn-xs" title="editar" id="Editar_Jornada_">
+                            <i class="ace-icon fa fa-pencil-alt bigger-120"></i>
+                        </a>
+                        <a href="#" class="btn btn-danger btn-xs" title="Eliminar" id="Eliminar_Jornada_">
+                            <i class="ace-icon fa fa-trash bigger-120"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-9 text-center"><h5 id="horario"><strong>13/03/2020 8:00 HRS</strong></h5></div>
+                </div>
+            </div>
+        </template><!-- row template -->
+        <!-- PAGE CONTENT ENDS -->
+    </div><!-- /.col -->
+</div><!-- /.row -->
+@section Scripts {
+    <!-- inline scripts related to this page -->
+    <script type="text/javascript">
+        // Variables Globales;
+        var rondaTorneo;
+        var jornadas;
+        var equiposFotos;
+        var grupoJornadas;
+        var jornadaID;
+
+        jQuery(function ($) {
+
+            // Ingresamos los registro a la tabla de equipos.
+            obtenerJornadasVista();
+
+            // configuración de los datepicker en español
+            $.datepicker.setDefaults($.datepicker.regional["es"]);
+
+            // Configuración para colocar el el titulo del dialog con html
+            $.widget("ui.dialog", $.extend({}, $.ui.dialog.prototype, {
+                _title: function (title) {
+                    var $title = this.options.title || '&nbsp;'
+                    if (("title_html" in this.options) && this.options.title_html == true)
+                        title.html($title);
+                    else title.text($title);
+                }
+            }));
+            // Configuración para colocar para habilitar la edición en el dialogo del jugador
+            $.widget("ui.dialog", $.ui.dialog, {
+                _allowInteraction: function (event) {
+                    return !!$(event.target).closest(".ui-jqdialog").length || this._super(event);
+                }
+            });
+
+            //Creamos el dialogo para generar los partidos
+            dialogJornadas = $("#dialogJornadas").dialog({
+                modal: true,
+                title: "<div class='widget-header widget-header-small'><h4 class='smaller'><i class='ace-icon fa fa-check'></i> Generación de Partidos</h4></div>",
+                title_html: true,
+                autoOpen: false,
+                height: 400,
+                width: 400,
+                buttons: [
+                    {
+                        text: "Cancel",
+                        "class": "btn btn-minier",
+                        click: function () {
+                            $(this).dialog("close");
+                        }
+                    },
+                    {
+                        text: "Generar",
+                        "class": "btn btn-primary btn-minier",
+                        click: function () {
+
+                            var jornadaModel = {
+                                campeonatoID: $("#formCampeonatos").val(),
+                                categoriaID: $("#formCategoria").val(),
+                                serieID: $("#formSerie").val(),
+                                ronda: rondaTorneo,
+                                dias: $('.multiselect').val(),
+                                fechaInicial: $("#FechaInicio").val(),
+                                hora: $("#horas").val(),
+                            }
+                            if (rondaTorneo != 3) {
+                                $.post("../Jornadas/CargaInicial", jornadaModel, function (data) {
+                                    limpiarTab();
+                                    obtenerJornadasVista();
+                                    dialogJornadas.dialog('close');
+                                })
+                                    .fail(function (data) {
+                                        AgregarErrorDiv(data);
+                                    });
+                            }
+                        }
+                    }
+                ]
+            });
+
+            //Creamos el dialogo para eliminar grupo jornadas
+            dialogEliminarJornadas = $("#dialogEliminarFechas").dialog({
+                modal: true,
+                title: "<div class='widget-header widget-header-small'><h4 class='smaller'><i class='ace-icon fa fa-check'></i>Eliminar Fechas</h4></div>",
+                title_html: true,
+                autoOpen: false,
+                height: 300,
+                width: 450,
+                buttons: [
+                    {
+                        text: "Cancel",
+                        "class": "btn btn-minier",
+                        click: function () {
+                            $(this).dialog("close");
+                        }
+                    },
+                    {
+                        text: "Eliminar",
+                        "class": "btn btn-primary btn-minier",
+                        click: function () {
+                            var eliminarModel = {
+                                campeonatoID: $("#formCampeonatos").val(),
+                                categoriaID: $("#formCategoria").val(),
+                                serieID: $("#formSerie").val(),
+                                ronda: rondaTorneo,
+                                id: grupoJornadas
+                            }
+                            $.ajax({
+                                url: '../Jornadas/EliminarGrupo',
+                                type: 'DELETE',
+                                data: eliminarModel,
+                                success: function (result) {
+                                    $("#ContenedorJornadasRonda" + rondaTorneo + " #Fecha_" + grupoJornadas).remove();
+                                    dialogEliminarJornadas.dialog('close');
+                                },
+                                error: function (data) {
+                                    AgregarErrorDivPersonalizado(data, "#dialogEliminarFechas #errorDiv");
+                                }
+                            });
+                        }
+                    }
+                ]
+            });
+
+            //Creamos el dialogo para eliminar grupo jornadas
+            dialogEliminarPartido = $("#dialogEliminarPartido").dialog({
+                modal: true,
+                title: "<div class='widget-header widget-header-small'><h4 class='smaller'><i class='ace-icon fa fa-check'></i>Eliminar Partido</h4></div>",
+                title_html: true,
+                autoOpen: false,
+                height: 300,
+                width: 450,
+                buttons: [
+                    {
+                        text: "Cancel",
+                        "class": "btn btn-minier",
+                        click: function () {
+                            $(this).dialog("close");
+                        }
+                    },
+                    {
+                        text: "Eliminar",
+                        "class": "btn btn-primary btn-minier",
+                        click: function () {
+                            $.ajax({
+                                url: '../Jornadas/Eliminar',
+                                type: 'DELETE',
+                                data: { id: jornadaID },
+                                success: function (result) {
+                                    $("#Jornada_" + jornadaID).remove();
+                                    dialogEliminarPartido.dialog('close');
+                                },
+                                error: function (data) {
+                                    AgregarErrorDivPersonalizado(data, "#dialogEliminarPartido #errorDiv");
+                                }
+                            });
+                        }
+                    }
+                ]
+            });
+
+            //Creamos el dialogo para eliminar grupo jornadas
+            dialogEditarPartido = $("#dialogEditarPartido").dialog({
+                modal: true,
+                title: "<div class='widget-header widget-header-small'><h4 class='smaller'><i class='ace-icon fa fa-check'></i>Editar Partido</h4></div>",
+                title_html: true,
+                autoOpen: false,
+                height: 350,
+                width: 600,
+                buttons: [
+                    {
+                        text: "Cancel",
+                        "class": "btn btn-minier",
+                        click: function () {
+                            $(this).dialog("close");
+                        }
+                    },
+                    {
+                        text: "Guardar",
+                        "class": "btn btn-primary btn-minier",
+                        click: function () {
+                            var editarModel = {
+                                id: jornadaID,
+                                grupo: $("#FechaID").val(),
+                                fecha: $("#FechaHorario").val(),
+                                hora: $("#HorasEdicion").val(),
+                            }
+
+                            $.ajax({
+                                url: '../Jornadas/Editar',
+                                type: 'PUT',
+                                data: editarModel,
+                                success: function (result) {
+                                    limpiarTab();
+                                    obtenerJornadasVista();
+                                    dialogEditarPartido.dialog('close');
+                                },
+                                error: function (data) {
+                                    AgregarErrorDivPersonalizado(data, "#dialogEditarPartido #errorDiv");
+                                }
+                            });
+                        }
+                    }
+                ]
+            });
+
+            //Creamos el dialogo para eliminar grupo jornadas
+            dialogCrearPartido = $("#dialogCrearPartido").dialog({
+                modal: true,
+                title: "<div class='widget-header widget-header-small'><h4 class='smaller'><i class='ace-icon fa fa-check'></i>Crear Partido</h4></div>",
+                title_html: true,
+                autoOpen: false,
+                height: 350,
+                width: 600,
+                buttons: [
+                    {
+                        text: "Cancel",
+                        "class": "btn btn-minier",
+                        click: function () {
+                            $(this).dialog("close");
+                        }
+                    },
+                    {
+                        text: "Guardar",
+                        "class": "btn btn-primary btn-minier",
+                        click: function () {
+                            var crearModel = {
+                                campeonatoID: $("#formCampeonatos").val(),
+                                categoriaID: $("#formCategoria").val(),
+                                serieID: $("#formSerie").val(),
+                                ronda: rondaTorneo,
+                                grupoJornada: $("#FechaIDCrear").val(),
+                                equipoIDLocal: $("#equipoLocalLista").val(),
+                                equipoIDVisita: $("#equipoVisitaLista").val(),
+                                fechaInicial: $("#fechaInicioCrear").val(),
+                                hora: $("#HorasCrear").val(),
+                            }
+
+                            $.ajax({
+                                url: '../Jornadas/Crear',
+                                type: 'POST',
+                                data: crearModel,
+                                success: function (result) {
+                                    limpiarTab();
+                                    obtenerJornadasVista();
+                                    dialogCrearPartido.dialog('close');
+                                },
+                                error: function (data) {
+                                    AgregarErrorDivPersonalizado(data, "#dialogCrearPartido #errorDiv");
+                                }
+                            });
+                        }
+                    }
+                ]
+            });
+
+            // Cuando damos click en link mostramos el dialogo
+            $("#btnGeneraRonda1").on("click", function (e) {
+                rondaTorneo = 1;
+                dialogJornadas.removeClass("hidden").dialog("open");
+            });
+
+            // Cuando damos click en link mostramos el dialogo
+            $("#btnGeneraRonda2").on("click", function (e) {
+                rondaTorneo = 2;
+                dialogJornadas.removeClass("hidden").dialog("open");
+            });
+
+            // Cuando damos click en link mostramos el dialogo
+            $("#btnGeneraFinales").on("click", function (e) {
+                rondaTorneo = 3;
+                dialogJornadas.removeClass("hidden").dialog("open");
+            });
+
+            // Cuando damos click en link mostramos el dialogo
+            $("#btnAgregarPartidoRonda1").on("click", function (e) {
+                rondaTorneo = 1;
+
+                $("#FechaIDCrear").val(1);
+                $('#FechaIDCrear').removeAttr('readonly');
+
+                $("#fechaInicioCrear").datepicker('setDate', new Date());
+                $('#fechaInicioCrear').removeAttr('disabled');
+
+                $('#equipoLocalLista').empty();
+                $('#equipoVisitaLista').empty();
+
+                $.get("../Equipos/ObtenerFotos", { campeonatoID: $("#formCampeonatos").val(), categoriaID: $("#formCategoria").val(), serieID: $("#formSerie").val() }, function (data) {
+
+                    $.each(data, function (index, equipo) {
+                        $("#equipoLocalLista").append(new Option(equipo.nombre, equipo.id));
+                        $("#equipoVisitaLista").append(new Option(equipo.nombre, equipo.id));
+                    });
+
+                    dialogCrearPartido.removeClass("hidden").dialog("open");
+                });
+            });
+
+            // Cuando damos click en link mostramos el dialogo
+            $("#btnAgregarPartidoRonda2").on("click", function (e) {
+                rondaTorneo = 2;
+
+                $("#FechaIDCrear").val(1);
+                $('#FechaIDCrear').removeAttr('readonly');
+
+                $("#fechaInicioCrear").datepicker('setDate', new Date());
+                $('#fechaInicioCrear').removeAttr('disabled');
+
+                $('#equipoLocalLista').empty();
+                $('#equipoVisitaLista').empty();
+
+                $.get("../Equipos/ObtenerFotos", { campeonatoID: $("#formCampeonatos").val(), categoriaID: $("#formCategoria").val(), serieID: $("#formSerie").val() }, function (data) {
+
+                    $.each(data, function (index, equipo) {
+                        $("#equipoLocalLista").append(new Option(equipo.nombre, equipo.id));
+                        $("#equipoVisitaLista").append(new Option(equipo.nombre, equipo.id));
+                    });
+
+                    dialogCrearPartido.removeClass("hidden").dialog("open");
+                });
+            });
+
+            // Cuando damos click en link mostramos el dialogo
+            $("#btnAgregarPartidoRonda3").on("click", function (e) {
+                rondaTorneo = 3;
+
+                $("#FechaIDCrear").val(1);
+                $('#FechaIDCrear').removeAttr('readonly');
+
+                $("#fechaInicioCrear").datepicker('setDate', new Date());
+                $('#fechaInicioCrear').removeAttr('disabled');
+
+                $('#equipoLocalLista').empty();
+                $('#equipoVisitaLista').empty();
+
+                $.get("../Equipos/ObtenerFotos", { campeonatoID: $("#formCampeonatos").val(), categoriaID: $("#formCategoria").val(), serieID: $("#formSerie").val() }, function (data) {
+
+                    $.each(data, function (index, equipo) {
+                        $("#equipoLocalLista").append(new Option(equipo.nombre, equipo.id));
+                        $("#equipoVisitaLista").append(new Option(equipo.nombre, equipo.id));
+                    });
+
+                    dialogCrearPartido.removeClass("hidden").dialog("open");
+                });
+            });
+
+            //Multiselect de dias
+            $('.multiselect').multiselect({
+                enableFiltering: false,
+                enableHTML: true,
+                nonSelectedText: 'Seleccione días',
+                buttonClass: 'btn btn-white btn-primary',
+                templates: {
+                    button: '<button type="button" class="multiselect dropdown-toggle" data-toggle="dropdown"><span class="multiselect-selected-text"></span> &nbsp;<b class="fa fa-caret-down"></b></button>',
+                    ul: '<ul class="multiselect-container dropdown-menu"></ul>',
+                    filter: '<li class="multiselect-item filter"><div class="input-group"><span class="input-group-addon"><i class="fa fa-search"></i></span><input class="form-control multiselect-search" type="text"></div></li>',
+                    filterClearBtn: '<span class="input-group-btn"><button class="btn btn-default btn-white btn-grey multiselect-clear-filter" type="button"><i class="fa fa-times-circle red2"></i></button></span>',
+                    li: '<li><a tabindex="0"><label></label></a></li>',
+                    divider: '<li class="multiselect-item divider"></li>',
+                    liGroup: '<li class="multiselect-item multiselect-group"><label></label></li>'
+                }
+            });
+
+            // Agregamos el control para las fechas
+            $('#FechaInicio').datepicker();
+            $('#FechaInicio').datepicker('setDate', new Date());
+            $('#FechaHorario').datepicker();
+            $('#fechaInicioCrear').datepicker();
+
+            $("#formCampeonatos").change(function () {
+                limpiarTab();
+                obtenerJornadasVista();
+            });
+
+            $("#formCategoria").change(function () {
+                limpiarTab();
+                obtenerJornadasVista();
+            });
+
+            $("#formSerie").change(function () {
+                limpiarTab();
+                obtenerJornadasVista();
+            });
+
+            $('.scrollable').each(function () {
+                var $this = $(this);
+                $(this).ace_scroll({
+
+                    size: $this.attr('data-size') || 100,
+                    //styleClass: 'scroll-left scroll-margin scroll-thin scroll-dark scroll-light no-track scroll-visible'
+                });
+            });
+
+        });
+
+        function limpiarTab() {
+            $("#ContenedorJornadasRonda1").empty();
+            $("#ContenedorJornadasRonda2").empty();
+            $("#ContenedorJornadasRonda3").empty();
+        }
+
+        function obtenerJornadasVista() {
+            $.get("../Equipos/ObtenerTodosFotos", function (data) {
+                equiposFotos = data;
+                $.get("../Jornadas/ObtenerJornadasVista", { campeonatoID: $("#formCampeonatos").val(), categoriaID: $("#formCategoria").val(), serieID: $("#formSerie").val() }, function (data) {
+                    jornadas = data;
+                    var ronda1 = jornadas.filter((x) => x.ronda == 1);
+                    var ronda2 = jornadas.filter(x => x.ronda == 2);
+                    var rondaFinales = jornadas.filter(x => x.ronda == 3);
+
+                    // Procesamos la ronda 1
+                    var fechasRonda1 = ronda1.map(x => x.grupoJornada).filter(onlyUnique);
+                    $.each(fechasRonda1, function (index, item) {
+                        var partidos = ronda1.filter(x => x.grupoJornada == item)
+                        insertaJornadas(item, 1, partidos);
+                    });
+
+                    // Procesamos la ronda 2
+                    var fechasRonda2 = ronda2.map(x => x.grupoJornada).filter(onlyUnique);
+                    $.each(fechasRonda2, function (index, item) {
+                        var partidos = ronda2.filter(x => x.grupoJornada == item)
+                        insertaJornadas(item, 2, partidos);
+                    });
+
+                    // Procesamos la ronda final
+                    var fechasRondaFinales = rondaFinales.map(x => x.grupoJornada).filter(onlyUnique);
+                    $.each(fechasRondaFinales, function (index, item) {
+                        var partidos = rondaFinales.filter(x => x.grupoJornada == item)
+                        insertaJornadas(item, 3, partidos);
+                    });
+                })
+                    .fail(function () {
+                        alert("error");
+                    })
+                    .always(function () {
+                        // scrollables
+                        $('.scrollable').each(function () {
+                            var $this = $(this);
+                            $(this).ace_scroll('modify', {
+
+                                size: $this.attr('data-size') || 100,
+                                //styleClass: 'scroll-left scroll-margin scroll-thin scroll-dark scroll-light no-track scroll-visible'
+                            });
+                        });
+
+                        // Cuando damos click en link mostramos el dialogo
+                        $(".eliminarJornadas").on("click", function (e) {
+                            grupoJornadas = this.id.split('_')[1];
+                            rondaTorneo = $('.tab-pane.active').attr('id').split('_')[1];
+                            dialogEliminarJornadas.removeClass("hidden").dialog("open");
+                        });
+
+                        // Cuando damos click en link mostramos el dialogo
+                        $(".agregarPartido").on("click", function (e) {
+                            grupoJornadas = this.id.split('_')[1];
+                            rondaTorneo = $('.tab-pane.active').attr('id').split('_')[1];
+                            var datos = jornadas.filter((x) => x.grupoJornada == grupoJornadas)[0];
+
+                            $("#FechaIDCrear").val(grupoJornadas);
+                            $('#FechaIDCrear').attr('readonly', true);
+
+                            $("#fechaInicioCrear").val(datos.fechaPartido.split(' ')[1]);
+                            $('#fechaInicioCrear').attr('disabled', true);
+
+                            $('#equipoLocalLista').empty();
+                            $('#equipoVisitaLista').empty();
+
+                            $.get("../Equipos/ObtenerFotos", { campeonatoID: $("#formCampeonatos").val(), categoriaID: $("#formCategoria").val(), serieID: $("#formSerie").val() }, function (data) {
+
+                                $.each(data, function (index, equipo) {
+                                    $("#equipoLocalLista").append(new Option(equipo.nombre, equipo.id));
+                                    $("#equipoVisitaLista").append(new Option(equipo.nombre, equipo.id));
+                                });
+
+                                dialogCrearPartido.removeClass("hidden").dialog("open");
+                            });
+                        });
+
+                        // Cuando damos click en link mostramos el dialogo
+                        $(".btn-success").on("click", function (e) {
+                            jornadaID = this.id.split('_')[2];
+
+                            var datos = jornadas.filter((x) => x.id == jornadaID)[0];
+                            $("#dialogEditarPartido #equipoLocal").text(equiposFotos.filter(x => x.id == datos.equipoIDLocal)[0].nombre)
+                            $("#dialogEditarPartido #equipoVisita").text(equiposFotos.filter(x => x.id == datos.equipoIDVisita)[0].nombre)
+
+                            $("#dialogEditarPartido #equipolocalImg").attr("src", "data:image/png;base64," + equiposFotos.filter(x => x.id == datos.equipoIDLocal)[0].foto);
+                            $("#dialogEditarPartido #equipoVisitaImg").attr("src", "data:image/png;base64," + equiposFotos.filter(x => x.id == datos.equipoIDVisita)[0].foto);
+
+                            $("#dialogEditarPartido #FechaID").val(datos.grupoJornada);
+                            $("#dialogEditarPartido #FechaHorario").datepicker('setDate', datos.fechaPartido);
+                            $("#dialogEditarPartido #HorasEdicion option").filter(function () { return this.text == datos.horaPartido + " HRS" }).prop('selected', true);
+
+                            dialogEditarPartido.removeClass("hidden").dialog("open");
+                        });
+
+                        // Cuando damos click en link mostramos el dialogo
+                        $(".btn-danger").on("click", function (e) {
+                            jornadaID = this.id.split('_')[2];
+                            dialogEliminarPartido.removeClass("hidden").dialog("open");
+                        });
+                    });
+            })
+                .fail(function () {
+                    alert("error al obtener fotos");
+                });
+        }
+
+        function onlyUnique(value, index, self) {
+            return self.indexOf(value) === index;
+        }
+
+    </script>
+}

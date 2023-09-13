@@ -1,0 +1,206 @@
+﻿
+@{
+    ViewData["Title"] = "Tablero de Posiciones";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.AntiForgeryToken()
+
+<div class="page-header">
+    <h1>
+        Tablero de posiciones
+        <small>
+            <i class="ace-icon fa fa-angle-double-right"></i>
+            Esta sección es para la visualización de posiciones del campeonato.
+        </small>
+    </h1>
+</div><!-- /.page-header -->
+
+<div class="row">
+    <div class="col-xs-12">
+        <!-- PAGE CONTENT BEGINS -->
+        <div id="busqueda" class="form-inline">
+            <h4>
+                <i class="ace-icon fas fa-hand-point-right icon-animated-hand-pointer blue"></i>
+                <select class="form-control" id="formCampeonatos">
+                    @foreach (var item in ViewBag.CampeonatosLista)
+                    {
+                        <option value="@item.Key">@item.Value</option>
+                    }
+                </select>
+                &nbsp;
+                <select class="form-control" id="formCategoria">
+                    @foreach (var item in ViewBag.CategoriasLista)
+                    {
+                        <option value="@item.Key">@item.Value</option>
+                    }
+                </select>
+                &nbsp;
+                <select class="form-control" id="formSerie">
+                    @foreach (var item in ViewBag.SeriesLista)
+                    {
+                        <option value="@item.Key">@item.Value</option>
+                    }
+                </select>
+                &nbsp;
+                <select class="form-control" id="formRonda">
+                    @foreach (var item in ViewBag.RondasLista)
+                    {
+                        <option value="@item.Key">@item.Value</option>
+                    }
+                </select>
+                <button id="btnseleccionar" class="pull-right btn btn-sm btn-primary">
+                    <i class="ace-icon fas fa-pen-fancy"></i>
+                    <span class="bigger-110">Seleccionar Partido</span>
+                </button>
+            </h4>
+        </div>
+        <div id="tablero" class="hidden">
+            <div class="row">
+                <div class="col-xs-12 text-right">
+                    <button id="btnRegresar" class="btn btn-app btn-primary">
+                        <i class="ace-icon fas fa-undo-alt bigger-230"></i>
+                        <span>Regresar</span>
+                    </button>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <!--final es este tabla-->
+                <table id="posiciones-table" class="table table-striped table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th>
+                                Posición
+                            </th>
+                            <th>
+                                Equipo
+                            </th>
+                            <th>
+                                Partidos Jugados
+                            </th>
+                            <th>
+                                Partidos Ganados
+                            </th>
+                            <th>
+                                Partidos Empatados
+                            </th>
+                            <th>
+                                Partidos Perdidos
+                            </th>
+                            <th>
+                                Goles a Favor
+                            </th>
+                            <th>
+                                Goles en Contra
+                            </th>
+                            <th>
+                                Diferencia Goles
+                            </th>
+                            <th>
+                                Puntos
+                            </th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div id="dialogSeleccionar" class="hidden">
+            <div class="row">
+                <div id="errorDiv" class="col-lg-12">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2><strong>Seleccione un partido</strong></h2>
+                </div>
+            </div><!-- /.row -->
+        </div><!-- /.dialog -->
+        <template id="posicionesTemplate">
+            <tr>
+                <td class="text-center" style="font-size: 20px;"></td>
+                <td class="text-center" style="width:120px;">
+                    <img src="" style="width:50px;height:50px" /><br />
+                    <span></span>
+                </td>
+                <td class="text-center" style="font-size: 20px;"></td>
+                <td class="text-center" style="font-size: 20px;"></td>
+                <td class="text-center" style="font-size: 20px;"></td>
+                <td class="text-center" style="font-size: 20px;"></td>
+                <td class="text-center" style="font-size: 20px;"></td>
+                <td class="text-center" style="font-size: 20px;"></td>
+                <td class="text-center" style="font-size: 20px;"></td>
+                <td class="text-center" style="font-size: 20px;"></td>
+            </tr>
+        </template><!-- row template -->
+        <!-- PAGE CONTENT ENDS -->
+    </div><!-- /.col -->
+</div><!-- /.row -->
+
+@section Scripts {
+    <!-- inline scripts related to this page -->
+    <script type="text/javascript">
+
+        jQuery(function ($) {
+
+            // Configuración para colocar el el titulo del dialog con html
+            $.widget("ui.dialog", $.extend({}, $.ui.dialog.prototype, {
+                _title: function (title) {
+                    var $title = this.options.title || '&nbsp;'
+                    if (("title_html" in this.options) && this.options.title_html == true)
+                        title.html($title);
+                    else title.text($title);
+                }
+            }));
+
+            $("#tablero").hide();
+
+            //Creamos el dialogo para eliminar grupo jornadas
+            dialogSeleccionar = $("#dialogSeleccionar").dialog({
+                modal: true,
+                title: "<div class='widget-header widget-header-small'><h4 class='smaller'><i class='ace-icon fa fa-check'></i>Tablero de Posiciones</h4></div>",
+                title_html: true,
+                autoOpen: false,
+                height: 200,
+                width: 450,
+                buttons: [
+                    {
+                        text: "Ok",
+                        "class": "btn btn-minier",
+                        click: function () {
+                            $(this).dialog("close");
+                        }
+                    }
+                ]
+            });
+
+            // Cuando damos click en boton mostramos los datos del partido
+            $("#btnseleccionar").on("click", function (e) {
+                var jornadaModel = {
+                    campeonatoID: $("#formCampeonatos").val(),
+                    categoriaID: $("#formCategoria").val(),
+                    serieID: $("#formSerie").val(),
+                    ronda: $("#formRonda").val()
+                }
+
+                $.get("../Jornadas/ObtenerJornadasTablero", jornadaModel, function (data) {
+                    $("#posiciones-table > tbody").empty();
+                    insertaTablero(data);
+                    // Mostramos los datos del partido en pantalla
+                    $("#busqueda").slideUp(1000);
+                    $("#tablero").removeClass("hidden").slideDown(5000);
+                });
+            });
+
+            // Muestra los controles para seleccionar el partido
+            $("#btnRegresar").on("click", function (e) {
+                $("#busqueda").slideDown(1000);
+                $("#tablero").slideUp(2000);
+            });
+        });
+    </script>
+}
+

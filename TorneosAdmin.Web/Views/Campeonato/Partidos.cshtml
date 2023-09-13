@@ -1,0 +1,649 @@
+﻿
+@{
+    ViewData["Title"] = "Partidos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.AntiForgeryToken()
+
+<div class="page-header">
+    <h1>
+        Partido
+        <small>
+            <i class="ace-icon fa fa-angle-double-right"></i>
+            Esta sección es para registrar los diferententes datos de un partido( Goles, Jugadores, Tarjetas Rojas y Amarillas, Cambios, etc)
+        </small>
+    </h1>
+</div><!-- /.page-header -->
+
+<div class="row">
+    <div class="col-xs-12">
+        <!-- PAGE CONTENT BEGINS -->
+        <div id="busqueda" class="form-inline">
+            <h4>
+                <i class="ace-icon fas fa-hand-point-right icon-animated-hand-pointer blue"></i>
+                <select class="form-control" id="formCampeonatos" onchange="onchangeList()">
+                    @foreach (var item in ViewBag.CampeonatosLista)
+                    {
+                    <option value="@item.Key">@item.Value</option>
+                    }
+                </select>
+                &nbsp;
+                <select class="form-control" id="formCategoria" onchange="onchangeList()">
+                    @foreach (var item in ViewBag.CategoriasLista)
+                    {
+                    <option value="@item.Key">@item.Value</option>
+                    }
+                </select>
+                &nbsp;
+                <select class="form-control" id="formSerie" onchange="onchangeList()">
+                    @foreach (var item in ViewBag.SeriesLista)
+                    {
+                    <option value="@item.Key">@item.Value</option>
+                    }
+                </select>
+                &nbsp;
+                <select class="form-control" id="formRonda" onchange="onchangeList()">
+                    @foreach (var item in ViewBag.RondasLista)
+                    {
+                    <option value="@item.Key">@item.Value</option>
+                    }
+                </select>
+                <select class="form-control" id="formFecha" onchange="onchangeListFecha()">
+                    @foreach (var item in ViewBag.FechasLista)
+                    {
+                    <option value="@item.Key">@item.Value</option>
+                    }
+                </select>
+                <select class="form-control" id="formPartido">
+                    @if(ViewBag.PartidosLista != null){
+                    @foreach (var item in ViewBag.PartidosLista)
+                        {
+                    <option value="@item.Key">@item.Value</option>
+                        }
+                    }
+                </select>
+                <button id="btnseleccionar" class="pull-right btn btn-sm btn-primary">
+                    <i class="ace-icon fas fa-pen-fancy"></i>
+                    <span class="bigger-110">Seleccionar Partido</span>
+                </button>
+            </h4>
+        </div>
+        <div id="partido" class="hidden">
+            <div class="row">
+                <div class="col-xs-6 text-right">
+                    <button id="btnRegresar" class="btn btn-app btn-primary">
+                        <i class="ace-icon fas fa-undo-alt bigger-230"></i>
+                        <span>Regresar</span>
+                    </button>
+                </div>
+                <div class="col-xs-6 text-left">
+                    <button id="btnGuardar" class="btn btn-app btn-success">
+                        <i class="ace-icon far fa-save bigger-230"></i>
+                        <span>Guardar</span>
+                    </button>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-xs-4 text-right">
+                    <strong style="font-size:20px">Arbitro Central:<span id="arbitroCentral"></span></strong>
+                </div>
+                <div class="col-xs-4 text-center">
+                    <strong style="font-size:20px">Arbitro Linea 1: <span id="arbitroDerecho"></span></strong>
+                </div>
+                <div class="col-xs-4 text-left">
+                    <strong style="font-size:20px">Arbitro Linea 2: <span id="arbitroIzquierdo"></span></strong>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-xs-5 text-center">
+                    <img id="local" src="~/images/avatars/noimagen.png" width="200" height="200" />
+                    <br />
+                    <strong style="font-size:20px"><span id="equipoLocal"></span></strong>
+                    <br />
+                    <strong style="font-size:20px">Vocal: <span id="equipoLocalVocal"></span></strong>
+                    <br />
+                    <strong style="font-size:20px">Goles: <span id="golesEquipoLocal">0</span></strong>
+                </div>
+                <div class="col-xs-2 text-center">
+                    <div style="font-size:100px"><strong>VS</strong></div>
+                    <br />
+                    <select class="form-control" id="estatusPartido">
+                        @foreach (var item in ViewBag.EstatusPartidoLista)
+                    {
+                        <option value="@item.Key">@item.Value</option>
+                    }
+                    </select>
+                    <br />
+                    <strong style="font-size:20px"><span id="fechaPartido"></span></strong>
+                    <br />
+                    <strong style="font-size:20px"><span id="horaPartido"></span> HRS</strong>
+                </div>
+                <div class="col-xs-5 text-center">
+                    <img id="visitante" src="~/images/avatars/noimagen.png" width="200" height="200" />
+                    <br />
+                    <strong style="font-size:20px"><span id="equipoVisitante"></span></strong>
+                    <br />
+                    <strong style="font-size:20px">Vocal: <span id="equipoVisitanteVocal"></span></strong>
+                    <br />
+                    <strong style="font-size:20px">Goles: <span id="golesEquipoVisitante">0</span></strong>
+                </div>
+            </div>
+            <br />
+            <br />
+            <div class="row">
+                <div class="col-xs-6">
+                    <table id="local-table" class="table table-hover" style="width:95%">
+                        <thead>
+                            <tr>
+                                <th class="hidden">PartidoJugadorID</th>
+                                <th style="width:60%" class="text-center"><strong style="font-size:20px">Jugadores</strong></th>
+                                <th style="width:10%" class="text-center"><strong style="font-size:20px">No.</strong></th>
+                                <th style="width:10%" class="text-center">
+                                    <img src="~/images/gallery/tarjetaamarilla.png" width="30" />
+                                </th>
+                                <th style="width:10%" class="text-center">
+                                    <img src="~/images/gallery/tarjetaroja.png" width="30" />
+                                </th>
+                                <th style="width:10%" class="text-center">
+                                    <img src="~/images/gallery/balon-de-futbol.png" width="50" />
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-xs-6">
+                    <table id="visita-table" class="table table-hover" style="width:95%; float:right">
+                        <thead>
+                            <tr>
+                                <th class="hidden">PartidoJugadorID</th>
+                                <th style="width:60%" class="text-center"><strong style="font-size:20px">Jugadores</strong></th>
+                                <th style="width:10%" class="text-center"><strong style="font-size:20px">No.</strong></th>
+                                <th style="width:10%" class="text-center">
+                                    <img src="~/images/gallery/tarjetaamarilla.png" width="30" />
+                                </th>
+                                <th style="width:10%" class="text-center">
+                                    <img src="~/images/gallery/tarjetaroja.png" width="30" />
+                                </th>
+                                <th style="width:10%" class="text-center">
+                                    <img src="~/images/gallery/balon-de-futbol.png" width="50" />
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <br />
+            <br />
+            <div class="row">
+                <div class="col-xs-6">
+                    <table id="localCambios-table" class="table table-hover" style="width:95%">
+                        <thead>
+                            <tr>
+                                <th class="hidden">PartidoJugadorID</th>
+                                <th style="width:60%" class="text-center"><strong style="font-size:20px">Jugadores</strong></th>
+                                <th style="width:10%" class="text-center"><strong style="font-size:20px">No.</strong></th>
+                                <th style="width:10%" class="text-center">
+                                    <img src="~/images/gallery/tarjetaamarilla.png" width="30" />
+                                </th>
+                                <th style="width:10%" class="text-center">
+                                    <img src="~/images/gallery/tarjetaroja.png" width="30" />
+                                </th>
+                                <th style="width:10%" class="text-center">
+                                    <img src="~/images/gallery/balon-de-futbol.png" width="50" />
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-xs-6">
+                    <table id="visitaCambios-table" class="table table-hover" style="width:95%; float:right">
+                        <thead>
+                            <tr>
+                                <th class="hidden">PartidoJugadorID</th>
+                                <th style="width:60%" class="text-center"><strong style="font-size:20px">Jugadores</strong></th>
+                                <th style="width:10%" class="text-center"><strong style="font-size:20px">No.</strong></th>
+                                <th style="width:10%" class="text-center">
+                                    <img src="~/images/gallery/tarjetaamarilla.png" width="30" />
+                                </th>
+                                <th style="width:10%" class="text-center">
+                                    <img src="~/images/gallery/tarjetaroja.png" width="30" />
+                                </th>
+                                <th style="width:10%" class="text-center">
+                                    <img src="~/images/gallery/balon-de-futbol.png" width="50" />
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <br />
+            <br />
+            <div class="row">
+                Observaciones: <textarea id="Observaciones" rows="4" style="width:100%;resize: none;"></textarea>
+            </div>
+            <br />
+            <br />
+        </div>
+        <div id="dialogSeleccionar" class="hidden">
+            <div class="row">
+                <div id="errorDiv" class="col-lg-12">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2><strong>Seleccione un partido</strong></h2>
+                </div>
+            </div><!-- /.row -->
+        </div><!-- /.dialog -->
+        <div id="dialogGuardar" class="hidden">
+            <div class="row">
+                <div id="errorDiv" class="col-lg-12">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2><strong>¿Desea guardar los datos del partido?</strong></h2>
+                </div>
+            </div><!-- /.row -->
+        </div><!-- /.dialog -->
+        <div id="dialogConfirmar" class="hidden">
+            <div class="row">
+                <div id="errorDiv" class="col-lg-12">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2><strong>Se ha guardado correctamente los datos</strong></h2>
+                </div>
+            </div><!-- /.row -->
+        </div><!-- /.dialog -->
+        <template id="JugadorLocalTemplate">
+            <tr>
+                <td class="hidden">0</td>
+                <td><select class="form-control jugadorlocal" onchange="onchangeJugadorLocal(this.value, this)"></select></td>
+                <td style="text-align: center; font-size: 20px;">0</td>
+                <td><input name="jugadorTA" /></td>
+                <td><input name="jugadorTR" /></td>
+                <td id="localGoles"><input type="text" name="jugadorGoles" /></td>
+            </tr>
+        </template><!-- row template -->
+        <template id="JugadorViditanteTemplate">
+            <tr>
+                <td class="hidden">0</td>
+                <td><select class="form-control jugadorVisitante" onchange="onchangeJugadorVisitante(this.value, this)"></select></td>
+                <td style="text-align: center; font-size: 20px;">0</td>
+                <td><input name="jugadorTA" /></td>
+                <td><input name="jugadorTR" /></td>
+                <td id="visitanteGoles"><input name="jugadorGoles" /></td>
+            </tr>
+        </template><!-- row template -->
+        <!-- PAGE CONTENT ENDS -->
+    </div><!-- /.col -->
+</div><!-- /.row -->
+
+@section Scripts {
+    <!-- inline scripts related to this page -->
+    <script type="text/javascript">
+        // Variable Globales
+        var partido;
+        var jugadoresVisitantes;
+        var jugadoresLocales;
+        var jugadoresModelo;
+
+        jQuery(function ($) {
+
+            // Configuración para colocar el el titulo del dialog con html
+            $.widget("ui.dialog", $.extend({}, $.ui.dialog.prototype, {
+                _title: function (title) {
+                    var $title = this.options.title || '&nbsp;'
+                    if (("title_html" in this.options) && this.options.title_html == true)
+                        title.html($title);
+                    else title.text($title);
+                }
+            }));
+
+            $("#partido").hide();
+
+            //Creamos el dialogo para eliminar grupo jornadas
+            dialogSeleccionar = $("#dialogSeleccionar").dialog({
+                modal: true,
+                title: "<div class='widget-header widget-header-small'><h4 class='smaller'><i class='ace-icon fa fa-check'></i>Partido</h4></div>",
+                title_html: true,
+                autoOpen: false,
+                height: 200,
+                width: 450,
+                buttons: [
+                    {
+                        text: "Ok",
+                        "class": "btn btn-minier",
+                        click: function () {
+                            $(this).dialog("close");
+                        }
+                    }
+                ]
+            });
+
+            //Creamos el dialogo para eliminar grupo jornadas
+            dialogGuardar = $("#dialogGuardar").dialog({
+                modal: true,
+                title: "<div class='widget-header widget-header-small'><h4 class='smaller'><i class='ace-icon fa fa-check'></i>Partido</h4></div>",
+                title_html: true,
+                autoOpen: false,
+                height: 400,
+                width: 450,
+                buttons: [
+                    {
+                        text: "Cancelar",
+                        "class": "btn btn-minier",
+                        click: function () {
+                            $(this).dialog("close");
+                        }
+                    },
+                    {
+                        text: "Guardar",
+                        "class": "btn btn-minier",
+                        click: function () {
+
+                            $.ajax({
+                                url: '../Partidos/ActualizarEstatusPartido',
+                                type: 'PUT',
+                                data: { partidoID: partido.partidoID, partidoEstadoID: $("#estatusPartido").val(), observaciones: $("#Observaciones").val()},
+                                success: function (result) {
+                                    obtenerJugadoresModelo();
+                                    $.post("../PartidosJugadores/Crear", { jugadores: jugadoresModelo }, function (data) {
+                                        insertarJugadoresTabla();
+                                        dialogGuardar.dialog('close');
+                                        dialogConfirmar.removeClass("hidden").dialog("open");
+                                    })
+                                        .fail(function (data) {
+                                            AgregarErrorDivPersonalizado(data, "#dialogGuardar #errorDiv");
+                                        });
+                                },
+                                error: function (data) {
+                                    AgregarErrorDivPersonalizado(data, "#dialogGuardar #errorDiv");
+                                }
+                            });
+                        }
+                    }
+                ]
+            });
+
+            //Creamos el dialogo para eliminar grupo jornadas
+            dialogConfirmar = $("#dialogConfirmar").dialog({
+                modal: true,
+                title: "<div class='widget-header widget-header-small'><h4 class='smaller'><i class='ace-icon fa fa-check'></i>Partido</h4></div>",
+                title_html: true,
+                autoOpen: false,
+                height: 200,
+                width: 450,
+                buttons: [
+                    {
+                        text: "Ok",
+                        "class": "btn btn-minier",
+                        click: function () {
+                            $(this).dialog("close");
+                        }
+                    }
+                ]
+            });
+
+            // Cuando damos click en boton mostramos los datos del partido
+            $("#btnseleccionar").on("click", function (e) {
+
+                if ($("#formPartido").val() == null)
+                    dialogSeleccionar.removeClass("hidden").dialog("open");
+                else {
+                    $.get("../Jornadas/ObtenerJornadasPartidoVista", { jornadaID: $("#formPartido").val() }, function (data) {
+                        partido = data;
+
+                        // Configuramos el estatus del partido
+                        $("#estatusPartido").val(partido.partidoEstadoID);
+
+                        // Configuramos las observaciones
+                        $("#Observaciones").val(partido.observaciones);
+
+                        //Limpiamos goles de equipo
+                        $("#golesEquipoLocal").text(0);
+                        $("#golesEquipoVisitante").text(0);
+
+                        // Obtenemos los nombres de los arbitros
+                        $("#arbitroCentral").text(partido.arbitroCentral);
+                        $("#arbitroDerecho").text(partido.arbitroDerecho);
+                        $("#arbitroIzquierdo").text(partido.arbitroIzquierdo);
+
+                        // Obtenemos la fecha y hora del partido
+                        $("#fechaPartido").text(partido.fechaPartido);
+                        $("#horaPartido").text(partido.horaPartido);
+
+                        // Obtenemos los datos del equipo local
+                        $("#equipoLocal").text(partido.equipolocal);
+                        $("#equipoLocalVocal").text(partido.equipolocalVocal);
+                        $("#local").prop("src", "data:image/png;base64," + partido.equipolocalImg);
+
+                        // Obtenemos los datos del equipo visitante
+                        $("#equipoVisitante").text(partido.equipoVisita);
+                        $("#equipoVisitanteVocal").text(partido.equipoVisitaVocal);
+                        $("#visitante").prop("src", "data:image/png;base64," + partido.equipoVisitaImg);
+
+                        // Mostramos los datos del partido en pantalla
+                        $("#busqueda").slideUp(1000);
+                        $("#partido").removeClass("hidden").slideDown(5000);
+
+                        insertarJugadoresTabla();
+                    });
+                }
+            });
+
+            // Muestra el dialogo para confirmar el guardado del partido.
+            $("#btnGuardar").on("click", function (e) {
+                $("#dialogGuardar #errorDiv").empty();
+                dialogGuardar.removeClass("hidden").dialog("open");
+            });
+
+            // Muestra los controles para seleccionar el partido
+            $("#btnRegresar").on("click", function (e) {
+                $("#busqueda").slideDown(1000);
+                $("#partido").slideUp(2000);
+            });
+        });
+
+        function insertarJugadoresTabla() {
+            $("#local-table > tbody").empty();
+            $("#visita-table > tbody").empty();
+            $("#localCambios-table > tbody").empty();
+            $("#visitaCambios-table > tbody").empty();
+
+            // Agregamos la lista de los diferentes jugadores locales
+            $.get("../Jugadores/ObtenerJugadoresLista", { equipoID: partido.equipolocalID }, function (data) {
+                jugadoresLocales = data;
+
+                // Agregamos jugadores locales
+                $.get("../Partidos/ObtenerPartidoJugadores", { partidoID: partido.partidoID, equipoID: partido.equipolocalID }, function (data) {
+                    insertaPartidoJugadores(data, true, jugadoresLocales);
+                })
+                    .always(function () {
+                        // Contabilizamos los goles al inicio
+                        var totalGoles = 0;
+                        $("#local-table > tbody  > tr").each(function () {
+                            totalGoles = totalGoles + parseInt($(this).find("input[name=jugadorGoles]").val());
+                        });
+                        $("#localCambios-table > tbody > tr").each(function () {
+                            totalGoles = totalGoles + parseInt($(this).find("input[name=jugadorGoles]").val());
+                        });
+                        $("#golesEquipoLocal").text(totalGoles);
+
+                        // Contabilizamos los goles cuando se mueva el marcador de algún jugador
+                        $("#localGoles .ace-spinner").on('changed.fu.spinbox', function () {
+                            var totalGoles = 0;
+                            $("#local-table > tbody  > tr").each(function () {
+                                totalGoles = totalGoles + parseInt($(this).find("input[name=jugadorGoles]").val());
+                            });
+                            $("#localCambios-table > tbody > tr").each(function () {
+                                totalGoles = totalGoles + parseInt($(this).find("input[name=jugadorGoles]").val());
+                            });
+                            $("#golesEquipoLocal").text(totalGoles);
+                        });
+                    });
+            });
+
+            // Agregamos la lista de los diferentes jugadores visitantes
+            $.get("../Jugadores/ObtenerJugadoresLista", { equipoID: partido.equipoVisitaID }, function (data) {
+                jugadoresVisitantes = data;
+
+                // Agregamos jugadores locales
+                $.get("../Partidos/ObtenerPartidoJugadores", { partidoID: partido.partidoID, equipoID: partido.equipoVisitaID }, function (data) {
+                    insertaPartidoJugadores(data, false, jugadoresVisitantes);
+                })
+                    .always(function () {
+                        // Contabilizamos los goles al inicio
+                        var totalGoles = 0;
+                        $("#visita-table > tbody  > tr").each(function () {
+                            totalGoles = totalGoles + parseInt($(this).find("input[name=jugadorGoles]").val());
+                        });
+                        $("#visitaCambios-table > tbody > tr").each(function () {
+                            totalGoles = totalGoles + parseInt($(this).find("input[name=jugadorGoles]").val());
+                        });
+                        $("#golesEquipoVisitante").text(totalGoles);
+
+                        // Contabilizamos los goles cuando se mueva el marcador de algún jugador
+                        $("#visitanteGoles .ace-spinner").on('changed.fu.spinbox', function () {
+                            var totalGoles = 0;
+                            $("#visita-table > tbody  > tr").each(function () {
+                                totalGoles = totalGoles + parseInt($(this).find("input[name=jugadorGoles]").val());
+                            });
+                            $("#visitaCambios-table > tbody > tr").each(function () {
+                                totalGoles = totalGoles + parseInt($(this).find("input[name=jugadorGoles]").val());
+                            });
+                            $("#golesEquipoVisitante").text(totalGoles);
+                        });
+                    });
+            });
+        }
+
+        function obtenerJugadoresModelo() {
+            jugadoresModelo = [];
+
+            $("#local-table > tbody > tr").each(function () {
+                row = $(this);
+                m = {
+                    id: parseInt(row.children(0).html()),
+                    partidoID: partido.partidoID,
+                    equipoID: partido.equipolocalID,
+                    jugadorID: parseInt(row.find(".jugadorlocal").val()),
+                    tarjetaAmarilla: parseInt(row.find("input[name=jugadorTA]").val()),
+                    tarjetaRoja: parseInt(row.find("input[name=jugadorTR]").val()),
+                    goles: parseInt(row.find("input[name=jugadorGoles]").val()),
+                    Cambio: false
+                }
+                jugadoresModelo.push(m);
+            });
+
+            $("#localCambios-table > tbody > tr").each(function () {
+                row = $(this);
+                m = {
+                    id: parseInt(row.children(0).html()),
+                    partidoID: partido.partidoID,
+                    equipoID: partido.equipolocalID,
+                    jugadorID: parseInt(row.find(".jugadorlocal").val()),
+                    tarjetaAmarilla: parseInt(row.find("input[name=jugadorTA]").val()),
+                    tarjetaRoja: parseInt(row.find("input[name=jugadorTR]").val()),
+                    goles: parseInt(row.find("input[name=jugadorGoles]").val()),
+                    Cambio: true
+                }
+                jugadoresModelo.push(m);
+            });
+
+            $("#visita-table > tbody > tr").each(function () {
+                row = $(this);
+                m = {
+                    id: parseInt(row.children(0).html()),
+                    partidoID: partido.partidoID,
+                    equipoID: partido.equipoVisitaID,
+                    jugadorID: parseInt(row.find(".jugadorVisitante").val()),
+                    tarjetaAmarilla: parseInt(row.find("input[name=jugadorTA]").val()),
+                    tarjetaRoja: parseInt(row.find("input[name=jugadorTR]").val()),
+                    goles: parseInt(row.find("input[name=jugadorGoles]").val()),
+                    Cambio: false
+                }
+                jugadoresModelo.push(m);
+            });
+
+            $("#visitaCambios-table > tbody > tr").each(function () {
+                row = $(this);
+                m = {
+                    id: parseInt(row.children(0).html()),
+                    partidoID: partido.partidoID,
+                    equipoID: partido.equipoVisitaID,
+                    jugadorID: parseInt(row.find(".jugadorVisitante").val()),
+                    tarjetaAmarilla: parseInt(row.find("input[name=jugadorTA]").val()),
+                    tarjetaRoja: parseInt(row.find("input[name=jugadorTR]").val()),
+                    goles: parseInt(row.find("input[name=jugadorGoles]").val()),
+                    Cambio: true
+                }
+                jugadoresModelo.push(m);
+            });
+        }
+
+        function onchangeList() {
+
+            var jornadaModel = {
+                campeonatoID: $("#formCampeonatos").val(), categoriaID: $("#formCategoria").val(), serieID: $("#formSerie").val(), ronda: $("#formRonda").val(), fecha: 0
+            };
+
+            $.get("../Jornadas/ObtenerJornadasFechas", jornadaModel, function (data) {
+                $("#formFecha").empty();
+
+                $.each(data, function (index, fecha) {
+                    $("#formFecha").append(new Option(fecha.fecha, fecha.id));
+                });
+
+                jornadaModel.fecha = data[0].id;
+
+                $.get("../Jornadas/ObtenerJornadasFechasPartidos", jornadaModel, function (data) {
+                    $("#formPartido").empty();
+
+                    $.each(data, function (index, partido) {
+                        $("#formPartido").append(new Option(partido.equipos, partido.id));
+                    });
+                });
+            });
+        }
+
+        function onchangeListFecha() {
+            var jornadaModel = {
+                campeonatoID: $("#formCampeonatos").val(), categoriaID: $("#formCategoria").val(), serieID: $("#formSerie").val(), ronda: $("#formRonda").val(), fecha: $("#formFecha").val()
+            };
+
+            $.get("../Jornadas/ObtenerJornadasFechasPartidos", jornadaModel, function (data) {
+                $("#formPartido").empty();
+
+                $.each(data, function (index, partido) {
+                    $("#formPartido").append(new Option(partido.equipos, partido.id));
+                });
+            });
+        }
+
+        function onchangeJugadorLocal(idJugador, elem) {
+            var carnet = jugadoresLocales.filter((x) => x.id == parseInt(idJugador))[0].carnet;
+            var tb = elem.closest("tr").cells[2];
+            $(tb).html(carnet);
+        }
+
+        function onchangeJugadorVisitante(idJugador, elem) {
+            var carnet = jugadoresVisitantes.filter((x) => x.id == parseInt(idJugador))[0].carnet;
+            var tb = elem.closest("tr").cells[2];
+            $(tb).html(carnet);
+        }
+    </script>
+}

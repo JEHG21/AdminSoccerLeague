@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\Rotativa\wkhtmltoimage.exe" />
+    <Content Remove="wwwroot\Rotativa\wkhtmltopdf.exe" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\css\images\" />
+    <Folder Include="wwwroot\font-awesome\5.13.0\" />
+    <Folder Include="wwwroot\fonts\" />
+    <Folder Include="wwwroot\images\TempFotos\" />
+    <Folder Include="wwwroot\images\Portada\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Rotativa\wkhtmltoimage.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\Rotativa\wkhtmltopdf.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="3.1.3" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.2" />
+    <PackageReference Include="Rotativa.AspNetCore" Version="1.1.1" />
+    <PackageReference Include="SkiaSharp" Version="1.68.2.1" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+
+
+</Project>

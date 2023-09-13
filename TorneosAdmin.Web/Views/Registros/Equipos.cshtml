@@ -1,0 +1,956 @@
+﻿
+@{
+    ViewData["Title"] = "Comision Técnica";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.AntiForgeryToken()
+
+<div class="page-header">
+    <h1>
+        Equipos
+        <small>
+            <i class="ace-icon fa fa-angle-double-right"></i>
+            Esta sección es para alta, baja y actualización de un equipos, adicional se pueden agregar los jugadores del equipo.
+        </small>
+    </h1>
+</div><!-- /.page-header -->
+<div class="row">
+    <div class="col-xs-12">
+        <!-- PAGE CONTENT BEGINS -->
+        <div class="alert alert-info">
+                <button class="close" data-dismiss="alert">
+                    <i class="ace-icon fa fa-times"></i>
+                </button>
+
+                <i class="ace-icon fa fa-hand-o-right"></i>
+                Nota: unicamente se puede eliminar jugadores en equipos nuevos, posterior a eso solo se desactivaran, si quieren cambiar de equipo los jugadores ir a menu de pase.
+            </div>
+    </div><!-- /.col -->
+</div><!-- /.row -->
+<div class="row">
+    <div class="col-xs-12">
+        <!-- PAGE CONTENT BEGINS -->
+        <div class="row">
+            <h4>
+                <i class="ace-icon fas fa-hand-point-right icon-animated-hand-pointer blue"></i>
+                <a id="btnAgregaEquipo" class="blue"> Agregar Equipo </a>
+            </h4>
+            <div class="hr hr-18 dotted hr-double"></div>
+            <div class="col-xs-12">
+                <table id="equipos-table" width="100%" class="table  table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th class="hidden">Equipo</th>
+                            <th class="detail-col">Detalle</th>
+                            <th>Liga</th>
+                            <th>Categoria</th>
+                            <th>Nombre</th>
+                            <th class="hidden-480">Estado</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="equiposRows">
+                    </tbody>
+                </table>
+            </div><!-- /.table -->
+        </div><!-- /.row -->
+        <div id="dialogEquipo" class="hidden">
+            <div class="row">
+                <div id="errorDiv" class="col-lg-12">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="widget-box">
+                        <div class="widget-header">
+                            <h4 class="widget-title">Datos del equipo</h4>
+                        </div>
+                        <div class="widget-body">
+                            <div class="widget-main">
+                                <div class="row">
+                                    <form class="form-horizontal" role="form">
+                                        <div class="form-group">
+                                            <label class="col-sm-3 control-label no-padding-right" for="formEquipo"> Liga </label>
+
+                                            <div class="col-sm-9">
+                                                <select class="form-control" id="formLiga">
+                                                    @foreach (var item in ViewBag.LigasLista)
+                                                    {
+                                                        <option value="@item.Key">@item.Value</option>
+                                                    }
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="col-sm-3 control-label no-padding-right" for="formCategoria"> Categoría </label>
+
+                                            <div class="col-sm-9">
+                                                <select class="form-control" id="formCategoria">
+                                                    @foreach (var item in ViewBag.CategoriasLista)
+                                                    {
+                                                        <option value="@item.Key">@item.Value</option>
+                                                    }
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="col-sm-3 control-label no-padding-right" for="formSerie"> Serie </label>
+
+                                            <div class="col-sm-9">
+                                                <select class="form-control" id="formSerie">
+                                                    @foreach (var item in ViewBag.SeriesLista)
+                                                    {
+                                                        <option value="@item.Key">@item.Value</option>
+                                                    }
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="col-sm-3 control-label no-padding-right" for="formDirigente"> Dirigente </label>
+
+                                            <div class="col-sm-9">
+                                                <select class="form-control" id="formDirigente">
+                                                    @foreach (var item in ViewBag.DirigentesLista)
+                                                    {
+                                                        <option value="@item.Key">@item.Value</option>
+                                                    }
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="space-4"></div>
+
+                                        <div class="form-group">
+                                            <label class="col-sm-3 control-label no-padding-right" for="NombreEquipo"> Nombre </label>
+
+                                            <div class="col-sm-9">
+                                                <input type="text" id="NombreEquipo" placeholder="Nombre" class="form-control">
+                                            </div>
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <div class="widget-box">
+                        <div class="widget-header">
+                            <h4 class="widget-title">Foto del equipo</h4>
+                        </div>
+
+                        <div class="widget-body">
+                            <div class="widget-main">
+                                <div class="row">
+                                    <form class="form-horizontal" role="form">
+                                        <div class="form-group">
+                                            <div class="col-xs-12">
+                                                <input multiple="" type="file" id="EquipoArchivo" />
+                                                <input type="hidden" id="FotoEquipo" />
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="col-sm-3 control-label no-padding-right" for="FundacionEquipo"> Fundación </label>
+
+                                            <div class="col-sm-9">
+                                                <div class="input-group" style="width:100%;">
+                                                    <input type="text" style="width:100%;" id="FundacionEquipo">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="col-sm-3 control-label no-padding-right" for="ColorEquipo"> Color </label>
+
+                                            <div class="col-sm-9">
+                                                <input type="text" id="ColorEquipo" placeholder="Color" class="form-control">
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.row -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="widget-box">
+                        <div class="widget-header">
+                            <h4 class="widget-title">Jugadores del equipo</h4>
+                        </div>
+
+                        <div class="widget-body">
+                            <div class="widget-main">
+                                <div class="row">
+                                    <button id="AgregarJugador" class="btn btn-sm btn-primary pull-left">
+                                        <i class="ace-icon fas fa-check"></i>
+                                        Agregar Jugador
+                                    </button>
+                                    <div class="class=" col-xs-12">
+                                        <div style="width:100%;overflow:auto;">
+                                            <table id="grid-table" class="col-md-12"></table>
+                                            <div id="grid-pager"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.row -->
+        </div><!-- /.dialog -->
+        <template id="equipoRow">
+            <tr>
+                <td class="center">
+                    <div class="action-buttons">
+                        <a href="#" class="green bigger-140 show-details-btn" title="Muestra el detalle del equipo">
+                            <i class="ace-icon fa fa-angle-double-down"></i>
+                            <span class="sr-only">Detalle</span>
+                        </a>
+                    </div>
+                </td>
+                <td id="Equipo" class="hidden"></td>
+                <td id="ligaRow"></td>
+                <td id="CategoriaRow"></td>
+                <td id="Nombre"></td>
+                <td>
+                    <span id="estado" class="label"></span>
+                </td>
+
+                <td style="min-width:170px">
+                    <div class="btn-group">
+                        <button id="Editar" class="btn btn-xs btn-info">
+                            <i class="ace-icon fas fa-pen-alt bigger-120"></i>
+                        </button>
+
+                        <button id="Desactivar" class="btn btn-xs btn-danger">
+                            <i class="ace-icon fa fa-trash-alt bigger-120"></i>
+                        </button>
+
+                        <button id="Estado" class="btn btn-xs btn-success">
+                            <i class="ace-icon fa fa-check bigger-120"></i>
+                        </button>
+                    </div>
+                </td>
+            </tr>
+            <tr class="detail-row">
+                <td colspan="8">
+                    <div class="table-detail">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-4">
+                                <div class="text-center">
+                                    <img height="150" class="thumbnail inline no-margin-bottom" alt="Equipos" src="" />
+                                    <br />
+                                    <div class="width-100 label label-info label-xlg arrowed-in arrowed-in-right" style="max-width:200px">
+                                        <div class="inline position-relative">
+                                            <a class="user-title-label" href="#">
+                                                <span class="white"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 col-sm-7">
+                                <div class="space visible-xs"></div>
+
+                                <div class="profile-user-info profile-user-info-striped">
+                                    <div class="profile-info-row">
+                                        <div class="profile-info-name"> Equipo </div>
+
+                                        <div class="profile-info-value">
+                                            <span></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="profile-info-row">
+                                        <div class="profile-info-name"> Liga </div>
+
+                                        <div class="profile-info-value">
+                                            <i class="fa fa-map-marker light-orange bigger-110"></i>
+                                            <span></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="profile-info-row">
+                                        <div class="profile-info-name"> Dirigente </div>
+
+                                        <div class="profile-info-value">
+                                            <span></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="profile-info-row">
+                                        <div class="profile-info-name"> Fundación </div>
+
+                                        <div class="profile-info-value">
+                                            <span></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="profile-info-row">
+                                        <div class="profile-info-name"> Color </div>
+
+                                        <div class="profile-info-value">
+                                            <span></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="profile-info-row">
+                                        <div class="profile-info-name"> # Jugadores </div>
+
+                                        <div class="profile-info-value">
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </template><!-- row template -->
+        <div id="dialogConformarcion" class="hidden">
+            <span id="textoDialogo"></span>
+        </div><!-- dialog confirm template -->
+        <!-- PAGE CONTENT ENDS -->
+    </div><!-- /.col -->
+</div><!-- /.row -->
+@section Scripts {
+
+    <!-- inline scripts related to this page -->
+    <script type="text/javascript">
+
+        // Variable Globales
+        var NombreArchivoFoto = '';
+        var equipo;
+        var equipos;
+        var dialogAltaEquipo;
+        var listaEquipos = JSON.parse('@ViewBag.EquiposLista'.replace(/&quot;/g, '"'));
+        var listaEstadosCiviles = JSON.parse('@ViewBag.EstadosCivilesLista'.replace(/&quot;/g, '"'));
+        var listaInstrucciones = JSON.parse('@ViewBag.InstruccionesLista'.replace(/&quot;/g, '"'));
+        var listaProfesiones = JSON.parse('@ViewBag.ProfesionesLista'.replace(/&quot;/g, '"'));
+        var listaProvincias = JSON.parse('@ViewBag.ProvinciasLista'.replace(/&quot;/g, '"'));
+        var listaParroquias = JSON.parse('@ViewBag.ParroquiasLista'.replace(/&quot;/g, '"'));
+        var listaRelacionPro = JSON.parse('@ViewBag.RelacionProParLista'.replace(/&quot;/g, '"'));
+
+
+        jQuery(function ($) {
+            // configuración de los datepicker en español
+            $.datepicker.setDefaults($.datepicker.regional["es"]);
+
+            // Ingresamos los registro a la tabla de equipos.
+            obtenerEquiposVista();
+
+            // Configuración para colocar el el titulo del dialog con html
+            $.widget("ui.dialog", $.extend({}, $.ui.dialog.prototype, {
+                _title: function (title) {
+                    var $title = this.options.title || '&nbsp;'
+                    if (("title_html" in this.options) && this.options.title_html == true)
+                        title.html($title);
+                    else title.text($title);
+                }
+            }));
+            // Configuración para colocar para habilitar la edición en el dialogo del jugador
+            $.widget("ui.dialog", $.ui.dialog, {
+                _allowInteraction: function (event) {
+                    return !!$(event.target).closest(".ui-jqdialog").length || this._super(event);
+                }
+            });
+
+            //Creamos el dialogo para dar de alta los jugadores
+            dialogAltaEquipo = $("#dialogEquipo").dialog({
+                modal: true,
+                title: "<div class='widget-header widget-header-small'><h4 class='smaller'><i class='ace-icon fa fa-check'></i> Registro de Jugadores</h4></div>",
+                title_html: true,
+                position: { my: "center", at: "top", of: window },
+                autoOpen: false,
+                height: 800,
+                width: 800,
+                buttons: [
+                    {
+                        text: "Cancel",
+                        "class": "btn btn-minier",
+                        click: function () {
+                            $(this).dialog("close");
+                            $("#grid-table").jqGrid('clearGridData')
+                        }
+                    },
+                    {
+                        text: "Guardar",
+                        "class": "btn btn-primary btn-minier",
+                        click: function () {
+                            var equipoModel = {
+                                id: equipo,
+                                LigaID: $("#formLiga").val(),
+                                SerieID: $("#formSerie").val(),
+                                CategoriaID: $("#formCategoria").val(),
+                                DirigenteID: $("#formDirigente").val(),
+                                Nombre: $("#NombreEquipo").val(),
+                                Color: $("#ColorEquipo").val(),
+                                FechaFundacion: $("#FundacionEquipo").val(),
+                                NombreArchivo: $("#FotoEquipo").val()
+                            }
+                            if (equipo == 0) {
+                                $.post("../Equipos/Crear", equipoModel, function (data) {
+                                    $.post("../Jugadores/AsignarEquipo", { equipoID: data.id}, function (data) {
+                                        $('#equiposRows').empty();
+                                        obtenerEquiposVista();
+                                        dialogAltaEquipo.dialog('close');
+                                    })
+                                        .fail(function (data) {
+                                            AgregarErrorDiv(data);
+                                        });
+                                })
+                                    .fail(function (data) {
+                                        AgregarErrorDiv(data);
+                                    });
+                            }
+                            else {
+                                $.ajax({
+                                    url: '../Equipos/Editar',
+                                    type: 'PUT',
+                                    data: equipoModel,
+                                    success: function (result) {
+                                        $('#equiposRows').empty();
+                                        obtenerEquiposVista();
+                                        dialogAltaEquipo.dialog('close');
+                                    },
+                                    fail: function (data) {
+                                        AgregarErrorDiv(data);
+                                    }
+                                });
+                            }
+                        }
+                    }
+                ]
+            });
+
+            // Cuando damos click en link mostramos el dialogo
+            $("#btnAgregaEquipo").on("click", function (e) {
+                dialogAltaEquipo.removeClass("hidden").dialog("open");
+                equipo = 0;
+                $("#errorDiv").empty();
+                $('#EquipoArchivo').ace_file_input('reset_input_ui');
+                ElimarFotoEquipo();
+                $("#formLiga").val($("#formLiga option:first").val());
+                $("#formCategoria").val(2);
+                $("#formCategoria").attr("disabled", true);
+                $("#formSerie").val($("#formSerie option:first").val());
+                $("#formDirigente").val($("#formDirigente option:first").val());
+                $("#NombreEquipo").val('');
+                $("#FundacionEquipo").datepicker('setDate', new Date());
+                $("#ColorEquipo").val('');
+                $("#grid-table").setGridParam({ datatype: 'json' }).trigger('reloadGrid', [{ page: 1 }]);
+
+            });
+
+             // Agregamos el control para las fechas
+            $('#FundacionEquipo').datepicker();
+
+            // Agregamos el control para cargar la foto
+            $('#EquipoArchivo').ace_file_input({
+                style: 'well',
+                btn_choose: 'Subir foto',
+                btn_change: 'Cambiar',
+                droppable: true,
+                onchange: null,
+                thumbnail: false,
+                allowExt: ['jpg', 'jpeg', 'png', 'bmp'],
+                allowMime: ['image/jpg', 'image/jpeg', 'image/png', 'image/bmp'],
+                before_change: CargarFotoEquipo,
+                before_remove: ElimarFotoEquipo
+            });
+
+            // Habilitamos que puedan verse los detalles con un clic
+            $('.show-details-btn').on('click', function (e) {
+                e.preventDefault();
+                $(this).closest('tr').next().toggleClass('open');
+                $(this).find(ace.vars['.icon']).toggleClass('fa-angle-double-down').toggleClass('fa-angle-double-up');
+            });
+
+            // Habilitar el scroll la tabla de registro de jugadores.
+            $('#registro-table').css({ 'width': '2000px', 'max-width': 'none' }).wrap('<div style="width: 100%;" />').parent().ace_scroll(
+                {
+                    horizontal: true,
+                    styleClass: 'scroll-top scroll-dark scroll-visible',//show the scrollbars on top(default is bottom)
+                    size: 2000,
+                    mouseWheelLock: true
+                }
+            ).css('padding-top', '12px');
+
+            var grid_selector = "#grid-table";
+            var pager_selector = "#grid-pager";
+            var parent_column = $(grid_selector).closest('[class*="col-"]');
+
+            // boton para agrega un nuevo jugador.
+            $("#AgregarJugador").on("click", function () {
+                addRow();
+            });
+
+            // Actualizar las parroquias cuando se hace cambio de provincia.
+            var cambioProvincia = function (provinciaID, provinciaElem) {
+
+                // build "state" options based on the selected "provincias" value
+                var $select, selectedValues, selectVal,
+                    $provinciaElem = $(provinciaElem);
+
+                // populate the subset of countries
+                if ($provinciaElem.is(".FormElement")) {
+                    // form editing
+                    $select = $provinciaElem.closest("form.FormGrid")
+                        .find("select#parroquiaID.FormElement");
+                } else {
+                    // inline editing
+                    $select = $("select#" + $.jgrid.jqID($provinciaElem.closest("tr.jqgrow").attr("id")) + "parroquiaID");
+                }
+
+                selectVal = $select.val();
+
+                // Limpiamos la lista parroquias
+                $select.find('option').remove();
+
+                var giveValue = function (myKey) {
+                    return listaParroquias[myKey];
+                };
+
+                // Agregamos los elementos de la selección
+                jQuery.each(listaRelacionPro, function (index) {
+                    if (this.Provincia === provinciaID) {
+                        var text = giveValue(this.Parroquia);
+                        $select.append($("<option />").val(this.Parroquia).text(text));
+                    }
+                });
+                return true;
+            };
+
+            // Configuramos para colocar la parroquia seleccionada
+            var dataInitProvincia = function (elem) {
+                setTimeout(function () {
+                    $(elem).change();
+                }, 0);
+            };
+
+            // Configuramos los eventos para cuando cambie la provincia seleccionada
+            var dataEventsProvincia = [
+                { type: "change", fn: function (e) { cambioProvincia($(e.target).val(), e.target); } },
+                { type: "keyup", fn: function (e) { $(e.target).trigger("change"); } }
+            ];
+
+            //resize to fit page size
+            $(window).on('resize.jqGrid', function () {
+                $(grid_selector).jqGrid('setGridWidth', parent_column.width());
+            });
+
+            //resize on sidebar collapse/expand
+            $(document).on('settings.ace.jqGrid', function (ev, event_name, collapsed) {
+                if (event_name === 'sidebar_collapsed' || event_name === 'main_container_fixed') {
+                    //setTimeout is for webkit only to give time for DOM changes and then redraw!!!
+                    setTimeout(function () {
+                        $(grid_selector).jqGrid('setGridWidth', parent_column.width());
+                    }, 20);
+                }
+            })
+
+            $(grid_selector).jqGrid({
+                url: "/Jugadores/ObtenerJugadores",
+                datatype: 'local',
+                mtype: 'GET',
+                postData: { equipoID: function () { return equipo; }},
+                height: 250,
+                width: 2000,
+                colNames: ['','ID', 'Equipo', 'Estado Civil', 'Instrucción', 'Profesión', 'Provincia', 'Parroquia', 'Cédula de identidad', 'Nombre', 'Apellido', 'Fecha de Nacimiento', 'Carnet', 'Fecha de Afiliacion', 'Activo', 'Foto'],
+                colModel: [
+                    {
+                        name: 'myac', width: 80, fixed: true, sortable: false, resize: false, formatter: 'actions',
+                        formatoptions: {
+                            key: true,
+                            editbutton: true,
+                            delbutton: true,
+                            editformbutton: true,
+                            editOptions: {
+                                url: "/Jugadores/Editar",
+                                mtype: 'PUT',
+                                modal: true,
+                                recreateForm: true,
+                                closeAfterEdit: true,
+                                reloadAfterSubmit: true,
+                                beforeShowForm: function (form) {
+                                    form.closest('.ui-jqdialog').find('.ui-jqdialog-titlebar').wrapInner('<div class="widget-header" />');
+                                    var dlgDiv = $("#editmodgrid-table");
+                                    dlgDiv[0].style.top = "0px";
+                                    dlgDiv[0].style.left = Math.round((screen.width / 2) - (dlgDiv.width() / 2)) + "px";
+                                    style_edit_form(form);
+                                    NombreArchivoFoto = '';
+                                },
+                                afterShowForm: function ($form) {
+                                    var style = dialogAltaEquipo.parent().attr('style');
+                                    style = style + "; z-index: 0 !important";
+                                    dialogAltaEquipo.parent().attr('style', style);
+                                },
+                                onClose: function (formId) {
+                                    var style = dialogAltaEquipo.parent().attr('style');
+                                    style = style.replace("; z-index: 0 !important", "");
+                                    dialogAltaEquipo.parent().attr('style', style);
+                                    if (NombreArchivoFoto !== '')
+                                        ElimarFoto();
+                                },
+                                editData: {
+                                    NombreArchivo: function () { return NombreArchivoFoto; },
+                                    equipoID: function () { return equipo; }
+                                },
+                                errorTextFormat: FormatedorMensajesError,
+                            },
+                            delOptions: {
+                                url: "/Jugadores/Eliminar",
+                                mtype: 'PUT',
+                                recreateForm: true,
+                                width: 400,
+                                beforeShowForm: function (form) {
+                                    if (form.data('styled')) return false;
+
+                                    form.closest('.ui-jqdialog').find('.ui-jqdialog-titlebar').wrapInner('<div class="widget-header" />')
+                                    style_delete_form(form);
+
+                                    form.data('styled', true);
+
+                                    if (equipo == 0) {
+                                        form.find(".delmsg").text("¿Desea eliminar el jugador?");
+                                        form.closest('.ui-jqdialog').find("#dData").text('Eliminar');
+                                    }
+                                    else {
+                                        form.find(".delmsg").text("¿Desea eliminar activar o desactivar el jugador?");
+                                        form.closest('.ui-jqdialog').find("#dData").text('Activar/desactivar');
+                                    }
+                                },
+                                afterShowForm: function ($form) {
+                                    var style = dialogAltaEquipo.parent().attr('style');
+                                    style = style + "; z-index: 0 !important";
+                                    dialogAltaEquipo.parent().attr('style', style);
+                                },
+                                onClose: function (formId) {
+                                    var style = dialogAltaEquipo.parent().attr('style');
+                                    style = style.replace("; z-index: 0 !important", "");
+                                    dialogAltaEquipo.parent().attr('style', style);
+                                },
+                                delData: {
+                                    nuevoEquipo: function () { return equipo == 0 ? true : false; },
+                                },
+                                errorTextFormat: FormatedorMensajesError,
+                            }
+                        }
+                    },
+                    { key: true, hidden: true, name: 'id', index: 'id', editable: true },
+                    { name: 'equipoID', index: 'equipoID', hidden: true, editable: true, editrules: { edithidden: false }, edittype: 'select', formatter: 'select', editoptions: { value: getEquipos() } },
+                    { name: 'estadoCivilID', index: 'estadoCivilID', hidden: true, editable: true, editrules: { edithidden: true }, edittype: 'select', formatter: 'select', editoptions: { value: getEstadosCiviles() } },
+                    { name: 'instruccionID', index: 'instruccionID', hidden: true, editable: true, editrules: { edithidden: true }, edittype: 'select', formatter: 'select', editoptions: { value: getInstrucciones() } },
+                    { name: 'profesionID', index: 'profesionID', hidden: true, editable: true, editrules: { edithidden: true }, edittype: 'select', formatter: 'select', editoptions: { value: getProfesiones() } },
+                    { name: 'provinciaID', index: 'provinciaID', hidden: true, editable: true, editrules: { edithidden: true }, edittype: 'select', formatter: 'select', editoptions: { value: getProvincias(), dataInit: dataInitProvincia, dataEvents: dataEventsProvincia } },
+                    { name: 'parroquiaID', index: 'parroquiaID', hidden: true, editable: true, editrules: { edithidden: true }, edittype: 'select', formatter: 'select', editoptions: { value: getParroquias() } },
+                    { name: 'cedula', index: 'cedula', width: 150, editable: true, editoptions: { size: "20", maxlength: "10" } },
+                    { name: 'nombre', index: 'nombre', width: 150, editable: true, editoptions: { size: "20", maxlength: "100" } },
+                    { name: 'apellido', index: 'apellido', width: 150, editable: true, editoptions: { size: "20", maxlength: "100" } },
+                    { name: 'fechaNacimiento', index: 'fechaNacimiento', align: 'center', width: 150, editable: true, sorttype: "date", unformat: pickDate, formatter: dateTable },
+                    { name: 'carnet', index: 'carnet', align: 'center', width: 80, editable: true, editoptions: { size: "20" } },
+                    { name: 'fechaAfiliacion', index: 'fechaAfiliacion', align: 'center', width: 150, editable: true, sorttype: "date", unformat: pickDate, formatter: dateTable },
+                    { name: 'estado', index: 'estado', width: 70, hidden: true,  editable: false, editrules: { edithidden: false }, hidedlg: true, edittype: "checkbox", align: 'center', formatter: checkTable },
+                    { name: 'foto', index: 'foto', width: 150, align: 'center', editable: true, edittype: "file", editoptions: { enctype: 'multipart/form-data' }, formatter: imageFormat }
+                ],
+                iconSet: "fontAwesome",
+                viewrecords: true,
+                rowNum: 5,
+                rowList: [5, 10, 15, 20],
+                pager: pager_selector,
+                autowidth: true,
+                shrinkToFit: false,
+                forceFit: true,
+                altRows: true,
+                //toppager: true,
+
+                multiselect: false,
+                //multikey: "ctrlKey",
+                //multiboxonly: true,
+
+                loadComplete: function () {
+                    var table = this;
+                    setTimeout(function () {
+                        updatePagerIcons(table);
+                        enableTooltips(table);
+                    }, 0);
+                },
+                //gridComplete: gridBinding,
+                caption: "Jugadores",
+            });
+
+            $(window).triggerHandler('resize.jqGrid');//trigger window resize to make the grid get the correct size
+
+            function addRow() {
+                // Get the currently selected row
+                $(grid_selector).jqGrid('editGridRow', 'new', {
+                    url: "/Jugadores/Crear",
+                    mtype: 'POST',
+                    modal: true,
+                    recreateForm: true,
+                    closeAfterAdd: true,
+                    beforeShowForm: function (form) {
+                        form.closest('.ui-jqdialog').find('.ui-jqdialog-titlebar').wrapInner('<div class="widget-header" />')
+                        var dlgDiv = $("#editmodgrid-table");
+                        dlgDiv[0].style.top = "0px";
+                        dlgDiv[0].style.left = Math.round((screen.width / 2) - (dlgDiv.width() / 2)) + "px";
+                        style_edit_form(form);
+                        NombreArchivoFoto = '';
+                    },
+                    afterShowForm: function ($form) {
+                        var style = dialogAltaEquipo.parent().attr('style');
+                        style = style + "; z-index: 1000 !important";
+                        dialogAltaEquipo.parent().attr('style', style);
+                    },
+                    onClose: function (formId) {
+                        var style = dialogAltaEquipo.parent().attr('style');
+                        style = style.replace("; z-index: 1000 !important", "");
+                        dialogAltaEquipo.parent().attr('style', style);
+                        if (NombreArchivoFoto !== '')
+                            ElimarFoto();
+                    },
+                    editData: {
+                        NombreArchivo: function () { return NombreArchivoFoto; },
+                        equipoID: function () { return equipo; }
+                    },
+                    errorTextFormat: FormatedorMensajesError
+                });
+            }
+
+            $(document).one('ajaxloadstart.page', function (e) {
+                $.jgrid.gridDestroy(grid_selector);
+                $('.ui-jqdialog').remove();
+            });
+        });
+
+        function obtenerEquiposVista() {
+
+            $.get("../Equipos/ObtenerEquiposVista", function (data) {
+                equipos = data;
+                $.each(data, function (index, item) {
+                    insertaEquipos(item);
+                });
+
+            })
+                .fail(function () {
+                    alert("error");
+                })
+                .always(function () {
+                    $('#equipos-table').on('click', 'td input[type=checkbox]', function () {
+                        var $row = $(this).closest('tr');
+                        if ($row.is('.detail-row ')) return;
+                        if (this.checked) $row.addClass(active_class);
+                        else $row.removeClass(active_class);
+                    });
+                    $('.show-details-btn').on('click', function (e) {
+                        e.preventDefault();
+                        $(this).closest('tr').next().toggleClass('open');
+                        $(this).find(ace.vars['.icon']).toggleClass('fa-angle-double-down').toggleClass('fa-angle-double-up');
+                    });
+                    $('#equipos-table').on('click', '#Editar', function () {
+                        var $row = $(this).closest('tr')[0];
+                        equipo = $row.cells[1].innerHTML;
+                        var datos = equipos.find(x => x.id == equipo);
+                        $("#errorDiv").empty();
+                        $('#EquipoArchivo').ace_file_input('reset_input_ui');
+                        ElimarFotoEquipo();
+                        $("#formLiga option").filter(function () { return this.text == datos.liga; }).prop('selected', true);
+                        $("#formCategoria").removeAttr("disabled");
+                        $("#formCategoria option").filter(function () { return this.text == datos.categoria; }).prop('selected', true);
+                        $("#formSerie option").filter(function () { return this.text == datos.serie; }).prop('selected', true);
+                        $("#formDirigente option").filter(function () { return this.text == datos.dirigente; }).prop('selected', true);
+                        $("#NombreEquipo").val(datos.nombreEquipo);
+                        $("#FundacionEquipo").val(datos.fundacion);
+                        $("#ColorEquipo").val(datos.color);
+                        $("#grid-table").setGridParam({ datatype: 'json' }).trigger('reloadGrid', [{ page: 1 }]);
+
+                        dialogAltaEquipo.removeClass("hidden").dialog("open");
+                    });
+                    $('#equipos-table').on('click', '#Desactivar', function () {
+                        var $row = $(this).closest('tr')[0];
+                        var equipoID = $row.cells[1].innerHTML;
+
+                        if ($row.cells[5].innerText =="ACTIVO")
+                            $("#textoDialogo").text("Deseas desactivar el equipo");
+                        else
+                            $("#textoDialogo").text("Deseas activar el equipo");
+
+                        $("#dialogConformarcion").dialog({
+                            modal: true,
+                            title: "<div class='widget-header widget-header-small'><h4 class='smaller'><i class='ace-icon fa fa-check'></i> Confirmación</h4></div>",
+                            title_html: true,
+                            autoOpen: false,
+                            buttons: {
+                                "Confirmar": function () {
+                                    $(this).dialog("close");
+
+                                    $.ajax({
+                                        url: '../Equipos/Eliminar',
+                                        type: 'PUT',
+                                        data: { id: equipoID },
+                                        success: function (result) {
+                                            if ($row.cells[5].innerText == 'ACTIVO') {
+                                                span = $($row.cells[5].querySelector('span'));
+                                                span.removeClass("label-success arrowed-right arrowed-out");
+                                                span.addClass("label-danger arrowed-righ arrowed");
+                                                span.text("INACTIVO");
+                                            }
+                                            else {
+                                                span = $($row.cells[5].querySelector('span'));
+                                                span.removeClass("label-danger arrowed-righ arrowed");
+                                                span.addClass("label-success arrowed-right arrowed-out");
+                                                span.text("ACTIVO");
+                                            }
+
+                                        }
+                                    });
+                                },
+                                "Cancel": function () {
+                                    $(this).dialog("close");
+                                }
+                            }
+                        });
+
+                        $("#dialogConformarcion").removeClass("hidden").dialog("open");
+                    });
+                });
+        }
+
+        function getEquipos() {
+            return listaEquipos;
+        }
+
+        function getEstadosCiviles() {
+            return listaEstadosCiviles;
+        }
+
+        function getInstrucciones() {
+            return listaInstrucciones;
+        }
+
+        function getProfesiones() {
+            return listaProfesiones;
+        }
+
+        function getProvincias() {
+            return listaProvincias;
+        }
+
+        function getParroquias() {
+            return listaParroquias;
+        }
+
+        function CargarFotoEquipo(files, dropped) {
+
+            var archivo = files[0];
+
+            if (typeof archivo === 'string') {
+                //older browsers that don't support FileReader API, such as IE
+                alert("Versión antigua de explorador y se soporta la funcionalidad, favor de actulizar versión");
+                return false;
+            } else if ('File' in window && archivo instanceof window.File) {
+                //file is a "File" object with following properties
+                var fd = new FormData();//empty FormData object
+                fd.append('archivo', archivo);
+
+                var deferred = $.ajax({
+                    url: '@Url.Action("SubirFoto", "Equipos")',
+                    type: 'POST',
+                    processData: false,//important
+                    contentType: false,//important
+                    dataType: 'json',//depending on your server side response
+                    data: fd
+                });
+
+                deferred.done(function (result) {
+                    if ($("#FotoEquipo").val() !== '') {
+                        $.post('@Url.Action("ElimintarFoto", "Equipo")', { archivo: $("#FotoEquipo").val() }).done(function (response) {
+                            console.log('El archivo: ' + $("#FotoEquipo").val() + ' es reemplazado por ' + result.foto + 'en el servidor');
+                            $("#FotoEquipo").val(result.foto);
+                        }).fail(function (error) {
+                            console.log('El no se elimno el archivo: ' + NombreArchivoFoto + ' en el servidor');
+                            $("#FotoEquipo").val(result.foto);
+                        });
+                    }
+                    else {
+                        console.log('Se cargo el archivo: ' + result.foto + ' en del servidor');
+                        $("#FotoEquipo").val(result.foto);
+                    }
+                }).fail(function (jqXHR, textStatus, errorThrown) {
+                    alert('error al cargar el archivo')
+                });
+                return true;
+            }
+        }
+
+        function ElimarFotoEquipo() {
+            $.post('@Url.Action("ElimintarFoto", "Equipos")', { archivo: $("#FotoEquipo").val() }).done(function (response) {
+                console.log('Se elimino el archivo: ' + $("#FotoEquipo").val() + ' del servidor');
+                $("#FotoEquipo").val('');
+            });
+            return true;
+        }
+
+        function CargarFoto(files, dropped) {
+
+            var archivo = files[0];
+
+            if (typeof archivo === 'string') {
+                //older browsers that don't support FileReader API, such as IE
+                alert("Versión antigua de explorador y se soporta la funcionalidad, favor de actulizar versión");
+                return false;
+            } else if ('File' in window && archivo instanceof window.File) {
+                //file is a "File" object with following properties
+                var fd = new FormData();//empty FormData object
+                fd.append('archivo', archivo);
+
+                var deferred = $.ajax({
+                    url: '@Url.Action("SubirFoto", "Jugadores")',
+                    type: 'POST',
+                    processData: false,//important
+                    contentType: false,//important
+                    dataType: 'json',//depending on your server side response
+                    data: fd
+                });
+
+                deferred.done(function (result) {
+                    if (NombreArchivoFoto !== '') {
+                        $.post('@Url.Action("ElimintarFoto", "Jugadores")', { archivo: NombreArchivoFoto }).done(function (response) {
+                            console.log('El archivo: ' + NombreArchivoFoto + ' es reemplazado por ' + result.foto + 'en el servidor');
+                            NombreArchivoFoto = result.foto;
+                        }).fail(function (error) {
+                            console.log('El no se elimno el archivo: ' + NombreArchivoFoto + ' en el servidor');
+                            NombreArchivoFoto = result.foto;
+                        });
+                    }
+                    else {
+                        console.log('Se cargo el archivo: ' + result.foto + ' en del servidor');
+                        NombreArchivoFoto = result.foto;
+                    }
+                }).fail(function (jqXHR, textStatus, errorThrown) {
+                    alert('error al cargar el archivo')
+                });
+                return true;
+            }
+        }
+
+        function ElimarFoto() {
+            $.post('@Url.Action("ElimintarFoto", "Jugadores")', { archivo: NombreArchivoFoto }).done(function (response) {
+                console.log('Se elimino el archivo: ' + NombreArchivoFoto + ' del servidor');
+                NombreArchivoFoto = '';
+            });
+            return true;
+        }
+    </script>
+}

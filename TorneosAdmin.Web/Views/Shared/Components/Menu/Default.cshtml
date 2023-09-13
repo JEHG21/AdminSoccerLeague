@@ -1,0 +1,78 @@
+﻿@using TorneosAdmin.Web.Models
+@model IEnumerable<MenuViewModel>
+@functions
+{
+    String Menu(IEnumerable<MenuViewModel> menus)
+    {
+        var menu = "";
+        @foreach (var item in menus)
+        {
+            @if (item.SubMenus == null)
+            {
+                menu = menu + $@"<li class="""">";
+                menu = menu + $@"<a href=""../" + item.Ruta + $@""">";
+                menu = menu + $@"<i class=""menu-icon " + item.Icono + $@"""></i>";
+                menu = menu + $@"<span class=""menu-text"">" + item.Titulo + $@"</span>";
+                menu = menu + $@"</a>";
+                menu = menu + $@"<b class=""arrow""></b>";
+                menu = menu + $@"</li>";
+            }
+            else
+            {
+                menu = menu + $@"<li class="""">";
+                menu = menu + $@"<a href=""#"" class=""dropdown-toggle"">";
+                menu = menu + $@"<i class=""menu-icon " + item.Icono + $@"""></i>";
+                menu = menu + $@"<span class=""menu-text"">" + item.Titulo + $@"</span>";
+                menu = menu + $@"<b class=""arrow fas fa-angle-down""></b>";
+                menu = menu + $@"</a>";
+                menu = menu + $@"<b class=""arrow""></b>";
+                menu = menu + $@"<ul class=""submenu"">";
+                menu = menu + @SubMenu(item.SubMenus);
+                menu = menu + $@"</ul></li>";
+            }
+
+        }
+        return menu;
+    }
+    String SubMenu(IEnumerable<MenuViewModel> menus)
+    {
+        var menu = "";
+        @foreach (var item in menus)
+        {
+            @if (item.SubMenus == null)
+            {
+                menu = menu + $@"<li class="""">";
+                menu = menu + $@"<a href=""../" + item.Ruta + $@""">";
+                menu = menu + $@"<i class=""menu-icon fas fa-caret-right""></i>";
+                menu = menu + $@"<i class=""" + item.Icono + $@"""></i> ";
+                menu = menu + $@"<span class=""menu-text"">" + item.Titulo + $@"</span>";
+                menu = menu + $@"</a>";
+                menu = menu + $@"<b class=""arrow""></b>";
+                menu = menu + $@"</li>";
+            }
+            else
+            {
+                menu = menu + $@"<li class="""">";
+                menu = menu + $@"<a href=""#"" class=""dropdown-toggle"">";
+                menu = menu + $@"<i class=""menu-icon fas fa-caret-right""></i>";
+                menu = menu + $@"<i class=""" + item.Icono + $@"""></i>";
+                menu = menu + $@"<span class=""menu-text"">" + item.Titulo + $@"</span>";
+                menu = menu + $@"<b class=""arrow fas fa-angle-down""></b>";
+                menu = menu + $@"</a>";
+                menu = menu + $@"<b class=""arrow""></b>";
+                menu = menu + $@"<ul class=""submenu"">";
+                menu = menu + @Menu(item.SubMenus);
+                menu = menu + $@"</ul></li>";
+            }
+
+        }
+        return menu;
+    }
+}
+
+<ul class="nav nav-list">
+    <!-- /.nav-list -->
+    @{
+        @Html.Raw(new Microsoft.AspNetCore.Html.HtmlString(Menu(Model)));
+    }
+</ul>

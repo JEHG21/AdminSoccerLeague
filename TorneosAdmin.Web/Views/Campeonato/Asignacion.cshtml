@@ -1,0 +1,270 @@
+﻿
+@{
+    ViewData["Title"] = "Partidos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.AntiForgeryToken()
+
+<div class="page-header">
+    <h1>
+        Partidos
+        <small>
+            <i class="ace-icon fa fa-angle-double-right"></i>
+            Esta sección es para la asignación de árbitros y vocales a un partido.
+        </small>
+    </h1>
+</div><!-- /.page-header -->
+
+<div class="row">
+    <div class="col-xs-12">
+        <!-- PAGE CONTENT BEGINS -->
+        @*<div class="alert alert-warning">
+            <button class="close" data-dismiss="alert">
+                <i class="ace-icon fa fa-times"></i>
+            </button>
+
+            <i class="ace-icon fa fa-hand-o-right"></i>
+            Todas las fotos seran modificadas en la aplicación para tener una resolución de 400 x 420 pixeles.
+        </div>*@
+        <div class="form-inline">
+            <h4>
+                <i class="ace-icon fas fa-hand-point-right icon-animated-hand-pointer blue"></i>
+                <select class="form-control" id="formCampeonatos" onchange="onchangeList()">
+                    @foreach (var item in ViewBag.CampeonatosLista)
+                    {
+                        <option value="@item.Key">@item.Value</option>
+                    }
+                </select>
+                &nbsp;
+                <select class="form-control" id="formCategoria" onchange="onchangeList()">
+                    @foreach (var item in ViewBag.CategoriasLista)
+                    {
+                        <option value="@item.Key">@item.Value</option>
+                    }
+                </select>
+                &nbsp;
+                <select class="form-control" id="formSerie" onchange="onchangeList()">
+                    @foreach (var item in ViewBag.SeriesLista)
+                    {
+                        <option value="@item.Key">@item.Value</option>
+                    }
+                </select>
+                &nbsp;
+                <select class="form-control" id="formRonda" onchange="onchangeList()">
+                    @foreach (var item in ViewBag.RondasLista)
+                    {
+                        <option value="@item.Key">@item.Value</option>
+                    }
+                </select>
+                <select class="form-control" id="formFecha" onchange="onchangeListFecha()">
+                    @foreach (var item in ViewBag.FechasLista)
+                    {
+                        <option value="@item.Key">@item.Value</option>
+                    }
+                </select>
+            </h4>
+        </div>
+        <br />
+        <table id="grid-table"></table>
+        <div id="grid-pager"></div>
+
+        <!-- PAGE CONTENT ENDS -->
+    </div><!-- /.col -->
+</div><!-- /.row -->
+
+@section Scripts {
+    <!-- inline scripts related to this page -->
+    <script type="text/javascript">
+        // Variable Globales
+        var ArbitrosFotos;
+        var listaEstados = JSON.parse('@ViewBag.PartidosEstadosLista'.replace(/&quot;/g, '"'));
+        var listaArbitros = JSON.parse('@ViewBag.ArbitrosLista'.replace(/&quot;/g, '"'));
+
+        jQuery(function ($) {
+
+            var grid_selector = "#grid-table";
+            var pager_selector = "#grid-pager";
+            var parent_column = $(grid_selector).closest('[class*="col-"]');
+
+            // Actualizar las parroquias cuando se hace cambio de árbitro.
+            var cambioArbitrol = function (id, control) {
+                if (control.id == "arbitroIDCentral") {
+                    
+                    if (id == 0) {
+                        $('#fotoCentral').attr("src","../images/avatars/noimagen.png");
+                    }
+                    else {
+                        $.get("../Arbitros/ObtenerFotoArbitro", { arbitroID: id }, function (data) {
+                            if (data == null)
+                                $('#fotoCentral').attr("src", "../images/avatars/noimagen.png");
+                            else
+                                $('#fotoCentral').attr("src", "data:image/png;base64," + data);
+                        });
+                    }
+                }
+                if (control.id == "arbitroIDLateraDerecho") {
+                    if (id == 0) {
+                        $('#fotoDerecho').attr("src", "../images/avatars/noimagen.png");
+                    }
+                    else {
+                        $.get("../Arbitros/ObtenerFotoArbitro", { arbitroID: id }, function (data) {
+                            if (data == null)
+                                $('#fotoDerecho').attr("src", "../images/avatars/noimagen.png");
+                            else
+                                $('#fotoDerecho').attr("src", "data:image/png;base64," + data);
+                        });
+                    }
+                }
+                if (control.id == "arbitroIDLateralIzquierdo") {
+                    if (id == 0) {
+                        $('#fotoIzquierdo').attr("src", "../images/avatars/noimagen.png");
+                    }
+                    else {
+                        $.get("../Arbitros/ObtenerFotoArbitro", { arbitroID: id }, function (data) {
+                            if (data == null)
+                                $('#fotoIzquierdo').attr("src", "../images/avatars/noimagen.png");
+                            else
+                                $('#fotoIzquierdo').attr("src", "data:image/png;base64," + data);
+                        });
+                    }
+                }
+                return true;
+            };
+
+            // Configuramos los eventos para cuando cambie la provincia seleccionada
+            var dataEventsArbtros = [
+                { type: "change", fn: function (e) { cambioArbitrol($(e.target).val(), e.target); } },
+                { type: "keyup", fn: function (e) { $(e.target).trigger("change"); } }
+            ];
+
+            //resize to fit page size
+            $(window).on('resize.jqGrid', function () {
+                $(grid_selector).jqGrid('setGridWidth', parent_column.width());
+            });
+
+            //resize on sidebar collapse/expand
+            $(document).on('settings.ace.jqGrid', function (ev, event_name, collapsed) {
+                if (event_name === 'sidebar_collapsed' || event_name === 'main_container_fixed') {
+                    //setTimeout is for webkit only to give time for DOM changes and then redraw!!!
+                    setTimeout(function () {
+                        $(grid_selector).jqGrid('setGridWidth', parent_column.width());
+                    }, 20);
+                }
+            })
+
+            jQuery(grid_selector).jqGrid({
+                url: "/Partidos/ObtenerPartidos",
+                datatype: 'json',
+                mtype: 'GET',
+                postData: {
+                    campeonatoID: $("#formCampeonatos").val(), categoriaID: $("#formCategoria").val(), serieID: $("#formSerie").val(), ronda: $("#formRonda").val(), fecha: $("#formFecha").val()
+                },
+                height: 400,
+                colNames: ['ID', 'Estado del Partido', 'Partido', 'Árbitro Central', 'Foto', 'Árbitro Latera Derecho', 'Foto', 'Árbitro Lateral Izquierdo', 'Foto', 'Vocal Equipo Local', 'Vocal Equipo Visitante',''],
+                colModel: [
+                    { key: true, hidden: true, name: 'id', index: 'id', editable: true },
+                    { name: 'partidoEstadoID', index: 'partidoEstadoID', editable: false, edittype: 'select', formatter: 'select', editoptions: { value: getEstados() } },
+                    { name: 'partido', index: 'partido', editable: true, editoptions: { size: "20", readonly: true } },
+                    { name: 'arbitroIDCentral', index: 'arbitroIDCentral', editable: true, edittype: 'select', formatter: 'select', editoptions: { value: getArbitros(), dataEvents: dataEventsArbtros } },
+                    { name: 'fotoCentral', jsonmap: 'arbitroIDCentral', align: 'center', editable: true, edittype: "custom", editoptions: { enctype: 'multipart/form-data', custom_element: imageFormatEditArbitro }, formatter: imageFormatArbitroCentral, unformat: imageUnFormat },
+                    { name: 'arbitroIDLateraDerecho', index: 'arbitroIDLateraDerecho', editable: true, edittype: 'select', formatter: 'select', editoptions: { value: getArbitros(), dataEvents: dataEventsArbtros } },
+                    { name: 'fotoDerecho', jsonmap: 'arbitroIDLateraDerecho', align: 'center', editable: true, edittype: "custom", editoptions: { enctype: 'multipart/form-data', custom_element: imageFormatEditArbitro }, formatter: imageFormatArbitroDerecho, unformat: imageUnFormat },
+                    { name: 'arbitroIDLateralIzquierdo', index: 'arbitroIDLateralIzquierdo', editable: true, edittype: 'select', formatter: 'select', editoptions: { value: getArbitros(), dataEvents: dataEventsArbtros } },
+                    { name: 'fotoIzquierdo', jsonmap: 'arbitroIDLateralIzquierdo', align: 'center', editable: true, edittype: "custom", editoptions: { enctype: 'multipart/form-data', custom_element: imageFormatEditArbitro }, formatter: imageFormatArbitroIzquierdo, unformat: imageUnFormat },
+                    { name: 'vocalEquipoLocal', index: 'vocalEquipoLocal', editable: true, editoptions: { size: "20", maxlength: "100" } },
+                    { name: 'vocalEquipoVisitante', index: 'vocalEquipoVisitante', editable: true, editoptions: { size: "20", maxlength: "100" } },
+                    {
+                        name: 'myac', width: 80, fixed: true, sortable: false, resize: false, formatter: 'actions',
+                        formatoptions: {
+                            key: true,
+                            editbutton: true,
+                            delbutton: false,
+                            editformbutton: true,
+                            editOptions: {
+                                url: "/Partidos/Editar",
+                                mtype: 'PUT',
+                                modal: true,
+                                viewPagerButtons: false,
+                                closeAfterEdit: true,
+                                recreateForm: true,
+                                beforeShowForm: function (form) {
+                                    form.closest('.ui-jqdialog').find('.ui-jqdialog-titlebar').wrapInner('<div class="widget-header" />')
+                                    style_edit_form(form);
+                                },
+                                errorTextFormat: FormatedorMensajesError
+                            },
+                        }
+                    }
+                ],
+
+                viewrecords: true,
+                rowNum: 10,
+                rowList: [10, 20, 30],
+                pager: pager_selector,
+                altRows: true,
+                //toppager: true,
+
+                multiselect: false,
+                //multikey: "ctrlKey",
+                //multiboxonly: true,
+
+                loadComplete: function () {
+                    var table = this;
+                    setTimeout(function () {
+                        updatePagerIcons(table);
+                        enableTooltips(table);
+                    }, 0);
+                },
+                caption: "Asignación de Árbitros y vocales",
+
+            });
+
+            $(window).triggerHandler('resize.jqGrid');//trigger window resize to make the grid get the correct size
+
+            $(document).one('ajaxloadstart.page', function (e) {
+                $.jgrid.gridDestroy(grid_selector);
+                $('.ui-jqdialog').remove();
+            });
+        });
+
+        function getEstados() {
+            return listaEstados;
+        }
+
+        function getArbitros() {
+            return listaArbitros;
+        }
+
+        function onchangeList() {
+            //form variables for searching
+            var jornadaModel = {
+                campeonatoID: $("#formCampeonatos").val(), categoriaID: $("#formCategoria").val(), serieID: $("#formSerie").val(), ronda: $("#formRonda").val()
+            };
+
+            $.get("../Jornadas/ObtenerJornadasFechas", jornadaModel, function (data) {
+                $("#formFecha").empty();
+
+                $.each(data, function (index, fecha) {
+                    $("#formFecha").append(new Option(fecha.fecha, fecha.id));
+                });
+
+                jQuery("#grid-table").setGridParam({
+                    postData: {
+                        campeonatoID: $("#formCampeonatos").val(), categoriaID: $("#formCategoria").val(), serieID: $("#formSerie").val(), ronda: $("#formRonda").val(), fecha: data[0].id
+                    },
+                    page: 1
+                }).trigger("reloadGrid");
+            });
+        }
+
+        function onchangeListFecha() {
+            jQuery("#grid-table").setGridParam({
+                postData: {
+                    campeonatoID: $("#formCampeonatos").val(), categoriaID: $("#formCategoria").val(), serieID: $("#formSerie").val(), ronda: $("#formRonda").val(), fecha: $("#formFecha").val()
+                },
+                page: 1
+            }).trigger("reloadGrid");
+        }
+    </script>
+}

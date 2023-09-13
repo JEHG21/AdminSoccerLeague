@@ -1,0 +1,608 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<!-- Basic -->
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Site Metas -->
+    <title>Liga Barrial Sur</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+     
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="~/images/Portada/ligasur2.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="~/css/Portada/bootstrap.min.css" rel="stylesheet" />
+    <!-- Site CSS -->
+    <link href="~/css/Portada/style.css" rel="stylesheet" />
+    <!-- Responsive CSS -->
+    <link href="~/css/Portada/responsive.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    @*<link href="~/css/custom.css" rel="stylesheet" />*@
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Start header -->
+    <header class="top-navbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="~/PaginaPrincipal/Index">
+                    <img src="~/images/Portada/ligasur2.png" alt="" width="100" height="100" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbars-rs-food">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active"><a class="nav-link" href="~/Campeonatoes/Index">Campeonatos</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Listados</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown-a">
+                                <a class="dropdown-item" href="/Dirigente/Index">Dirigentes</a>
+                                <a class="dropdown-item" href="/Equipos/Index">Equipos</a>
+                                <a class="dropdown-item" href="/Jugadores/Index">Jugadores</a>
+                                <a class="dropdown-item" href="/Inscripciones/Index">Inscripciones</a>
+                                <a class="dropdown-item" href="/Arbitros/Index">Arbitros</a>
+                                <a class="nav-link" href="/Pases/Index">Pases</a>
+
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Calendarios</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown-a">
+                                <a class="dropdown-item" href="/Jornada/CalendariA">Serie "A"</a>
+                                <a class="dropdown-item" href="/Jornada/CalendarioB">Serie "B"</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Multas</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown-a">
+                                <a class="dropdown-item" href="/Equipomulta/Index">Equipos</a>
+                                <a class="dropdown-item" href="/Jugadorsancion/Index">Jugadores</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Tabla Posición</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown-a">
+                                <a class="dropdown-item" href="~/Regla/Index">Serie "A"</a>
+                                <a class="dropdown-item" href="~/Ofi/Index">Serie "B"</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Archivos</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown-a">
+                                <a class="dropdown-item" href="~/Regla/Index">Reglamentos</a>
+                                <a class="dropdown-item" href="~/Ofi/Index">Oficios</a>
+                                <a class="dropdown-item" href="~/Sol/Index">Solicitud</a>
+                                <a class="dropdown-item" href="~/Info/Index">Informes Técnicos</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="~/Acceso/Ingreso"><i class="fa fa-sign-in"></i> Iniciar sesión</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End header -->
+    <!-- Start Wiget -->
+    @*<div class="float-right position-relative">
+            <div class="position-absolute col-xs-12 col-sm-6 widget-container-col ui-sortable" id="widget-container-col-1">
+                <div class="widget-box ui-sortable-handle" id="widget-box-1">
+                    <div class="widget-header">
+                        <h5 class="widget-title">Default Widget Box</h5>
+
+                        <div class="widget-toolbar">
+                            <div class="widget-menu">
+                                <a href="#" data-action="settings" data-toggle="dropdown">
+                                    <i class="ace-icon fa fa-bars"></i>
+                                </a>
+
+                                <ul class="dropdown-menu dropdown-menu-right dropdown-light-blue dropdown-caret dropdown-closer">
+                                    <li>
+                                        <a data-toggle="tab" href="#dropdown1">Option#1</a>
+                                    </li>
+
+                                    <li>
+                                        <a data-toggle="tab" href="#dropdown2">Option#2</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <a href="#" data-action="fullscreen" class="orange2">
+                                <i class="ace-icon fa fa-expand"></i>
+                            </a>
+
+                            <a href="#" data-action="reload">
+                                <i class="ace-icon fa fa-refresh"></i>
+                            </a>
+
+                            <a href="#" data-action="collapse">
+                                <i class="ace-icon fa fa-chevron-up"></i>
+                            </a>
+
+                            <a href="#" data-action="close">
+                                <i class="ace-icon fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="widget-body">
+                        <div class="widget-main">
+                            <p class="alert alert-info">
+                                noticia 1.
+                            </p>
+                            <p class="alert alert-info">
+                                noticia 2.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>*@
+    <!-- End Wiget -->
+    <!-- Start slides -->
+    <div id="slides" class="cover-slides">
+        <ul class="slides-container">
+            <li class="text-center">
+                <img src="~/images/Portada/slider-01.jpg" alt="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="m-b-20">
+                                <strong>Reconocimiento <br> al Dr. Hugo Ruiz</strong>
+                            </h1>
+                            <p class="m-b-40">
+                                Por su apoyo incondicional al deporte Carchense.  <br>
+                                En el desarollo fisico y mental del deportista.
+                            </p>
+                            <p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Ver más...</a></p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="text-center">
+                <img src="~/images/Portada/slider-02.jpg" alt="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="m-b-20"><strong>Liga barrial sur <br> presente en la master</strong></h1>
+                            <p class="m-b-40">
+                                Reperesntando a la digna Liga barial del sur  <br>
+                                en el campeonato master que se lleva cada año.
+                            </p>
+                            <p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Ver más...</a></p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="text-center">
+                <img src="~/images/Portada/slider-03.jpg" alt="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="m-b-20"><strong>Instalaciones <br> Liga Barrial sur</strong></h1>
+                            <p class="m-b-40">
+                                Avenida Universitaria y Cayambe a pocos pasos  <br>
+                                de la Universidad Politécnica Estatal del Carchi.
+                            </p>
+                            <p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Ver más...</a></p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="slides-navigation">
+            <a href="#" class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+            <a href="#" class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <!-- End slides -->
+    <!-- Start About -->
+    <div class="about-section-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img src="~/images/Portada/inicio.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 text-center">
+                    <div class="inner-column">
+                        <h1 style="color:red;font-family: forte;">Te damos la Bienvenida a <span style="color:blue">Liga Barrial del Sur-Tulcán</span></h1>
+                        <h4>Pequeña Historia</h4>
+                        <p>Liga Barrial del sur fue fundada en 1985, con el fin de realizar el deporte mundial que es el fútbol, con el propósito de fomentar una salud sana, para jovenes, adultos y público en general. </p>
+                        <p>Nacio con 12 equipos tanto de serie "A" y serie "B", teniendo acogido con el pasar de los años, en la actualidad cuentan con 25 equipos.</p>
+                        <a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Ver más...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
+    <!-- Start QT -->
+    <div class="qt-box qt-background">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 ml-auto mr-auto text-left">
+                    <p class="lead " style="color: black;font-family: forte;border-top-left-radius: 2%;text-align: left;">
+                        " El éxito no es un accidente. Es trabajo duro, perseverancia, aprendizaje, estudio, sacrificio y, sobretodo, amor por lo que estás haciendo o aprendido hacer. "
+                    </p>
+                    <span style="color: black;font-family: forte;">Pelé</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End QT -->
+    <!-- Start Menu -->
+    <div class="menu-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="heading-title text-center">
+                        <h2 style="font-family: forte;">Iconos deportivos</h2>
+                        <p>Nuestro directivos trascendentales a travez de la historia del deporte barrial, que dejarón su legado</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="special-menu text-center">
+                        <div class="button-group filter-button-group">
+                            <button class="active" data-filter="*">Todos</button>
+                            <button data-filter=".drinks">Presidentes</button>
+                            <button data-filter=".lunch">Técnicos</button>
+                            <button data-filter=".dinner">Equipos</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row special-list">
+                <div class="col-lg-4 col-md-6 special-grid drinks">
+                    <div class="gallery-single fix">
+                        <img src="~/images/Portada/b1.jpg" class="img-fluid" alt="Image">
+                        <div class="why-text">
+                            <h4>Sr. Omar Guerrero</h4>
+                            <p>Personaje que ha puesto alma y corazón.</p>
+                            <h5> 2000-2002</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 special-grid drinks">
+                    <div class="gallery-single fix">
+                        <img src="~/images/Portada/b3.jpg" class="img-fluid" alt="Image">
+                        <div class="why-text">
+                            <h4>Sr. Juan Sanchez</h4>
+                            <p>Un personaje que saco adelante dia a dia de su amndato como presidente.</p>
+                            <h5> 2003-2004</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 special-grid drinks">
+                    <div class="gallery-single fix">
+                        <img src="~/images/Portada/b2.jpg" class="img-fluid" alt="Image">
+                        <div class="why-text">
+                            <h4>Sr. Milton Guerron</h4>
+                            <p>Icono deportivo para ser un cofundador de nuestra liga.</p>
+                            <h5> 2005-2006</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 special-grid lunch">
+                    <div class="gallery-single fix">
+                        <img src="~/images/Portada/b6.jpg" class="img-fluid" alt="Image">
+                        <div class="why-text">
+                            <h4>Sr. Andres Pascal</h4>
+                            <p>Un mentor del equipo NTV soccer.</p>
+                            <h5> 2019</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 special-grid lunch">
+                    <div class="gallery-single fix">
+                        <img src="~/images/Portada/b7.jpg" class="img-fluid" alt="Image">
+                        <div class="why-text">
+                            <h4>Manuel Martinez</h4>
+                            <p>Formando juveniles para el deporte carchense y nacional.</p>
+                            <h5> 2019</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 special-grid lunch">
+                    <div class="gallery-single fix">
+                        <img src="~/images/Portada/reconocimiento.jpg" class="img-fluid" alt="Image">
+                        <div class="why-text">
+                            <h4>Sr. Oscar Alvear</h4>
+                            <p>El persona  que a dado muchos titulos a nuestra liga.</p>
+                            <h5> 2019</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 special-grid dinner">
+                    <div class="gallery-single fix">
+                        <img src="~/images/Portada/galeria4.jpeg" class="img-fluid" alt="Image">
+                        <div class="why-text">
+                            <h4>Fox Soccer</h4>
+                            <p>2019</p>
+                            <h5> </h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 special-grid dinner">
+                    <div class="gallery-single fix">
+                        <img src="~/images/Portada/galeria3.jpeg" class="img-fluid" alt="Image">
+                        <div class="why-text">
+                            <h4>Sociedad 11 de Abril</h4>
+                            <p>2019</p>
+                            <h5></h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 special-grid dinner">
+                    <div class="gallery-single fix">
+                        <img src="~/images/Portada/galeria6.jpeg" class="img-fluid" alt="Image">
+                        <div class="why-text">
+                            <h4>Centenario</h4>
+                            <p>2019</p>
+                            <h5> </h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- End Menu -->
+    <!-- Start Gallery -->
+    <div class="gallery-box">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="heading-title text-center">
+                        <h2>Galería</h2>
+                        <p>Aqui un poco de nuestras fotos relevantes...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tz-gallery">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                        <a class="lightbox" href="~/images/Portada/a4.jpg">
+                            <img class="img-fluid" src="~/images/Portada/a4.jpg" alt="Gallery Images">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4">
+                        <a class="lightbox" href="~/images/Portada/a2.jpg">
+                            <img class="img-fluid" src="~/images/Portada/a2.jpg" alt="Gallery Images">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4">
+                        <a class="lightbox" href="~/images/Portada/agradecimiento.jpg">
+                            <img class="img-fluid" src="~/images/Portada/agradecimiento.jpg" alt="Gallery Images">
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                        <a class="lightbox" href="~/images/Portada/noticia2.jpg">
+                            <img class="img-fluid" src="~/images/Portada/noticia2.jpg" alt="Gallery Images">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4">
+                        <a class="lightbox" href="~/images/Portada/galeria8.jpeg">
+                            <img class="img-fluid" src="~/images/Portada/galeria8.jpeg" alt="Gallery Images">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4">
+                        <a class="lightbox" href="~/images/Portada/galeria6.jpeg">
+                            <img class="img-fluid" src="~/images/Portada/galeria6.jpeg" alt="Gallery Images">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Gallery -->
+    <!-- Start Customer Reviews -->
+    <div class="customer-reviews-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="heading-title text-center">
+                        <h2>Nuestros Directivos</h2>
+                        <p>Los que esta´n al frente de nuestra liga barrial, para llevar su gestión con transparencia.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 mr-auto ml-auto text-center">
+                    <div id="reviews" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner mt-4">
+                            <div class="carousel-item text-center active">
+                                <div class="img-box p-1 border rounded-circle m-auto">
+                                    <img class="d-block w-100 rounded-circle" src="~/images/Portada/pascal.jpg" alt="">
+                                </div>
+                                <h5 class="mt-4 mb-0"><strong class="text-warning text-uppercase">Sr. Ándres Pascal</strong></h5>
+                                <h6 class="text-dark m-0">Presidente</h6>
+                                <p class="m-0 pt-3">El sr. presidente es el encargado de velar por el biesnestar del deporte barrial de la liga del sur, ya que el deporte es salud y asi tendremos menos adictos en la sociedad ya que quien práctica un deporte como el fútbol es un adicto menos.</p>
+                            </div>
+                            <div class="carousel-item text-center">
+                                <div class="img-box p-1 border rounded-circle m-auto">
+                                    <img class="d-block w-100 rounded-circle" src="~/images/Portada/pao.jpg" alt="">
+                                </div>
+                                <h5 class="mt-4 mb-0"><strong class="text-warning text-uppercase">Sra. Paola Aúz</strong></h5>
+                                <h6 class="text-dark m-0">Secretaria</h6>
+                                <p class="m-0 pt-3">Es la encargada de receptar todos los documentos que se emiten en la institución deportiva, y tambien mentora para nuestra liga barrial.</p>
+                            </div>
+                            @*<div class="carousel-item text-center">
+                                <div class="img-box p-1 border rounded-circle m-auto">
+                                    <img class="d-block w-100 rounded-circle" src="~/images/Portada/profile-7.jpg" alt="">
+                                </div>
+                                <h5 class="mt-4 mb-0"><strong class="text-warning text-uppercase">Sr.Libardo Jativa</strong></h5>
+                                <h6 class="text-dark m-0">Tesorero</h6>
+                                <p class="m-0 pt-3">Nuestro tesorero es el encargado de los activos, pasivos y patrimonios de nuestra economia de la liga barrial del sur, llevando las cuentas con transparencia y solvencia, para sacar adelante a nuestra liga.</p>
+                            </div>*@
+                            <div class="carousel-item text-center">
+                                <div class="img-box p-1 border rounded-circle m-auto">
+                                    <img class="d-block w-100 rounded-circle" src="~/images/Portada/napo.jpg" alt="">
+                                </div>
+                                <h5 class="mt-4 mb-0"><strong class="text-warning text-uppercase">Sr.Napo Valdiviezo</strong></h5>
+                                <h6 class="text-dark m-0">Comisión Técnica</h6>
+                                <p class="m-0 pt-3">Nuestro mentor de llevar a cabo los registros de nuestro particpantes como jugadores y equipos, y asi dar paso a la gestión operativa del campeonato.</p>
+                            </div>
+                            <div class="carousel-item text-center">
+                                <div class="img-box p-1 border rounded-circle m-auto">
+                                    <img class="d-block w-100 rounded-circle" src="~/images/Portada/omar.jpg" alt="">
+                                </div>
+                                <h5 class="mt-4 mb-0"><strong class="text-warning text-uppercase">Sr.Omar Guerrero</strong></h5>
+                                <h6 class="text-dark m-0">Comisión de Calificación</h6>
+                                <p class="m-0 pt-3">Es nuestro personal que da paso a la verificación de los documentos receptados, verificando que se encuentren en regla para dar paso a nuestro campeonato en donde fomentamos deporte y convivencia con nuestra sociedad deportiva.</p>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#reviews" role="button" data-slide="prev">
+                            <i class="fa fa-angle-left" aria-hidden="true"></i>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#reviews" role="button" data-slide="next">
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Customer Reviews -->
+    <!-- Start Contact info -->
+    <div class="contact-imfo-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <i class="fa fa-volume-control-phone"></i>
+                    <div class="overflow-hidden">
+                        <h4>Telefóno</h4>
+                        <p class="lead">
+                            062980-765
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa fa-envelope"></i>
+                    <div class="overflow-hidden">
+                        <h4>E-mail</h4>
+                        <p class="lead">
+                            ligadelsur@gmail.com
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa fa-map-marker"></i>
+                    <div class="overflow-hidden">
+                        <h4>Ubicación</h4>
+                        <p class="lead">
+                            Av. universitaria y Cayambe, Tulcán
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact info -->
+    <!-- Start Footer -->
+    <footer class="footer-area bg-f">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <h3>Sobre Nosotros</h3>
+                    <p>Somos una institución deportiva dedica al deporte barrial en donde abarcamos a toda la sociedad que desee disfrutar de este hermoso deporte como es el fútbol, y aprovechar al máximo tu tiempo libre, en un momento de esparcimeinto y relajación.</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3>Dias deportivos</h3>
+                    <p><span class="text-color">sábados: </span>8:AM-6PM</p>
+                    <p><span class="text-color">Domingos :</span> 8:Am - 6PM</p>
+                    <p><span class="text-color">Miercoles :</span> 7:PM - 10PM</p>
+                    <p><span class="text-color">Viernes :</span> 5:PM - 10PM</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3>Contactos de información</h3>
+                    <p class="lead">Av. Univeristaria y Cayambe, Tulcán</p>
+                    <p class="lead"><a href="#">whatsapp: 0958585757</a></p>
+                    <p><a href="#"> ligadelsur@gmail.com</a></p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3>Escribenos</h3>
+                    <div class="subscribe_form">
+                        <form class="subscribe_form">
+                            <input name="EMAIL" id="subs-email" class="form_input" placeholder="Email Address..." type="email">
+                            <button type="submit" class="submit">Enviar</button>
+                            <div class="clearfix"></div>
+                        </form>
+                    </div>
+                    <ul class="list-inline f-social">
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="company-name">
+                            Todos los derechos reservados. &copy; 2020 <a href="#">UPEC</a> Diseñado por :
+                            <a>Angelo Fernando Cadena</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+    <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
+
+    <!-- ALL JS FILES -->
+    <script src="~/js/Portada/jquery-3.2.1.min.js"></script>
+    @*<script src="~/css/js/popper.min.js"></script>*@
+    <script src="~/js/Portada/bootstrap.min.js"></script>
+
+    <!-- ALL PLUGINS -->
+    <script src="~/js/Portada/jquery.superslides.min.js"></script>
+    <script src="~/js/Portada/images-loded.min.js"></script>
+    <script src="~/js/Portada/isotope.min.js"></script>
+    <script src="~/js/Portada/baguetteBox.min.js"></script>
+    <script src="~/js/Portada/form-validator.min.js"></script>
+    <script src="~/js/Portada/contact-form-script.js"></script>
+    <script src="~/js/Portada/custom.js"></script>
+
+</body>
+</html>

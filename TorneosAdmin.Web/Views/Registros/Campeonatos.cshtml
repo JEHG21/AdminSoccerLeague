@@ -1,0 +1,167 @@
+﻿
+@{
+    ViewData["Title"] = "Campeonatos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.AntiForgeryToken()
+
+<div class="page-header">
+    <h1>
+        Campeonatos del Sistema
+        <small>
+            <i class="ace-icon fa fa-angle-double-right"></i>
+            Esta sección es para alta baja y actualización de un Campeonato.
+        </small>
+    </h1>
+</div><!-- /.page-header -->
+
+<div class="row">
+    <div class="col-xs-12">
+        <!-- PAGE CONTENT BEGINS -->
+        <div class="alert alert-info">
+            <button class="close" data-dismiss="alert">
+                <i class="ace-icon fa fa-times"></i>
+            </button>
+
+            <i class="ace-icon fa fa-hand-o-right"></i>
+            Nota: solo existe la baja logica.
+        </div>
+        <h4>
+            <i class="ace-icon fas fa-hand-point-right icon-animated-hand-pointer blue"></i>
+            <a id="btnAgregaCampeonato" class="blue"> Agregar Campeonato </a>
+        </h4>
+        <br />
+        <table id="grid-table"></table>
+        <div id="grid-pager"></div>
+
+        <!-- PAGE CONTENT ENDS -->
+    </div><!-- /.col -->
+</div><!-- /.row -->
+
+@section Scripts {
+    <!-- inline scripts related to this page -->
+    <script type="text/javascript">
+
+        jQuery(function ($) {
+
+            // boton para agrega un nuevo campeonato.
+            $("#btnAgregaCampeonato").on("click", function () {
+                addRow();
+            });
+
+            var grid_selector = "#grid-table";
+            var pager_selector = "#grid-pager";
+            var parent_column = $(grid_selector).closest('[class*="col-"]');
+
+            //resize to fit page size
+            $(window).on('resize.jqGrid', function () {
+                $(grid_selector).jqGrid('setGridWidth', parent_column.width());
+            });
+
+            //resize on sidebar collapse/expand
+            $(document).on('settings.ace.jqGrid', function (ev, event_name, collapsed) {
+                if (event_name === 'sidebar_collapsed' || event_name === 'main_container_fixed') {
+                    //setTimeout is for webkit only to give time for DOM changes and then redraw!!!
+                    setTimeout(function () {
+                        $(grid_selector).jqGrid('setGridWidth', parent_column.width());
+                    }, 20);
+                }
+            })
+
+            jQuery(grid_selector).jqGrid({
+                url: "/Campeonatos/ObtenerCampeonatos",
+                datatype: 'json',
+                mtype: 'GET',
+                height: 250,
+                colNames: ['ID', 'Nombre', 'Fecha Inicio', 'Fecha Fin', 'Activo', ''],
+                colModel: [
+                    { key: true, hidden: true, name: 'id', index: 'id', editable: true },
+                    { name: 'nombre', index: 'uombre', width: 100, editable: true, editoptions: { size: "20", maxlength: "30" } },
+                    { name: 'fechaInicio', index: 'fechaInicio', width: 90, editable: true, sorttype: "date", unformat: pickDate, formatter: dateTable },
+                    { name: 'fechaFin', index: 'fechaFin', width: 90, editable: true, sorttype: "date", unformat: pickDate, formatter: dateTable },
+                    { name: 'estado', index: 'estado', width: 70, editable: false, edittype: "checkbox", align: 'center', formatter: checkTable },
+                    {
+                        name: 'myac', width: 80, fixed: true, sortable: false, resize: false, formatter: 'actions',
+                        formatoptions: {
+                            key: true,
+                            editbutton: true,
+                            delbutton: true,
+                            editformbutton: true,
+                            editOptions: {
+                                url: "/Campeonatos/Editar",
+                                mtype: 'PUT',
+                                closeAfterEdit: true,
+                                recreateForm: true,
+                                beforeShowForm: function (form) {
+                                    form.closest('.ui-jqdialog').find('.ui-jqdialog-titlebar').wrapInner('<div class="widget-header" />')
+                                    style_edit_form(form);
+                                },
+                                errorTextFormat: FormatedorMensajesError
+                            },
+                            delOptions: {
+                                url: "/Campeonatos/Eliminar",
+                                mtype: 'PUT',
+                                recreateForm: true,
+                                width: 400,
+                                beforeShowForm: function (form) {
+                                    if (form.data('styled')) return false;
+
+                                    form.closest('.ui-jqdialog').find('.ui-jqdialog-titlebar').wrapInner('<div class="widget-header" />')
+                                    style_delete_form(form);
+
+                                    form.data('styled', true);
+                                },
+                                errorTextFormat: FormatedorMensajesError
+                            }
+                        }
+                    }
+                ],
+
+                viewrecords: true,
+                rowNum: 10,
+                rowList: [10, 20, 30],
+                pager: pager_selector,
+                altRows: true,
+                //toppager: true,
+
+                multiselect: false,
+                //multikey: "ctrlKey",
+                //multiboxonly: true,
+
+                loadComplete: function () {
+                    var table = this;
+                    setTimeout(function () {
+                        updatePagerIcons(table);
+                        enableTooltips(table);
+                    }, 0);
+                },
+                caption: "Campeonatos",
+
+            });
+
+            $(window).triggerHandler('resize.jqGrid');//trigger window resize to make the grid get the correct size
+
+            function addRow() {
+                // Get the currently selected row
+                $(grid_selector).jqGrid('editGridRow', 'new', {
+                    url: "/Campeonatos/Crear",
+                    mtype: 'POST',
+                    closeAfterAdd: true,
+                    recreateForm: true,
+                    viewPagerButtons: false,
+                    beforeShowForm: function (form) {
+                        form.closest('.ui-jqdialog').find('.ui-jqdialog-titlebar').wrapInner('<div class="widget-header" />')
+                        style_edit_form(form);
+                    },
+                    errorTextFormat: FormatedorMensajesError,
+                });
+            }
+
+            $(document).one('ajaxloadstart.page', function (e) {
+                $.jgrid.gridDestroy(grid_selector);
+                $('.ui-jqdialog').remove();
+            });
+        });
+    </script>
+}

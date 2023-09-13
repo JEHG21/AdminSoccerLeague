@@ -1,0 +1,221 @@
+﻿
+@{
+    ViewData["Title"] = "PagosInscripciones";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.AntiForgeryToken()
+
+<div class="page-header">
+    <h1>
+        Pagos de Inscripciones
+        <small>
+            <i class="ace-icon fa fa-angle-double-right"></i>
+            Esta sección es para alta, baja y actulización de pagos de inscripciones.
+        </small>
+    </h1>
+</div><!-- /.page-header -->
+
+<div class="row">
+    <div class="col-xs-12">
+        <!-- PAGE CONTENT BEGINS -->
+        @*<div class="alert alert-warning">
+            <button class="close" data-dismiss="alert">
+                <i class="ace-icon fa fa-times"></i>
+            </button>
+
+            <i class="ace-icon fa fa-hand-o-right"></i>
+            Todas las fotos
+        </div>*@
+        <h4>
+            <i class="ace-icon fas fa-hand-point-right icon-animated-hand-pointer blue"></i>
+            <a id="btnAgregaPago" class="blue"> Agregar Pago Inscripción </a>
+        </h4>
+        <br />
+        <table id="grid-table"></table>
+        <div id="grid-pager"></div>
+
+        <!-- PAGE CONTENT ENDS -->
+    </div><!-- /.col -->
+</div><!-- /.row -->
+
+@section Scripts {
+    <!-- inline scripts related to this page -->
+    <script type="text/javascript">
+        // Variable Globales
+        var listaCampeonatos = JSON.parse('@ViewBag.CampeonatosLista'.replace(/&quot;/g, '"'));
+        var listaEquipos = JSON.parse('@ViewBag.EquiposLista'.replace(/&quot;/g, '"'));
+
+        jQuery(function ($) {
+
+            // boton para agrega un nuevo campeonato.
+            $("#btnAgregaPago").on("click", function () {
+                addRow();
+            });
+
+            var grid_selector = "#grid-table";
+            var pager_selector = "#grid-pager";
+            var parent_column = $(grid_selector).closest('[class*="col-"]');
+
+            //resize to fit page size
+            $(window).on('resize.jqGrid', function () {
+                $(grid_selector).jqGrid('setGridWidth', parent_column.width());
+            });
+
+            //resize on sidebar collapse/expand
+            $(document).on('settings.ace.jqGrid', function (ev, event_name, collapsed) {
+                if (event_name === 'sidebar_collapsed' || event_name === 'main_container_fixed') {
+                    //setTimeout is for webkit only to give time for DOM changes and then redraw!!!
+                    setTimeout(function () {
+                        $(grid_selector).jqGrid('setGridWidth', parent_column.width());
+                    }, 20);
+                }
+            })
+
+            getColumnIndexByName = function (columnName) {
+                var cm = jQuery(grid_selector).jqGrid('getGridParam', 'colModel'), i, l = cm.length;
+                for (i = 0; i < l; i++) {
+                    if (cm[i].name === columnName) {
+                        return i; // return the index
+                    }
+                }
+                return -1;
+            }
+
+            function getCampeonatos() {
+                return listaCampeonatos;
+            }
+
+            function getEquipos() {
+                return listaEquipos;
+            }
+
+            jQuery(grid_selector).jqGrid({
+                url: "/PagosInscripciones/ObtenerPagosIncripciones",
+                datatype: 'json',
+                mtype: 'GET',
+                height: 400,
+                colNames: ['ID', 'Campeonato', 'Equipo', 'Foto', 'Monto de Inscripción', 'Monto de Garantía', 'Observacion', ''],
+                colModel: [
+                    { key: true, hidden: true, name: 'id', index: 'id', editable: true },
+                    { name: 'campeonatoID', index: 'campeonatoID', editable: true, edittype: 'select', formatter: 'select', editoptions: { value: getCampeonatos()}  },
+                    { name: 'equipoID', index: 'equipoID', editable: true,  edittype: 'select', formatter: 'select', editoptions: { value: getEquipos() }},
+                    { name: 'foto', jsonmap: 'equipoID', align: 'center', editable: true, edittype: "custom", editoptions: { enctype: 'multipart/form-data', custom_element: imageFormatEdit }, formatter: imageFormatEquipo, unformat: imageUnFormat },
+                    { name: 'montoInscripcion', index: 'montoInscripcion', editable: true, editoptions: { size: "20", maxlength: "50" } },
+                    { name: 'montoGarantia', index: 'montoGarantia', editable: true, editoptions: { size: "20", maxlength: "50" } },
+                    { name: 'observacion', index: 'observacion',  editable: true, editoptions: { size: "20", maxlength: "300" } },
+                    {
+                        name: 'myac', width: 150, fixed: true, sortable: false, resize: false, formatter: 'actions',
+                        formatoptions: {
+                            key: true,
+                            editbutton: true,
+                            delbutton: true,
+                            editformbutton: true,
+                            editOptions: {
+                                url: "/PagosInscripciones/Editar",
+                                mtype: 'PUT',
+                                viewPagerButtons: false,
+                                closeAfterEdit: true,
+                                recreateForm: true,
+                                beforeShowForm: function (form) {
+                                    form.closest('.ui-jqdialog').find('.ui-jqdialog-titlebar').wrapInner('<div class="widget-header" />')
+                                    form.find('#campeonatoID').attr("disabled", true)
+                                    form.find('#equipoID').attr("disabled", true)
+                                    style_edit_form(form);
+                                },
+                                errorTextFormat: FormatedorMensajesError
+                            },
+                            delOptions: {
+                                url: "/PagosInscripciones/Eliminar",
+                                mtype: 'PUT',
+                                recreateForm: true,
+                                width: 400,
+                                beforeShowForm: function (form) {
+                                    if (form.data('styled')) return false;
+
+                                    form.closest('.ui-jqdialog').find('.ui-jqdialog-titlebar').wrapInner('<div class="widget-header" />')
+                                    style_delete_form(form);
+
+                                    form.data('styled', true);
+
+                                    form.find(".delmsg").text("¿Desea eliminar el pago de la inscripción?");
+                                    form.closest('.ui-jqdialog').find("#dData").text('Eliminar');
+                                },
+                                errorTextFormat: FormatedorMensajesError
+                            }
+                        }
+                    }
+                ],
+
+                viewrecords: true,
+                rowNum: 10,
+                rowList: [10, 20, 30],
+                pager: pager_selector,
+                shrinkToFit: true,
+                autowidth: true,
+                altRows: true,
+                //toppager: true,
+
+                multiselect: false,
+                //multikey: "ctrlKey",
+                //multiboxonly: true,
+
+                loadComplete: function () {
+                    var table = this;
+                    var iCol = getColumnIndexByName('myac');
+
+                    setTimeout(function () {
+                        $(table).find(">tbody>tr.jqgrow>td:nth-child(" + (iCol + 1) + ")")
+                            .each(function () {
+                                $("<div>", {
+                                    title: "Imprimir",
+                                    mouseover: function () {
+                                        $(this).addClass('ui-state-hover');
+                                    },
+                                    mouseout: function () {
+                                        $(this).removeClass('ui-state-hover');
+                                    },
+                                    click: function (e) {
+                                        var id = $(e.target).closest("tr.jqgrow").attr("id")
+                                        window.open("/Recibos/PagoInscripciones/" + id.toString(16), '_blank');
+                                    }
+                                }
+                                ).css({ "margin-right": "10px", float: "left", cursor: "pointer" })
+                                    .addClass("ui-pg-div ui-inline-custom")
+                                    .append('<span class="ui-icon green fas fa-print"></span>')
+                                    .prependTo($(this).children("div"));
+                            });
+                        updatePagerIcons(table);
+                        enableTooltips(table);
+                    }, 0);
+                },
+                caption: "Pagos Inscripciones",
+
+            });
+
+            $(window).triggerHandler('resize.jqGrid');//trigger window resize to make the grid get the correct size
+
+            function addRow() {
+                // Get the currently selected row
+                $(grid_selector).jqGrid('editGridRow', 'new', {
+                    url: "/PagosInscripciones/Crear",
+                    mtype: 'POST',
+                    closeAfterAdd: true,
+                    recreateForm: true,
+                    viewPagerButtons: false,
+                    beforeShowForm: function (form) {
+                        form.closest('.ui-jqdialog').find('.ui-jqdialog-titlebar').wrapInner('<div class="widget-header" />')
+                        style_edit_form(form);
+                        form.find("#tr_foto").hide();
+                    },
+                    errorTextFormat: FormatedorMensajesError,
+                });
+            }
+
+            $(document).one('ajaxloadstart.page', function (e) {
+                $.jgrid.gridDestroy(grid_selector);
+                $('.ui-jqdialog').remove();
+            });
+        });
+    </script>
+}

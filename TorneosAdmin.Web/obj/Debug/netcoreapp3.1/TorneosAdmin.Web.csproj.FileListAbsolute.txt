@@ -1,0 +1,1264 @@
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\appsettings.json
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.exe
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.deps.json
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.runtimeconfig.json
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.runtimeconfig.dev.json
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.pdb
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.Views.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.Views.pdb
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\SkiaSharp.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSkiaSharp.dylib
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\tizen-armel\native\libSkiaSharp.so
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\tizen-x86\native\libSkiaSharp.so
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\libSkiaSharp.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\libSkiaSharp.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.csproj.CoreCompileInputs.cache
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.MvcApplicationPartsAssemblyInfo.cache
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.RazorAssemblyInfo.cache
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.RazorAssemblyInfo.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.AssemblyInfoInputs.cache
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.AssemblyInfo.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.TagHelpers.input.cache
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.TagHelpers.output.cache
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.RazorCoreGenerate.cache
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Acceso\Ingreso.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Administracion\Permisos.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Administracion\Roles.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Administracion\Usuarios.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Administracion\UsuariosRoles.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Campeonato\Inscripciones.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Campeonato\Jornadas.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Campeonato\Partidos.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Campeonato\Pases.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Categorias.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\EstadosCiviles.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Instrucciones.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Ligas.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Parroquias.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\PartidosEstados.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Profesiones.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Provincias.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Series.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\TiposPagos.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Portada\Inicio.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Registros\Arbitros.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Registros\Campeonatos.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Registros\Dirigentes.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Registros\Equipos.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Registros\Jugadores.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Menu\Default.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Tesoreria\PagosInscripciones.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Tesoreria\PagosMultas.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.RazorTargetAssemblyInfo.cache
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.RazorTargetAssemblyInfo.cs
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.Views.pdb
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.csproj.CopyComplete
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\staticwebassets\TorneosAdmin.Web.StaticWebAssets.Manifest.cache
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\staticwebassets\TorneosAdmin.Web.StaticWebAssets.xml
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.dll
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.pdb
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.genruntimeconfig.cache
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.csprojAssemblyReference.cache
+D:\AdminTorneos\Web\TorneosAdmin.Web\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Registros\ComisionTecnica.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.exe
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.deps.json
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.runtimeconfig.json
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.runtimeconfig.dev.json
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.pdb
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.Views.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.Views.pdb
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\SkiaSharp.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\tizen-armel\native\libSkiaSharp.so
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\tizen-x86\native\libSkiaSharp.so
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.csprojAssemblyReference.cache
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.csproj.CoreCompileInputs.cache
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.RazorAssemblyInfo.cache
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.RazorAssemblyInfo.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.AssemblyInfoInputs.cache
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.AssemblyInfo.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.TagHelpers.input.cache
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.TagHelpers.output.cache
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.RazorCoreGenerate.cache
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Acceso\Ingreso.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Administracion\Permisos.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Administracion\Roles.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Administracion\Usuarios.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Administracion\UsuariosRoles.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Campeonato\Inscripciones.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Campeonato\Jornadas.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Campeonato\Partidos.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Campeonato\Pases.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Categorias.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\EstadosCiviles.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Instrucciones.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Ligas.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Parroquias.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\PartidosEstados.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Profesiones.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Provincias.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Series.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\TiposPagos.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Portada\Inicio.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Registros\Arbitros.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Registros\Campeonatos.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Registros\ComisionTecnica.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Registros\Dirigentes.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Registros\Equipos.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Registros\Jugadores.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Menu\Default.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Tesoreria\PagosInscripciones.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Tesoreria\PagosMultas.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.RazorTargetAssemblyInfo.cache
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.RazorTargetAssemblyInfo.cs
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.Views.pdb
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.csproj.CopyComplete
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\staticwebassets\TorneosAdmin.Web.StaticWebAssets.Manifest.cache
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\staticwebassets\TorneosAdmin.Web.StaticWebAssets.xml
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.dll
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.pdb
+C:\Users\Fernando\Source\Repos\CarlosCorona\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.genruntimeconfig.cache
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\appsettings.json
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.exe
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.deps.json
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.runtimeconfig.json
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.runtimeconfig.dev.json
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.pdb
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.Views.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.Views.pdb
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\SkiaSharp.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSkiaSharp.dylib
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\tizen-armel\native\libSkiaSharp.so
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\tizen-x86\native\libSkiaSharp.so
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\libSkiaSharp.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\libSkiaSharp.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.RazorAssemblyInfo.cache
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.RazorAssemblyInfo.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.AssemblyInfoInputs.cache
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.AssemblyInfo.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.TagHelpers.input.cache
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.TagHelpers.output.cache
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.RazorCoreGenerate.cache
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Acceso\Ingreso.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Administracion\Permisos.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Administracion\Roles.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Administracion\Usuarios.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Administracion\UsuariosRoles.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Campeonato\Asignacion.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Campeonato\Inscripciones.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Campeonato\Jornadas.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Campeonato\Pases.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Categorias.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\EstadosCiviles.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Instrucciones.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Ligas.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Parroquias.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\PartidosEstados.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Profesiones.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Provincias.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Series.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\TiposPagos.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Portada\Inicio.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Registros\Arbitros.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Registros\Calificacion.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Registros\Campeonatos.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Registros\Dirigentes.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Registros\Equipos.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Menu\Default.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Tesoreria\PagosInscripciones.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Tesoreria\PagosMultas.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.RazorTargetAssemblyInfo.cache
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.RazorTargetAssemblyInfo.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.Views.pdb
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.csproj.CopyComplete
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\staticwebassets\TorneosAdmin.Web.StaticWebAssets.Manifest.cache
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\staticwebassets\TorneosAdmin.Web.StaticWebAssets.xml
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.pdb
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.genruntimeconfig.cache
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Campeonato\Partidos.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.csprojAssemblyReference.cache
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\SinAcceso.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Campeonato\TableroPosiciones.cshtml.g.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\wwwroot\Rotativa\wkhtmltoimage.exe
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\wwwroot\Rotativa\wkhtmltopdf.exe
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Rotativa.AspNetCore.dll
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.csproj.CoreCompileInputs.cache
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.MvcApplicationPartsAssemblyInfo.cs
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.MvcApplicationPartsAssemblyInfo.cache
+D:\AdminTorneos\Web\TorneoAdmin-App\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Recibos\PagoInscripciones.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.exe
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\wwwroot\Rotativa\wkhtmltoimage.exe
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\wwwroot\Rotativa\wkhtmltopdf.exe
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.deps.json
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.runtimeconfig.json
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.runtimeconfig.dev.json
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.pdb
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.Views.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.Views.pdb
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Rotativa.AspNetCore.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\SkiaSharp.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\tizen-armel\native\libSkiaSharp.so
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\tizen-x86\native\libSkiaSharp.so
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.AssemblyInfoInputs.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.AssemblyInfo.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.csproj.CoreCompileInputs.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.RazorAssemblyInfo.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.RazorAssemblyInfo.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.TagHelpers.input.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.TagHelpers.output.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.RazorCoreGenerate.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Acceso\Ingreso.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Administracion\Permisos.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Administracion\Roles.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Administracion\Usuarios.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Administracion\UsuariosRoles.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Campeonato\Asignacion.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Campeonato\Inscripciones.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Campeonato\Jornadas.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Campeonato\Partidos.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Campeonato\Pases.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Campeonato\TableroPosiciones.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Categorias.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\EstadosCiviles.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Instrucciones.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Ligas.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Parroquias.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\PartidosEstados.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Profesiones.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Provincias.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Series.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\TiposPagos.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\SinAcceso.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Portada\Inicio.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Recibos\PagoInscripciones.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Registros\Arbitros.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Registros\Calificacion.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Registros\Campeonatos.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Registros\Dirigentes.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Registros\Equipos.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Menu\Default.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Tesoreria\PagosInscripciones.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Tesoreria\PagosMultas.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.RazorTargetAssemblyInfo.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.RazorTargetAssemblyInfo.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.Views.pdb
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.csproj.CopyComplete
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\staticwebassets\TorneosAdmin.Web.StaticWebAssets.Manifest.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.pdb
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.genruntimeconfig.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.csproj.AssemblyReference.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\staticwebassets\TorneosAdmin.Web.StaticWebAssets.Pack.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.TorneosAdmin.Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.TorneosAdmin.Web.props
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.TorneosAdmin.Web.props
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\TorneoAdmin-App-master\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.TorneosAdmin.Web.props
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.exe
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\wwwroot\Rotativa\wkhtmltoimage.exe
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\wwwroot\Rotativa\wkhtmltopdf.exe
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.deps.json
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.runtimeconfig.json
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.runtimeconfig.dev.json
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.pdb
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.Views.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.Views.pdb
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Rotativa.AspNetCore.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\SkiaSharp.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\tizen-armel\native\libSkiaSharp.so
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\tizen-x86\native\libSkiaSharp.so
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.csproj.AssemblyReference.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.AssemblyInfoInputs.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.AssemblyInfo.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.csproj.CoreCompileInputs.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.RazorAssemblyInfo.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.RazorAssemblyInfo.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\staticwebassets\TorneosAdmin.Web.StaticWebAssets.Manifest.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\staticwebassets\TorneosAdmin.Web.StaticWebAssets.Pack.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.TorneosAdmin.Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.TorneosAdmin.Web.props
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.TorneosAdmin.Web.props
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.TorneosAdmin.Web.props
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.TagHelpers.input.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.TagHelpers.output.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.RazorCoreGenerate.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Acceso\Ingreso.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Administracion\Permisos.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Administracion\Roles.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Administracion\Usuarios.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Administracion\UsuariosRoles.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Campeonato\Asignacion.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Campeonato\Inscripciones.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Campeonato\Jornadas.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Campeonato\Partidos.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Campeonato\Pases.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Campeonato\TableroPosiciones.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Categorias.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\EstadosCiviles.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Instrucciones.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Ligas.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Parroquias.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\PartidosEstados.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Profesiones.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Provincias.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Series.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\TiposPagos.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\SinAcceso.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Portada\Inicio.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Recibos\PagoInscripciones.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Registros\Arbitros.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Registros\Calificacion.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Registros\Campeonatos.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Registros\Dirigentes.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Registros\Equipos.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Menu\Default.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Tesoreria\PagosInscripciones.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Tesoreria\PagosMultas.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.RazorTargetAssemblyInfo.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.RazorTargetAssemblyInfo.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.Views.pdb
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.csproj.CopyComplete
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.pdb
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerAdmin\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.genruntimeconfig.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.exe
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\wwwroot\Rotativa\wkhtmltoimage.exe
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\wwwroot\Rotativa\wkhtmltopdf.exe
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.deps.json
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.runtimeconfig.json
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.runtimeconfig.dev.json
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.pdb
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.Views.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\TorneosAdmin.Web.Views.pdb
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\Rotativa.AspNetCore.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\SkiaSharp.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\tizen-armel\native\libSkiaSharp.so
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\tizen-x86\native\libSkiaSharp.so
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.csproj.AssemblyReference.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.AssemblyInfoInputs.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.AssemblyInfo.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.csproj.CoreCompileInputs.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.RazorAssemblyInfo.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.RazorAssemblyInfo.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\staticwebassets\TorneosAdmin.Web.StaticWebAssets.Manifest.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\staticwebassets\TorneosAdmin.Web.StaticWebAssets.Pack.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.TorneosAdmin.Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.TorneosAdmin.Web.props
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.TorneosAdmin.Web.props
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.TorneosAdmin.Web.props
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.TagHelpers.input.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.TagHelpers.output.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.RazorCoreGenerate.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Acceso\Ingreso.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Administracion\Permisos.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Administracion\Roles.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Administracion\Usuarios.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Administracion\UsuariosRoles.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Campeonato\Asignacion.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Campeonato\Inscripciones.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Campeonato\Jornadas.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Campeonato\Partidos.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Campeonato\Pases.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Campeonato\TableroPosiciones.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Categorias.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\EstadosCiviles.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Instrucciones.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Ligas.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Parroquias.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\PartidosEstados.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Profesiones.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Provincias.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\Series.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Catalogos\TiposPagos.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\SinAcceso.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Portada\Inicio.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Recibos\PagoInscripciones.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Registros\Arbitros.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Registros\Calificacion.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Registros\Campeonatos.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Registros\Dirigentes.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Registros\Equipos.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Menu\Default.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Tesoreria\PagosInscripciones.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\Tesoreria\PagosMultas.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.RazorTargetAssemblyInfo.cache
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.RazorTargetAssemblyInfo.cs
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.Views.pdb
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.csproj.CopyComplete
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.dll
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.pdb
+C:\Users\JohanHernández-SEII\Documents\JOHAN\UMG\PROYECTO DE GRADUACIÓN\AdminSoccerLeague\TorneosAdmin.Web\obj\Debug\netcoreapp3.1\TorneosAdmin.Web.genruntimeconfig.cache
