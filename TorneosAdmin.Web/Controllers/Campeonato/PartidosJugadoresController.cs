@@ -38,12 +38,12 @@ namespace TorneosAdmin.Web.Controllers.Campeonato
 
                 var jornada = _context.Jornadas.FirstOrDefault(x => x.PartidoID == jugadores.First().PartidoID);
 
-                if (jugadores.Where(x => x.JugadorID != 0 && x.Cambio == false && x.EquipoID == jornada.EquipoIDLocal).Count() < 8)
+                if (jugadores.Where(x => x.JugadorID != 0 && x.Cambio == false && x.EquipoID == jornada.EquipoIDLocal).Count() < 1)//Minimo de jugadores
                 {
                     return BadRequest("El equipo local deben contener minimo 8 jugadores registrados.");
                 }
 
-                if (jugadores.Where(x => x.JugadorID != 0 && x.Cambio == false && x.EquipoID == jornada.EquipoIDVisita).Count() < 8)
+                if (jugadores.Where(x => x.JugadorID != 0 && x.Cambio == false && x.EquipoID == jornada.EquipoIDVisita).Count() < 1)//Minimo de jugadores
                 {
                     return BadRequest("El equipo visitante deben contener minimo 8 jugadores resgistrados.");
                 }

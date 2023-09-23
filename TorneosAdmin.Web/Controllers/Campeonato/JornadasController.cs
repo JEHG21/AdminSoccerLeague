@@ -164,12 +164,12 @@ namespace TorneosAdmin.Web.Controllers
                                   j.CategoriaID == partidosCarga.CategoriaID &&
                                   j.SerieID == partidosCarga.SerieID &&
                                   j.Ronda == partidosCarga.Ronda &&
-                                  (p.PartidoEstadoID == 5 || p.PartidoEstadoID == 6 || p.PartidoEstadoID == 7)
+                                  (p.PartidoEstadoID == 2 || p.PartidoEstadoID == 3 || p.PartidoEstadoID == 4)//Estados: Empatado, Gana Local, Gana Visitante
                             select new { p.ID, p.PartidoEstadoID, j.EquipoIDLocal, j.EquipoIDVisita }).ToList();
 
             foreach (var partido in partidos)
             {
-                if(partido.PartidoEstadoID == 5 || partido.PartidoEstadoID == 6 || partido.PartidoEstadoID == 7)
+                if(partido.PartidoEstadoID == 2 || partido.PartidoEstadoID == 3 || partido.PartidoEstadoID == 4)
                 {
                     // Obtenemos el equipo local
                     var local = tablero.FirstOrDefault(x => x.EquipoID == partido.EquipoIDLocal);
@@ -196,20 +196,20 @@ namespace TorneosAdmin.Web.Controllers
                     switch (partido.PartidoEstadoID)
                     {
                         // Juego Empatado
-                        case 5:
+                        case 2:
                             visitante.PartidosEmpatados++;
                             local.PartidosEmpatados++;
                             local.Puntos += 1;
                             visitante.Puntos += 1;
                             break;
                         // Gana local
-                        case 6:
+                        case 3:
                             local.PartidosGanados++;
                             visitante.PartidosPerdidos++;
                             local.Puntos += 3;
                             break;
                         // Gana Visitante
-                        case 7:
+                        case 4:
                             visitante.PartidosGanados++;
                             local.PartidosPerdidos++;
                             visitante.Puntos += 3;
