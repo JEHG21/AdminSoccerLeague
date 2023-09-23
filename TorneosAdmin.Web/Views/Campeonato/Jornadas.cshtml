@@ -806,7 +806,9 @@
             $('#FechaInicio').datepicker();
             $('#FechaInicio').datepicker('setDate', new Date());
             $('#FechaHorario').datepicker();
-            $('#fechaInicioCrear').datepicker();
+            $("#fechaInicioCrear").datepicker({
+                dateFormat: 'mm/dd/yy' // Formato deseado "MM/dd/yyyy"
+            });
 
             $("#formCampeonatos").change(function () {
                 limpiarTab();
