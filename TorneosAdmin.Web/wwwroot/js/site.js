@@ -183,7 +183,7 @@ function pickDate(cellvalue, options, cell) {
 function telefonoCell(cellvalue, options, cell) {
     setTimeout(function () {
         $(cell).find('input[type=text]')
-            .mask('(999) 999-9999');
+            .mask('(999) 9999-9999');
     }, 0);
 }
 
@@ -195,7 +195,7 @@ function style_edit_form(form) {
     //form.find('input[name=estado]').addClass('ace ace-switch ace-switch-5').wrap('<label class="inline" />').after('<span class="lbl"></span>');
 
     //Mask Telefon element when editing
-    form.find('input[name=telefono]').mask('(999) 999-9999');
+    form.find('input[name=telefono]').mask('(999) 9999-9999');
 
     //Spinner element when editing
     form.find('input[name=carnet]').ace_spinner({ value: 1, min: 0, max: 200, step: 1, on_sides: true, btn_up_class: 'btn-info', btn_down_class: 'btn-info' });
