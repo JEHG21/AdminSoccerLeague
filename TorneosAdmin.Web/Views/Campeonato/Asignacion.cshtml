@@ -11,7 +11,7 @@
         Partidos
         <small>
             <i class="ace-icon fa fa-angle-double-right"></i>
-            Esta sección es para la asignación de árbitros y vocales a un partido.
+            Esta sección es para la asignación de árbitro central a un partido.
         </small>
     </h1>
 </div><!-- /.page-header -->
@@ -103,32 +103,32 @@
                         });
                     }
                 }
-                if (control.id == "arbitroIDLateraDerecho") {
-                    if (id == 0) {
-                        $('#fotoDerecho').attr("src", "../images/avatars/noimagen.png");
-                    }
-                    else {
-                        $.get("../Arbitros/ObtenerFotoArbitro", { arbitroID: id }, function (data) {
-                            if (data == null)
-                                $('#fotoDerecho').attr("src", "../images/avatars/noimagen.png");
-                            else
-                                $('#fotoDerecho').attr("src", "data:image/png;base64," + data);
-                        });
-                    }
-                }
-                if (control.id == "arbitroIDLateralIzquierdo") {
-                    if (id == 0) {
-                        $('#fotoIzquierdo').attr("src", "../images/avatars/noimagen.png");
-                    }
-                    else {
-                        $.get("../Arbitros/ObtenerFotoArbitro", { arbitroID: id }, function (data) {
-                            if (data == null)
-                                $('#fotoIzquierdo').attr("src", "../images/avatars/noimagen.png");
-                            else
-                                $('#fotoIzquierdo').attr("src", "data:image/png;base64," + data);
-                        });
-                    }
-                }
+                //if (control.id == "arbitroIDLateraDerecho") {
+                //    if (id == 0) {
+                //        $('#fotoDerecho').attr("src", "../images/avatars/noimagen.png");
+                //    }
+                //    else {
+                //        $.get("../Arbitros/ObtenerFotoArbitro", { arbitroID: id }, function (data) {
+                //            if (data == null)
+                //                $('#fotoDerecho').attr("src", "../images/avatars/noimagen.png");
+                //            else
+                //                $('#fotoDerecho').attr("src", "data:image/png;base64," + data);
+                //        });
+                //    }
+                //}
+                //if (control.id == "arbitroIDLateralIzquierdo") {
+                //    if (id == 0) {
+                //        $('#fotoIzquierdo').attr("src", "../images/avatars/noimagen.png");
+                //    }
+                //    else {
+                //        $.get("../Arbitros/ObtenerFotoArbitro", { arbitroID: id }, function (data) {
+                //            if (data == null)
+                //                $('#fotoIzquierdo').attr("src", "../images/avatars/noimagen.png");
+                //            else
+                //                $('#fotoIzquierdo').attr("src", "data:image/png;base64," + data);
+                //        });
+                //    }
+                //}
                 return true;
             };
 
@@ -161,19 +161,20 @@
                     campeonatoID: $("#formCampeonatos").val(), categoriaID: $("#formCategoria").val(), serieID: $("#formSerie").val(), ronda: $("#formRonda").val(), fecha: $("#formFecha").val()
                 },
                 height: 400,
-                colNames: ['ID', 'Estado del Partido', 'Partido', 'Árbitro Central', 'Foto', 'Árbitro Latera Derecho', 'Foto', 'Árbitro Lateral Izquierdo', 'Foto', 'Vocal Equipo Local', 'Vocal Equipo Visitante',''],
+                //colNames: ['ID', 'Estado del Partido', 'Partido', 'Árbitro Central', 'Foto', 'Árbitro Latera Derecho', 'Foto', 'Árbitro Lateral Izquierdo', 'Foto', 'Vocal Equipo Local', 'Vocal Equipo Visitante',''],
+                colNames: ['ID', 'Estado del Partido', 'Partido', 'Árbitro Central', 'Foto', ''],
                 colModel: [
                     { key: true, hidden: true, name: 'id', index: 'id', editable: true },
                     { name: 'partidoEstadoID', index: 'partidoEstadoID', editable: false, edittype: 'select', formatter: 'select', editoptions: { value: getEstados() } },
                     { name: 'partido', index: 'partido', editable: true, editoptions: { size: "20", readonly: true } },
                     { name: 'arbitroIDCentral', index: 'arbitroIDCentral', editable: true, edittype: 'select', formatter: 'select', editoptions: { value: getArbitros(), dataEvents: dataEventsArbtros } },
                     { name: 'fotoCentral', jsonmap: 'arbitroIDCentral', align: 'center', editable: true, edittype: "custom", editoptions: { enctype: 'multipart/form-data', custom_element: imageFormatEditArbitro }, formatter: imageFormatArbitroCentral, unformat: imageUnFormat },
-                    { name: 'arbitroIDLateraDerecho', index: 'arbitroIDLateraDerecho', editable: true, edittype: 'select', formatter: 'select', editoptions: { value: getArbitros(), dataEvents: dataEventsArbtros } },
-                    { name: 'fotoDerecho', jsonmap: 'arbitroIDLateraDerecho', align: 'center', editable: true, edittype: "custom", editoptions: { enctype: 'multipart/form-data', custom_element: imageFormatEditArbitro }, formatter: imageFormatArbitroDerecho, unformat: imageUnFormat },
-                    { name: 'arbitroIDLateralIzquierdo', index: 'arbitroIDLateralIzquierdo', editable: true, edittype: 'select', formatter: 'select', editoptions: { value: getArbitros(), dataEvents: dataEventsArbtros } },
-                    { name: 'fotoIzquierdo', jsonmap: 'arbitroIDLateralIzquierdo', align: 'center', editable: true, edittype: "custom", editoptions: { enctype: 'multipart/form-data', custom_element: imageFormatEditArbitro }, formatter: imageFormatArbitroIzquierdo, unformat: imageUnFormat },
-                    { name: 'vocalEquipoLocal', index: 'vocalEquipoLocal', editable: true, editoptions: { size: "20", maxlength: "100" } },
-                    { name: 'vocalEquipoVisitante', index: 'vocalEquipoVisitante', editable: true, editoptions: { size: "20", maxlength: "100" } },
+                    //{ name: 'arbitroIDLateraDerecho', index: 'arbitroIDLateraDerecho', editable: true, edittype: 'select', formatter: 'select', editoptions: { value: getArbitros(), dataEvents: dataEventsArbtros } },
+                    //{ name: 'fotoDerecho', jsonmap: 'arbitroIDLateraDerecho', align: 'center', editable: true, edittype: "custom", editoptions: { enctype: 'multipart/form-data', custom_element: imageFormatEditArbitro }, formatter: imageFormatArbitroDerecho, unformat: imageUnFormat },
+                    //{ name: 'arbitroIDLateralIzquierdo', index: 'arbitroIDLateralIzquierdo', editable: true, edittype: 'select', formatter: 'select', editoptions: { value: getArbitros(), dataEvents: dataEventsArbtros } },
+                    //{ name: 'fotoIzquierdo', jsonmap: 'arbitroIDLateralIzquierdo', align: 'center', editable: true, edittype: "custom", editoptions: { enctype: 'multipart/form-data', custom_element: imageFormatEditArbitro }, formatter: imageFormatArbitroIzquierdo, unformat: imageUnFormat },
+                    //{ name: 'vocalEquipoLocal', index: 'vocalEquipoLocal', editable: true, editoptions: { size: "20", maxlength: "100" } },
+                    //{ name: 'vocalEquipoVisitante', index: 'vocalEquipoVisitante', editable: true, editoptions: { size: "20", maxlength: "100" } },
                     {
                         name: 'myac', width: 80, fixed: true, sortable: false, resize: false, formatter: 'actions',
                         formatoptions: {
@@ -216,7 +217,7 @@
                         enableTooltips(table);
                     }, 0);
                 },
-                caption: "Asignación de Árbitros y vocales",
+                caption: "Asignación de Árbitro Central",
 
             });
 
