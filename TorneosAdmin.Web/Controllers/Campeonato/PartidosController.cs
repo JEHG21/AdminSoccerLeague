@@ -36,10 +36,10 @@ namespace TorneosAdmin.Web.Controllers.Campeonato
                                     p.PartidoEstadoID,
                                     Partido = eLocal.Nombre + " VS " + eVisita.Nombre,
                                     p.ArbitroIDCentral,
-                                    p.ArbitroIDLateraDerecho,
-                                    p.ArbitroIDLateralIzquierdo,
-                                    p.VocalEquipoLocal,
-                                    p.VocalEquipoVisitante
+                                    //p.ArbitroIDLateraDerecho,
+                                    //p.ArbitroIDLateralIzquierdo,
+                                    //p.VocalEquipoLocal,
+                                    //p.VocalEquipoVisitante
                                 };
 
             int totalRecords = partidosLista.Count();
@@ -81,12 +81,12 @@ namespace TorneosAdmin.Web.Controllers.Campeonato
             }
             try
             {
-                if (partidos.ArbitroIDCentral == partidos.ArbitroIDLateraDerecho || 
-                    partidos.ArbitroIDLateraDerecho == partidos.ArbitroIDLateralIzquierdo || 
-                    partidos.ArbitroIDLateralIzquierdo == partidos.ArbitroIDCentral)
-                {
-                    return BadRequest("No se puede repetir árbitro.");
-                }
+                //if (partidos.ArbitroIDCentral == partidos.ArbitroIDLateraDerecho || 
+                //    partidos.ArbitroIDLateraDerecho == partidos.ArbitroIDLateralIzquierdo || 
+                //    partidos.ArbitroIDLateralIzquierdo == partidos.ArbitroIDCentral)
+                //{
+                //    return BadRequest("No se puede repetir árbitro.");
+                //}
 
                 Partidos entidad = _context.Partidos.Find(id);
 
